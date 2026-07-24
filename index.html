@@ -1,0 +1,238 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Product Speculation Sentence Coding</title>
+    <link rel="icon" href="data:," />
+    <link rel="stylesheet" href="styles.css?v=20260724-v1" />
+  </head>
+  <body>
+    <main class="app-shell">
+      <header class="topbar">
+        <a class="brand" href="#" aria-label="Return to start">
+          <span class="brand-mark" aria-hidden="true">S</span>
+          <span>Sentence coding</span>
+        </a>
+        <span class="status" id="status-pill">Not started</span>
+      </header>
+
+      <section class="screen home-screen" id="home-screen">
+        <div class="home-copy">
+          <p class="eyebrow">Human validation study</p>
+          <h1>How do users speculate about unreleased products?</h1>
+          <p class="lede">
+            Review 500 individual sentences from pre-release Steam discussions and identify
+            three simple components: uncertainty, a possible idea, and its product topic.
+          </p>
+        </div>
+
+        <div class="entry-panel">
+          <div class="mode-tabs" role="tablist" aria-label="Choose how to begin">
+            <button class="mode-tab active" id="new-tab" type="button" role="tab" aria-selected="true">New</button>
+            <button class="mode-tab" id="resume-tab" type="button" role="tab" aria-selected="false">Resume</button>
+          </div>
+
+          <form id="new-form">
+            <label>
+              Name
+              <input name="name" autocomplete="name" required />
+            </label>
+            <label>
+              Email address
+              <input name="email" type="email" autocomplete="email" required />
+            </label>
+            <label>
+              Phone number
+              <input name="phone" type="tel" autocomplete="tel" required />
+            </label>
+            <button class="primary full-width" type="submit">Read instructions</button>
+          </form>
+
+          <form id="resume-form" hidden>
+            <label>
+              Email address
+              <input name="email" type="email" autocomplete="email" required />
+            </label>
+            <p class="form-message error" id="resume-error" role="alert"></p>
+            <button class="primary full-width" type="submit">Resume exercise</button>
+          </form>
+        </div>
+      </section>
+
+      <section class="screen instructions-screen" id="instructions-screen" hidden>
+        <button class="text-button" id="back-home" type="button">← Back</button>
+        <div class="reading-column">
+          <p class="eyebrow">Before you begin</p>
+          <h2>Identify three components</h2>
+          <p class="intro">
+            We are studying when users speculate about unreleased products. You will see one
+            sentence at a time. Work through the following steps using only the sentence shown.
+          </p>
+
+          <ol class="component-list">
+            <li>
+              <span class="step-index">1</span>
+              <div>
+                <h3>Uncertainty cue or framing</h3>
+                <p>
+                  Decide if the sentence signals uncertainty through words such as
+                  <em>maybe</em>, <em>might</em>, <em>I think</em>, or through a question,
+                  prediction, hypothetical, or other uncertain framing.
+                </p>
+                <p class="note">
+                  A question is also an expression of uncertainty. If it only asks for
+                  information and does not suggest a possible answer, use
+                  <strong>“Yes, but it is just a request for info.”</strong>
+                </p>
+              </div>
+            </li>
+            <li>
+              <span class="step-index">2</span>
+              <div>
+                <h3>Uncertain proposition</h3>
+                <p>
+                  Decide if the uncertainty applies to a possible claim, explanation,
+                  prediction, interpretation, theory, or future product state.
+                </p>
+              </div>
+            </li>
+            <li>
+              <span class="step-index">3</span>
+              <div>
+                <h3>Product topic domain</h3>
+                <p>Select every domain that the possible idea concerns.</p>
+                <dl class="domain-list">
+                  <div>
+                    <dt>Content</dt>
+                    <dd>What the game contains or offers, such as story, features, characters, mechanics, or modes.</dd>
+                  </div>
+                  <div>
+                    <dt>Performance</dt>
+                    <dd>How the game functions, such as bugs, stability, framerate, servers, or optimisation.</dd>
+                  </div>
+                  <div>
+                    <dt>Requirements &amp; access</dt>
+                    <dd>What is needed to obtain or use the game, such as hardware, price, platform, region, or release access.</dd>
+                  </div>
+                </dl>
+              </div>
+            </li>
+          </ol>
+
+          <div class="start-row">
+            <p>Progress is saved securely every 25 completed sentences and when you choose Save &amp; Exit.</p>
+            <button class="primary" id="start-exercise" type="button">Start coding</button>
+          </div>
+        </div>
+      </section>
+
+      <section class="screen exercise-screen" id="exercise-screen" hidden>
+        <div class="exercise-header">
+          <div>
+            <span class="eyebrow">Sentence <span id="position-label">1</span> of <span id="total-label">500</span></span>
+            <div class="progress-track" aria-label="Exercise progress">
+              <div id="progress-bar"></div>
+            </div>
+          </div>
+          <button class="secondary compact" id="save-exit" type="button">Save &amp; Exit</button>
+        </div>
+
+        <article class="sentence-panel">
+          <div class="sentence-context">
+            <span id="game-label">Game</span>
+            <span aria-hidden="true">·</span>
+            <span id="release-timing-label">Before release</span>
+          </div>
+          <blockquote id="sentence-text"></blockquote>
+        </article>
+
+        <section class="decision-panel" id="cue-decision">
+          <p class="step-kicker">Step 1 of 3</p>
+          <h2>Does this sentence use an uncertainty cue or uncertain framing?</h2>
+          <p class="step-help">Questions count as uncertainty, including questions that only request information.</p>
+          <div class="decision-grid three-options">
+            <button class="choice primary-choice" type="button" data-cue-answer="yes">
+              <strong>Yes</strong>
+              <span>There is qualifying uncertainty.</span>
+            </button>
+            <button class="choice request-choice" type="button" data-cue-answer="information_request">
+              <strong>Yes, but it is just a request for info</strong>
+              <span>The sentence asks for an answer without suggesting one.</span>
+            </button>
+            <button class="choice" type="button" data-cue-answer="no">
+              <strong>No</strong>
+              <span>No uncertainty is expressed.</span>
+            </button>
+          </div>
+        </section>
+
+        <section class="decision-panel" id="proposition-decision" hidden>
+          <p class="step-kicker">Step 2 of 3</p>
+          <h2>Does the uncertainty apply to a possible idea about the game?</h2>
+          <p class="step-help">For example, a possible claim, explanation, prediction, interpretation, theory, or future state.</p>
+          <div class="decision-grid two-options">
+            <button class="choice primary-choice" type="button" data-proposition-answer="yes">
+              <strong>Yes</strong>
+              <span>A possible idea is put forward.</span>
+            </button>
+            <button class="choice" type="button" data-proposition-answer="no">
+              <strong>No</strong>
+              <span>The uncertainty does not apply to a possible idea.</span>
+            </button>
+          </div>
+          <button class="text-button restart-component-coding" type="button">← Change Step 1</button>
+        </section>
+
+        <section class="decision-panel" id="domain-decision" hidden>
+          <p class="step-kicker">Step 3 of 3</p>
+          <h2>What product topic does the possible idea concern?</h2>
+          <p class="step-help">Select every domain that applies, or select no qualifying domain.</p>
+          <div class="domain-options">
+            <button class="domain-choice" type="button" data-domain="content" aria-pressed="false">
+              <strong>Content</strong>
+              <span>Story, features, characters, mechanics, modes</span>
+            </button>
+            <button class="domain-choice" type="button" data-domain="performance" aria-pressed="false">
+              <strong>Performance</strong>
+              <span>Bugs, stability, framerate, servers, optimisation</span>
+            </button>
+            <button class="domain-choice" type="button" data-domain="requirements_access" aria-pressed="false">
+              <strong>Requirements &amp; access</strong>
+              <span>Hardware, price, platform, region, release access</span>
+            </button>
+            <button class="domain-choice no-domain" id="no-qualifying-domain" type="button" aria-pressed="false">
+              <strong>No qualifying domain</strong>
+              <span>The possible idea concerns something else.</span>
+            </button>
+          </div>
+          <div class="domain-actions">
+            <button class="text-button" id="back-to-proposition" type="button">← Change Step 2</button>
+            <button class="primary" id="confirm-domains" type="button" disabled>Continue</button>
+          </div>
+        </section>
+
+        <div class="exercise-footer">
+          <button class="text-button" id="previous" type="button">← Previous sentence</button>
+          <p class="form-message" id="exercise-save-message" role="status"></p>
+        </div>
+      </section>
+
+      <section class="screen finished-screen" id="finished-screen" hidden>
+        <div class="completion-mark" aria-hidden="true">✓</div>
+        <p class="eyebrow">Exercise complete</p>
+        <h2>Thank you for completing all 500 sentences.</h2>
+        <p class="save-message" id="remote-save-message">Saving your responses securely…</p>
+        <div class="completion-actions">
+          <button class="primary" id="retry-remote-save" type="button" hidden>Retry secure save</button>
+          <button class="secondary" id="download-csv" type="button">Download CSV backup</button>
+          <button class="secondary" id="download-json" type="button">Download JSON backup</button>
+          <button class="text-button" id="return-home" type="button">Return to start</button>
+        </div>
+      </section>
+    </main>
+
+    <script src="config.js?v=20260724-v1"></script>
+    <script src="app.js?v=20260724-v1"></script>
+  </body>
+</html>

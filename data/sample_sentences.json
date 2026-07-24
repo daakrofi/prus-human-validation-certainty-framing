@@ -1,0 +1,4516 @@
+{
+  "metadata": {
+    "sample_name": "Product-speculation sentence component validation sample",
+    "sample_version": "2026-07-24-sentence-component-first-v1",
+    "unit_of_validation": "sentence",
+    "annotation_scheme": "sentence_component_first_information_request_v1",
+    "target_total": 500,
+    "pre_release_window": {
+      "minimum_day": -60,
+      "maximum_day": -1
+    },
+    "language": "en"
+  },
+  "sentences": [
+    {
+      "id": "1446780|3202621452568897661|3202621452569080011|comment_excerpt|1",
+      "app_id": "1446780",
+      "app_name": "MONSTER HUNTER RISE",
+      "release_date": "2022-01-12",
+      "release_relative_day": -10,
+      "sentence": "We just finished all the content this past week.",
+      "validation_order": 1
+    },
+    {
+      "id": "1746930|4327475059399526044|TOPIC|topic_summary|1",
+      "app_id": "1746930",
+      "app_name": "SunnySide",
+      "release_date": "2024-06-15",
+      "release_relative_day": -22,
+      "sentence": "I was a kickstarter backer, so I've had the opportunity to do demos a few times now, but I have yet to actually play the game more than a tiny bit into the intro.",
+      "validation_order": 2
+    },
+    {
+      "id": "1785650|4369130369052291886|4349990283303390544|comment_excerpt|1",
+      "app_id": "1785650",
+      "app_name": "TopSpin 2K25",
+      "release_date": "2024-04-26",
+      "release_relative_day": -2,
+      "sentence": "Yesterday everything was good but today impossible to launch the game without see it crash and send me to code of conduct on 2kk website.",
+      "validation_order": 3
+    },
+    {
+      "id": "990080|3761104682793409536|TOPIC|topic_title|0",
+      "app_id": "990080",
+      "app_name": "Hogwarts Legacy",
+      "release_date": "2023-02-10",
+      "release_relative_day": -2,
+      "sentence": "I'm sorry but Braveheart has to be one of the most PI movies I have ever seen.",
+      "validation_order": 4
+    },
+    {
+      "id": "990080|5828254465008909661|5828254465016561612|comment_excerpt|2",
+      "app_id": "990080",
+      "app_name": "Hogwarts Legacy",
+      "release_date": "2023-02-10",
+      "release_relative_day": -27,
+      "sentence": "It isn't that difficult to upgrade memory.",
+      "validation_order": 5
+    },
+    {
+      "id": "2669410|4631482917606961817|4634860720019829872|comment_excerpt|0",
+      "app_id": "2669410",
+      "app_name": "Metro Awakening",
+      "release_date": "2024-11-08",
+      "release_relative_day": -1,
+      "sentence": "Got the same problem on reverb... Not sure how to rebind.",
+      "validation_order": 6
+    },
+    {
+      "id": "1794960|3272438771250328028|3272438771253656287|comment_excerpt|5",
+      "app_id": "1794960",
+      "app_name": "Sonic Origins",
+      "release_date": "2022-06-22",
+      "release_relative_day": -47,
+      "sentence": "Elden Ring being the surprising exception not the rule.",
+      "validation_order": 7
+    },
+    {
+      "id": "24010|3780247517065257293|TOPIC|topic_summary|4",
+      "app_id": "24010",
+      "app_name": "Train Simulator Classic",
+      "release_date": "2023-04-27",
+      "release_relative_day": -47,
+      "sentence": "Any help would be appreciated...",
+      "validation_order": 8
+    },
+    {
+      "id": "1605220|6363075944124215598|TOPIC|topic_summary|3",
+      "app_id": "1605220",
+      "app_name": "Dune: Spice Wars",
+      "release_date": "2023-09-14",
+      "release_relative_day": -33,
+      "sentence": "Tried to run the game in conquest and normal game mode.",
+      "validation_order": 9
+    },
+    {
+      "id": "2622380|598526768326929905|598526768326930652|comment_excerpt|7",
+      "app_id": "2622380",
+      "app_name": "ELDEN RING NIGHTREIGN",
+      "release_date": "2025-05-30",
+      "release_relative_day": -15,
+      "sentence": "But, because most of us are too stubborn/prideful to summon or ask for help until we beat the game....we don't (this includes Monster Hunter.)Now we have an ultrahard soulsborne game designed for coop.",
+      "validation_order": 10
+    },
+    {
+      "id": "1712350|4336483923330662220|6513974776603820872|comment_excerpt|0",
+      "app_id": "1712350",
+      "app_name": "Riven",
+      "release_date": "2024-06-26",
+      "release_relative_day": -9,
+      "sentence": "Unfortunately, it takes a great deal of resources to cross the uncanny valley with CGI character performances.",
+      "validation_order": 11
+    },
+    {
+      "id": "2457220|510696076432412428|TOPIC|topic_summary|0",
+      "app_id": "2457220",
+      "app_name": "Avowed",
+      "release_date": "2025-02-19",
+      "release_relative_day": -31,
+      "sentence": "Don't listen to the haters.",
+      "validation_order": 12
+    },
+    {
+      "id": "1274600|3880472020691428046|7336985071473193360|comment_excerpt|4",
+      "app_id": "1274600",
+      "app_name": "The Last Faith",
+      "release_date": "2023-11-16",
+      "release_relative_day": -33,
+      "sentence": "I suppose, at least, a solid showing of disagreement gives the devs an idea of how little actual people like the mechanic, but \"feeding the trolls\" is a losing man's game.",
+      "validation_order": 13
+    },
+    {
+      "id": "1194810|3762230582709650537|3762230582711188264|comment_excerpt|2",
+      "app_id": "1194810",
+      "app_name": "Meet Your Maker",
+      "release_date": "2023-04-04",
+      "release_relative_day": -51,
+      "sentence": "In game is already shield with can save both players, also both have more consumable items/ammo and knowledge is best weapon.",
+      "validation_order": 14
+    },
+    {
+      "id": "1142710|3192489172317705976|3192489717257619271|comment_excerpt|1",
+      "app_id": "1142710",
+      "app_name": "Total War: WARHAMMER III",
+      "release_date": "2022-02-16",
+      "release_relative_day": -33,
+      "sentence": "Hulk Hogan kislevite lord confirmed.",
+      "validation_order": 15
+    },
+    {
+      "id": "1357210|3886099862941769033|3886100256690267349|comment_excerpt|2",
+      "app_id": "1357210",
+      "app_name": "Galactic Civilizations IV",
+      "release_date": "2023-10-19",
+      "release_relative_day": -25,
+      "sentence": "Already made clear why.",
+      "validation_order": 16
+    },
+    {
+      "id": "1245620|3203746811808818077|3203746811809012490|comment_excerpt|4",
+      "app_id": "1245620",
+      "app_name": "ELDEN RING",
+      "release_date": "2022-02-24",
+      "release_relative_day": -60,
+      "sentence": "One might make this fit in a generic \"more ways to buff spells\", but DS2 spices would be definitely a plus (maybe though, cap the reduction at -30% of base value, to avoid making PvP even worse).This is more specific, but i'd like to see more often DS2 type of challenge design when it comes to areas.",
+      "validation_order": 17
+    },
+    {
+      "id": "1845910|4697909843220081100|4697910068985731684|comment_excerpt|2",
+      "app_id": "1845910",
+      "app_name": "Dragon Age™: The Veilguard",
+      "release_date": "2024-11-01",
+      "release_relative_day": -7,
+      "sentence": "Mass Effect for example, for me, the writing/story seemed less enthralling as more games came out, however the gameplay started feeling better (to me) up to ME3 which to me felt like the best for gameplay, yet the quality of the writing felt more negative to me.",
+      "validation_order": 18
+    },
+    {
+      "id": "292000|7404569601245173971|TOPIC|topic_summary|3",
+      "app_id": "292000",
+      "app_name": "No More Room in Hell 2",
+      "release_date": "2024-10-23",
+      "release_relative_day": -40,
+      "sentence": "I remember hearing something about supplies in the past this would be some kind of currency we use after a game right?...",
+      "validation_order": 19
+    },
+    {
+      "id": "1364780|3830917977325111939|3830917977325227944|comment_excerpt|2",
+      "app_id": "1364780",
+      "app_name": "Street Fighter™ 6",
+      "release_date": "2023-06-01",
+      "release_relative_day": -30,
+      "sentence": "For me it would have to be 100%.",
+      "validation_order": 20
+    },
+    {
+      "id": "1790600|4846526727956333163|4846526727956384229|comment_excerpt|1",
+      "app_id": "1790600",
+      "app_name": "DRAGON BALL: Sparking! ZERO",
+      "release_date": "2024-10-11",
+      "release_relative_day": -9,
+      "sentence": "If you didn't have the game then it would be a question but dlc aren't family shared to someone who owns the base game.",
+      "validation_order": 21
+    },
+    {
+      "id": "2622380|597396968629649702|597396968629650542|comment_excerpt|0",
+      "app_id": "2622380",
+      "app_name": "ELDEN RING NIGHTREIGN",
+      "release_date": "2025-05-30",
+      "release_relative_day": -58,
+      "sentence": "They made 3 PlayStation exclusives, but I guess NOW they don't want PC players money lmao.",
+      "validation_order": 22
+    },
+    {
+      "id": "1245620|3177854919330014231|3177854919330437373|comment_excerpt|1",
+      "app_id": "1245620",
+      "app_name": "ELDEN RING",
+      "release_date": "2022-02-24",
+      "release_relative_day": -18,
+      "sentence": "This exploit thing was an unexpected thing, even tho everybody knew about it and a fix is probably coming way after the game's release.",
+      "validation_order": 23
+    },
+    {
+      "id": "3017860|599652477751569911|TOPIC|topic_summary|4",
+      "app_id": "3017860",
+      "app_name": "DOOM: The Dark Ages",
+      "release_date": "2025-05-15",
+      "release_relative_day": -2,
+      "sentence": "Also, I have an AMD Ryzen 7800X3D as CPU which seems to be causing some issues too due to its integrated GPU.",
+      "validation_order": 24
+    },
+    {
+      "id": "1790600|6687373800504065557|6687373800505120342|comment_excerpt|0",
+      "app_id": "1790600",
+      "app_name": "DRAGON BALL: Sparking! ZERO",
+      "release_date": "2024-10-11",
+      "release_relative_day": -1,
+      "sentence": "I also constantly have to fight against Gogeta Blue or Vegito blue, but once their op character is dead, these people aren't particularly strong.",
+      "validation_order": 25
+    },
+    {
+      "id": "1677280|3770113150027019777|TOPIC|topic_summary|0",
+      "app_id": "1677280",
+      "app_name": "Company of Heroes 3",
+      "release_date": "2023-02-23",
+      "release_relative_day": -1,
+      "sentence": "Would it be possible to port the game to PSVR2 and make the units control with eye tracking?",
+      "validation_order": 26
+    },
+    {
+      "id": "1677280|3758850980074116521|3758851410775081688|comment_excerpt|0",
+      "app_id": "1677280",
+      "app_name": "Company of Heroes 3",
+      "release_date": "2023-02-23",
+      "release_relative_day": -31,
+      "sentence": "this is war not a cartoon... even the first coh was more realistic oh and i'm sure they are going to ruin this one with dlc's too not worth paying retail at all... gonna buy when the complete game comes out in about two years or so...",
+      "validation_order": 27
+    },
+    {
+      "id": "990080|3757725715242740780|3757725715243394781|comment_excerpt|13",
+      "app_id": "990080",
+      "app_name": "Hogwarts Legacy",
+      "release_date": "2023-02-10",
+      "release_relative_day": -15,
+      "sentence": "Take all the cookies.",
+      "validation_order": 28
+    },
+    {
+      "id": "1531540|3187989920100402498|3187989920109007714|comment_excerpt|2",
+      "app_id": "1531540",
+      "app_name": "Distant Worlds 2",
+      "release_date": "2022-03-10",
+      "release_relative_day": -12,
+      "sentence": "I'm sure it would have been an easy decision for you had you been in that position......If you think NATO is anything other then a USA led military alliance you're deluded I'm afraid.",
+      "validation_order": 29
+    },
+    {
+      "id": "1928420|6045572598932199684|6045572598932658063|comment_excerpt|0",
+      "app_id": "1928420",
+      "app_name": "Farlight 84",
+      "release_date": "2023-09-21",
+      "release_relative_day": -38,
+      "sentence": "I hope the devs fix this soon... there are people who paid money for the battle pass and can't play because of this problem",
+      "validation_order": 30
+    },
+    {
+      "id": "2688950|4763208232585756307|4846525820980018289|comment_excerpt|1",
+      "app_id": "2688950",
+      "app_name": "Planet Coaster 2",
+      "release_date": "2024-11-07",
+      "release_relative_day": -46,
+      "sentence": "Nobody in the gaming community cares about macs.",
+      "validation_order": 31
+    },
+    {
+      "id": "526870|6982351509012178383|6982351752479087205|comment_excerpt|0",
+      "app_id": "526870",
+      "app_name": "Satisfactory",
+      "release_date": "2024-09-10",
+      "release_relative_day": -56,
+      "sentence": "Maybe the post-early access update will have a pleasant surprise in store regarding this issue.",
+      "validation_order": 32
+    },
+    {
+      "id": "1119730|7098294290816115473|TOPIC|topic_summary|2",
+      "app_id": "1119730",
+      "app_name": "Ranch Simulator",
+      "release_date": "2023-11-03",
+      "release_relative_day": -20,
+      "sentence": "then all of a sudden its snowing.",
+      "validation_order": 33
+    },
+    {
+      "id": "990080|3761104498514203826|3761104498514327369|comment_excerpt|1",
+      "app_id": "990080",
+      "app_name": "Hogwarts Legacy",
+      "release_date": "2023-02-10",
+      "release_relative_day": -3,
+      "sentence": "Since I have a gigabit connection I don't really have to preload, but HOW would I make it work?!",
+      "validation_order": 34
+    },
+    {
+      "id": "2183900|4763208113390496619|4763208113390740069|comment_excerpt|4",
+      "app_id": "2183900",
+      "app_name": "Warhammer 40,000: Space Marine 2",
+      "release_date": "2024-09-10",
+      "release_relative_day": -1,
+      "sentence": "My man I could be the biggest WH40 hater and I'd still think thats an intellectually lazy way of explaining why you disliked it.",
+      "validation_order": 35
+    },
+    {
+      "id": "990080|3761104498515254468|3761104498515273065|comment_excerpt|0",
+      "app_id": "990080",
+      "app_name": "Hogwarts Legacy",
+      "release_date": "2023-02-10",
+      "release_relative_day": -3,
+      "sentence": "I don't think it is worth putting that much information out on the internet for a few in game awards.",
+      "validation_order": 36
+    },
+    {
+      "id": "1527950|3826410044362410674|3826410479310420786|comment_excerpt|0",
+      "app_id": "1527950",
+      "app_name": "Wartales",
+      "release_date": "2023-04-12",
+      "release_relative_day": -24,
+      "sentence": "maybe +1 strength for X, like maybe 50, cut logs.",
+      "validation_order": 37
+    },
+    {
+      "id": "2828860|4756451748412376496|4842022222936078820|comment_excerpt|2",
+      "app_id": "2828860",
+      "app_name": "The Forever Winter",
+      "release_date": "2024-09-25",
+      "release_relative_day": -2,
+      "sentence": "I stopped playing warthunder for a similar reason.",
+      "validation_order": 38
+    },
+    {
+      "id": "2669410|4631482917606964691|TOPIC|topic_summary|0",
+      "app_id": "2669410",
+      "app_name": "Metro Awakening",
+      "release_date": "2024-11-08",
+      "release_relative_day": -3,
+      "sentence": "Does the game have weapon attachments?",
+      "validation_order": 39
+    },
+    {
+      "id": "1466060|591771908358350545|TOPIC|topic_summary|1",
+      "app_id": "1466060",
+      "app_name": "Tainted Grail: The Fall of Avalon",
+      "release_date": "2025-05-23",
+      "release_relative_day": -1,
+      "sentence": "anyone know any details on if it will or wont be on there?",
+      "validation_order": 40
+    },
+    {
+      "id": "1938090|3489753174657623277|3489753174657882878|comment_excerpt|0",
+      "app_id": "1938090",
+      "app_name": "Call of Duty®",
+      "release_date": "2022-10-27",
+      "release_relative_day": -2,
+      "sentence": "Multiplayer's going to be alot more than it already is.",
+      "validation_order": 41
+    },
+    {
+      "id": "2313330|4205868360095212952|TOPIC|topic_summary|1",
+      "app_id": "2313330",
+      "app_name": "TerraTech Worlds",
+      "release_date": "2024-03-23",
+      "release_relative_day": -43,
+      "sentence": "I don't think limited ammo is inherently a bad idea, but it's so grindy to make so little, especially of the higher tier ammos.",
+      "validation_order": 42
+    },
+    {
+      "id": "1928870|3821908983021455211|6363065234124918711|comment_excerpt|0",
+      "app_id": "1928870",
+      "app_name": "Minecraft Legends",
+      "release_date": "2023-04-18",
+      "release_relative_day": -3,
+      "sentence": "It’s additional drm that’s the problem",
+      "validation_order": 43
+    },
+    {
+      "id": "962130|5427423328674494116|5427423328676310453|comment_excerpt|5",
+      "app_id": "962130",
+      "app_name": "Grounded",
+      "release_date": "2022-09-27",
+      "release_relative_day": -8,
+      "sentence": "Seems the issue is very similar to what No Man's Sky goes through each time the algorithm is changed, but in a more fun way.",
+      "validation_order": 44
+    },
+    {
+      "id": "1332010|3417682380503549948|TOPIC|topic_summary|1",
+      "app_id": "1332010",
+      "app_name": "Stray",
+      "release_date": "2022-07-19",
+      "release_relative_day": -46,
+      "sentence": "Cant wait to try it out!",
+      "validation_order": 45
+    },
+    {
+      "id": "981430|3274689919150701476|TOPIC|topic_summary|3",
+      "app_id": "981430",
+      "app_name": "Gordian Quest",
+      "release_date": "2022-06-23",
+      "release_relative_day": -56,
+      "sentence": "Ok i wonder he will be on act 2.",
+      "validation_order": 46
+    },
+    {
+      "id": "990080|3761104498513065762|TOPIC|topic_title|0",
+      "app_id": "990080",
+      "app_name": "Hogwarts Legacy",
+      "release_date": "2023-02-10",
+      "release_relative_day": -4,
+      "sentence": "can't we have a blade instead of a wand ?",
+      "validation_order": 47
+    },
+    {
+      "id": "315210|4204741588975950499|4204741588976819717|comment_excerpt|0",
+      "app_id": "315210",
+      "app_name": "Suicide Squad: Kill the Justice League",
+      "release_date": "2024-02-03",
+      "release_relative_day": -2,
+      "sentence": "so it is a game bug like it was in Gotham Knights?",
+      "validation_order": 48
+    },
+    {
+      "id": "990080|3761104498515315562|3761104498515338651|comment_excerpt|0",
+      "app_id": "990080",
+      "app_name": "Hogwarts Legacy",
+      "release_date": "2023-02-10",
+      "release_relative_day": -3,
+      "sentence": "because it's a global release.. so ofc VPN do not work.",
+      "validation_order": 49
+    },
+    {
+      "id": "1357210|3884974596977850479|3884974596977873464|comment_excerpt|1",
+      "app_id": "1357210",
+      "app_name": "Galactic Civilizations IV",
+      "release_date": "2023-10-19",
+      "release_relative_day": -19,
+      "sentence": "Virtual World only gives a bonus to approval.",
+      "validation_order": 50
+    },
+    {
+      "id": "2653940|4357873276733045033|4336481387154019084|comment_excerpt|2",
+      "app_id": "2653940",
+      "app_name": "Star Trek: Resurgence",
+      "release_date": "2024-05-24",
+      "release_relative_day": -9,
+      "sentence": "I hope I could help you.",
+      "validation_order": 51
+    },
+    {
+      "id": "1286220|4631483574657255490|4631483574657256467|comment_excerpt|0",
+      "app_id": "1286220",
+      "app_name": "Sea Power",
+      "release_date": "2024-11-13",
+      "release_relative_day": -1,
+      "sentence": "Game is probably worth £24.99.",
+      "validation_order": 52
+    },
+    {
+      "id": "1938010|3766734615739717794|3766734615741932010|comment_excerpt|1",
+      "app_id": "1938010",
+      "app_name": "WILD HEARTS™",
+      "release_date": "2023-02-16",
+      "release_relative_day": -2,
+      "sentence": "Devs are out of touch.",
+      "validation_order": 53
+    },
+    {
+      "id": "2358720|6149188808690612183|6149188808690852405|comment_excerpt|3",
+      "app_id": "2358720",
+      "app_name": "Black Myth: Wukong",
+      "release_date": "2024-08-21",
+      "release_relative_day": -2,
+      "sentence": "He’s a stone monkey born from the nature, traditionally considered male, though you could view him as genderless.",
+      "validation_order": 54
+    },
+    {
+      "id": "1361210|3541546590708191059|3541546590710731145|comment_excerpt|2",
+      "app_id": "1361210",
+      "app_name": "Warhammer 40,000: Darktide",
+      "release_date": "2022-11-30",
+      "release_relative_day": -12,
+      "sentence": "The damage bonus is negligible of one to two digit numbers so there's no \"oh my god he's busted broken!\"",
+      "validation_order": 55
+    },
+    {
+      "id": "1750770|4518883363848326848|4518883363849269463|comment_excerpt|0",
+      "app_id": "1750770",
+      "app_name": "Starcom: Unknown Space",
+      "release_date": "2024-09-02",
+      "release_relative_day": -41,
+      "sentence": "I think current Havok is a bit useless, it doesn't even stop late game missiles such as EMP, so I gotta rely on auto-turret plasma for that",
+      "validation_order": 56
+    },
+    {
+      "id": "482400|3833171785701620373|3833171785701742648|comment_excerpt|0",
+      "app_id": "482400",
+      "app_name": "System Shock",
+      "release_date": "2023-05-30",
+      "release_relative_day": -1,
+      "sentence": "cant wait to play :D my only real gripe is that they went with ambient music instead of a modernized og soundtrack",
+      "validation_order": 57
+    },
+    {
+      "id": "2669410|4844274293909849367|4844274499271866852|comment_excerpt|0",
+      "app_id": "2669410",
+      "app_name": "Metro Awakening",
+      "release_date": "2024-11-08",
+      "release_relative_day": -42,
+      "sentence": "from what i heard was that the flat mod of hl:a was disappointing, not the mod itself but the gameplay, like the maps were small, the hardest difficulty was easy and some other stuff",
+      "validation_order": 58
+    },
+    {
+      "id": "1119730|3875967769030676960|3875967769032325024|comment_excerpt|1",
+      "app_id": "1119730",
+      "app_name": "Ranch Simulator",
+      "release_date": "2023-11-03",
+      "release_relative_day": -31,
+      "sentence": "If you are on the unstable version, old saves will not load.",
+      "validation_order": 59
+    },
+    {
+      "id": "1811260|3365901687363914054|TOPIC|topic_summary|1",
+      "app_id": "1811260",
+      "app_name": "EA SPORTS™ FIFA 23",
+      "release_date": "2022-09-29",
+      "release_relative_day": -2,
+      "sentence": "Like I bought this game and the Steam Deck thinking I'd be able to play without an extensive workaround.",
+      "validation_order": 60
+    },
+    {
+      "id": "2186680|4027970229982999378|TOPIC|topic_title|0",
+      "app_id": "2186680",
+      "app_name": "Warhammer 40,000: Rogue Trader",
+      "release_date": "2023-12-08",
+      "release_relative_day": -1,
+      "sentence": "Does respec allow to change RT(MC) voice?",
+      "validation_order": 61
+    },
+    {
+      "id": "2457220|592887920829994455|592888717905039195|comment_excerpt|1",
+      "app_id": "2457220",
+      "app_name": "Avowed",
+      "release_date": "2025-02-19",
+      "release_relative_day": -9,
+      "sentence": "Not even for Obsidian.",
+      "validation_order": 62
+    },
+    {
+      "id": "990080|3761104682793845345|3761104682793898690|comment_excerpt|0",
+      "app_id": "990080",
+      "app_name": "Hogwarts Legacy",
+      "release_date": "2023-02-10",
+      "release_relative_day": -1,
+      "sentence": "Exactly the same specs but 32GB RAM.",
+      "validation_order": 63
+    },
+    {
+      "id": "2457220|523083364935193940|523083364935194873|comment_excerpt|10",
+      "app_id": "2457220",
+      "app_name": "Avowed",
+      "release_date": "2025-02-19",
+      "release_relative_day": -4,
+      "sentence": "It's not bad enough to be a problem with an upper quality PC, but it's noticeable that it could be better.",
+      "validation_order": 64
+    },
+    {
+      "id": "2688950|4634860720019766400|4634860720019766499|comment_excerpt|0",
+      "app_id": "2688950",
+      "app_name": "Planet Coaster 2",
+      "release_date": "2024-11-07",
+      "release_relative_day": -1,
+      "sentence": "Yep it is furry, It does not look good.",
+      "validation_order": 65
+    },
+    {
+      "id": "1817070|3468352315403508181|3468352315404033370|comment_excerpt|1",
+      "app_id": "1817070",
+      "app_name": "Marvel’s Spider-Man Remastered",
+      "release_date": "2022-08-12",
+      "release_relative_day": -18,
+      "sentence": "But I get the OP, maybe other designs of those like for example the noir suit with trench coat and fedora would be dope or yeah, maybe he just doesn't know about the other suits in the game.",
+      "validation_order": 66
+    },
+    {
+      "id": "2183900|4763207778565676976|4763207778565703514|comment_excerpt|0",
+      "app_id": "2183900",
+      "app_name": "Warhammer 40,000: Space Marine 2",
+      "release_date": "2024-09-10",
+      "release_relative_day": -4,
+      "sentence": "Yet another bait thread.",
+      "validation_order": 67
+    },
+    {
+      "id": "1649240|3770112323614200663|3770112323614334662|comment_excerpt|2",
+      "app_id": "1649240",
+      "app_name": "Returnal™",
+      "release_date": "2023-02-15",
+      "release_relative_day": -1,
+      "sentence": "It will just give you more options to tackle a problem.",
+      "validation_order": 68
+    },
+    {
+      "id": "2183900|4763207947402606926|4763207947402612149|comment_excerpt|0",
+      "app_id": "2183900",
+      "app_name": "Warhammer 40,000: Space Marine 2",
+      "release_date": "2024-09-10",
+      "release_relative_day": -1,
+      "sentence": "Another off-topic inclusivity thread: the original poster was blocked and reported.",
+      "validation_order": 69
+    },
+    {
+      "id": "2358720|6149188808692721293|6149188808692730329|comment_excerpt|0",
+      "app_id": "2358720",
+      "app_name": "Black Myth: Wukong",
+      "release_date": "2024-08-21",
+      "release_relative_day": -1,
+      "sentence": "didn't own that game, but maybe try running steam as admin - helped me at another game",
+      "validation_order": 70
+    },
+    {
+      "id": "1466060|591766950678482916|TOPIC|topic_summary|1",
+      "app_id": "1466060",
+      "app_name": "Tainted Grail: The Fall of Avalon",
+      "release_date": "2025-05-23",
+      "release_relative_day": -56,
+      "sentence": "Is this a bug or is this the end of content for the game currently?",
+      "validation_order": 71
+    },
+    {
+      "id": "2961880|4701287093716922405|4701287093716971658|comment_excerpt|1",
+      "app_id": "2961880",
+      "app_name": "Grocery Store Simulator",
+      "release_date": "2024-11-21",
+      "release_relative_day": -33,
+      "sentence": "When i checked the storage, everything in the store missing was on that shelf, and I moved it a little bit and after I replaced it they started stocking again.",
+      "validation_order": 72
+    },
+    {
+      "id": "784150|4356745301344121978|4356745470640445775|comment_excerpt|0",
+      "app_id": "784150",
+      "app_name": "Workers & Resources: Soviet Republic",
+      "release_date": "2024-06-20",
+      "release_relative_day": -60,
+      "sentence": "When you lay tracks, they are rendered bright white at first.",
+      "validation_order": 73
+    },
+    {
+      "id": "1282270|4701286908191048822|TOPIC|topic_title|0",
+      "app_id": "1282270",
+      "app_name": "Strinova",
+      "release_date": "2024-11-22",
+      "release_relative_day": -37,
+      "sentence": "I couldn't even register!",
+      "validation_order": 74
+    },
+    {
+      "id": "329970|7198510808234267916|4338726151303674260|comment_excerpt|1",
+      "app_id": "329970",
+      "app_name": "KeeperRL",
+      "release_date": "2024-02-29",
+      "release_relative_day": -2,
+      "sentence": "Do they need rooms if they get too much experience?",
+      "validation_order": 75
+    },
+    {
+      "id": "881020|4148446452673975455|4148446452674006156|comment_excerpt|0",
+      "app_id": "881020",
+      "app_name": "Granblue Fantasy: Relink",
+      "release_date": "2024-02-01",
+      "release_relative_day": -3,
+      "sentence": "controller for everyone else most likely and if i play eugen m+kb",
+      "validation_order": 76
+    },
+    {
+      "id": "2183900|4763207778564597662|4763207778565505547|comment_excerpt|0",
+      "app_id": "2183900",
+      "app_name": "Warhammer 40,000: Space Marine 2",
+      "release_date": "2024-09-10",
+      "release_relative_day": -4,
+      "sentence": "not having any issues on my end either",
+      "validation_order": 77
+    },
+    {
+      "id": "1361210|3594464430442225924|TOPIC|topic_summary|3",
+      "app_id": "1361210",
+      "app_name": "Warhammer 40,000: Darktide",
+      "release_date": "2022-11-30",
+      "release_relative_day": -4,
+      "sentence": "But everyone else in my group knew.",
+      "validation_order": 78
+    },
+    {
+      "id": "2570210|4693405245805287771|4701286908191318854|comment_excerpt|0",
+      "app_id": "2570210",
+      "app_name": "Eden Crafters",
+      "release_date": "2024-10-17",
+      "release_relative_day": -1,
+      "sentence": "I can now confirm that Steam Sloud saves support will be included at release.",
+      "validation_order": 79
+    },
+    {
+      "id": "1202130|3417682380509877039|3418809548708715833|comment_excerpt|0",
+      "app_id": "1202130",
+      "app_name": "Starship Troopers: Terran Command",
+      "release_date": "2022-06-16",
+      "release_relative_day": -1,
+      "sentence": "Was just looking through the forums here to see if the game has multiplayer or not, and I find a bunch of salty, close-minded people that seems to think multiplayer and eSports are the same thing?",
+      "validation_order": 80
+    },
+    {
+      "id": "2183900|4763207599014962924|4763207778566245944|comment_excerpt|0",
+      "app_id": "2183900",
+      "app_name": "Warhammer 40,000: Space Marine 2",
+      "release_date": "2024-09-10",
+      "release_relative_day": -4,
+      "sentence": "Tried it, I get the same results.",
+      "validation_order": 81
+    },
+    {
+      "id": "2358720|4514381702614292360|4432191123100936833|comment_excerpt|0",
+      "app_id": "2358720",
+      "app_name": "Black Myth: Wukong",
+      "release_date": "2024-08-21",
+      "release_relative_day": -8,
+      "sentence": "My RX 6600 gets 54 FPS at 2K with all settings on high, but there is no DLSS option, so the water and trees show shimmering artifacts. I hope the developers optimize the game for AMD cards; all my drivers are updated.",
+      "validation_order": 82
+    },
+    {
+      "id": "2001070|596265234378814559|596265234378817324|comment_excerpt|38",
+      "app_id": "2001070",
+      "app_name": "Heart of the Machine",
+      "release_date": "2025-02-01",
+      "release_relative_day": -5,
+      "sentence": "Just having the AP cost for 3 armor piercing rounds is I think a good value for what you get.",
+      "validation_order": 83
+    },
+    {
+      "id": "1361210|6126609705342237760|TOPIC|topic_title|0",
+      "app_id": "1361210",
+      "app_name": "Warhammer 40,000: Darktide",
+      "release_date": "2022-11-30",
+      "release_relative_day": -44,
+      "sentence": "Is this game all about monetization?",
+      "validation_order": 84
+    },
+    {
+      "id": "1472660|5842863271942406527|TOPIC|topic_summary|0",
+      "app_id": "1472660",
+      "app_name": "No Place Like Home",
+      "release_date": "2022-03-17",
+      "release_relative_day": -6,
+      "sentence": "Hello, I had a thought the other day about storing seeds.",
+      "validation_order": 85
+    },
+    {
+      "id": "2185060|594016333228703849|594016333228708643|comment_excerpt|1",
+      "app_id": "2185060",
+      "app_name": "Two Point Museum",
+      "release_date": "2025-03-05",
+      "release_relative_day": -5,
+      "sentence": "Yesterday I had to change the setting to high from very high and it fixed whatever was causing the lighting to bug out.",
+      "validation_order": 86
+    },
+    {
+      "id": "1119730|3875967397718004401|TOPIC|topic_summary|1",
+      "app_id": "1119730",
+      "app_name": "Ranch Simulator",
+      "release_date": "2023-11-03",
+      "release_relative_day": -36,
+      "sentence": "But most in Packages.",
+      "validation_order": 87
+    },
+    {
+      "id": "920210|3273561484336756559|3273561484336772768|comment_excerpt|0",
+      "app_id": "920210",
+      "app_name": "LEGO® Star Wars™: The Skywalker Saga",
+      "release_date": "2022-04-05",
+      "release_relative_day": -4,
+      "sentence": "Nope buy a normal monitor",
+      "validation_order": 88
+    },
+    {
+      "id": "1255630|3184613366899109445|3184613494759628840|comment_excerpt|0",
+      "app_id": "1255630",
+      "app_name": "WWE 2K22",
+      "release_date": "2022-03-10",
+      "release_relative_day": -1,
+      "sentence": "Right now I largely like the game, more than 2k20 by a good amount.",
+      "validation_order": 89
+    },
+    {
+      "id": "1857090|4524512379488870776|TOPIC|topic_summary|1",
+      "app_id": "1857090",
+      "app_name": "Norland",
+      "release_date": "2024-07-19",
+      "release_relative_day": -1,
+      "sentence": "The process simply hangs and uses 15% of the CPU.",
+      "validation_order": 90
+    },
+    {
+      "id": "1286220|4631483389453623949|4631483574657230853|comment_excerpt|0",
+      "app_id": "1286220",
+      "app_name": "Sea Power",
+      "release_date": "2024-11-13",
+      "release_relative_day": -1,
+      "sentence": "Thin Red Line was one of my favorites",
+      "validation_order": 91
+    },
+    {
+      "id": "2183900|4514381183278748499|4514381183278927018|comment_excerpt|8",
+      "app_id": "2183900",
+      "app_name": "Warhammer 40,000: Space Marine 2",
+      "release_date": "2024-09-10",
+      "release_relative_day": -34,
+      "sentence": "It has all the modes, all the upgrades.",
+      "validation_order": 92
+    },
+    {
+      "id": "1843760|4534563767351604304|TOPIC|topic_summary|0",
+      "app_id": "1843760",
+      "app_name": "Rogue Tower",
+      "release_date": "2022-01-28",
+      "release_relative_day": -1,
+      "sentence": "Maybe the player could spend some money to make sure there's no fork in the new generated area?",
+      "validation_order": 93
+    },
+    {
+      "id": "2677660|604141771964899927|604141771964907494|comment_excerpt|2",
+      "app_id": "2677660",
+      "app_name": "Indiana Jones and the Great Circle",
+      "release_date": "2024-12-09",
+      "release_relative_day": -2,
+      "sentence": "Then name ONE single pc game, ever in the history of pc gaming, that has had a single setting like that, STEAL 99 percent of your fps.",
+      "validation_order": 94
+    },
+    {
+      "id": "1840080|4357873056147295148|4357873056149503550|comment_excerpt|0",
+      "app_id": "1840080",
+      "app_name": "Homeworld 3",
+      "release_date": "2024-05-14",
+      "release_relative_day": -3,
+      "sentence": "yeah, it seems a bit overdone.",
+      "validation_order": 95
+    },
+    {
+      "id": "1846380|3387294407403122267|TOPIC|topic_title|1",
+      "app_id": "1846380",
+      "app_name": "Need for Speed™ Unbound",
+      "release_date": "2022-12-01",
+      "release_relative_day": -55,
+      "sentence": "Ummm i don't think so.",
+      "validation_order": 96
+    },
+    {
+      "id": "990080|3757725080157987712|TOPIC|topic_summary|0",
+      "app_id": "990080",
+      "app_name": "Hogwarts Legacy",
+      "release_date": "2023-02-10",
+      "release_relative_day": -20,
+      "sentence": "is this game MMO or only Singleplayer?",
+      "validation_order": 97
+    },
+    {
+      "id": "990080|3761102145999215355|3761102145999384712|comment_excerpt|0",
+      "app_id": "990080",
+      "app_name": "Hogwarts Legacy",
+      "release_date": "2023-02-10",
+      "release_relative_day": -30,
+      "sentence": "The gameplay videos look fantastic!",
+      "validation_order": 98
+    },
+    {
+      "id": "2429640|6057990682650401742|6057990682650988497|comment_excerpt|1",
+      "app_id": "2429640",
+      "app_name": "THRONE AND LIBERTY",
+      "release_date": "2024-10-02",
+      "release_relative_day": -47,
+      "sentence": "September 26 i will be there.",
+      "validation_order": 99
+    },
+    {
+      "id": "2183900|4514381702612922018|6149188575100098949|comment_excerpt|0",
+      "app_id": "2183900",
+      "app_name": "Warhammer 40,000: Space Marine 2",
+      "release_date": "2024-09-10",
+      "release_relative_day": -26,
+      "sentence": "you should pirate the game rather than giving tax money to build ♥♥♥♥♥♥ russian tanks that will just get wrecked by natos superior weapons, tactics and morale",
+      "validation_order": 100
+    },
+    {
+      "id": "1361210|3395176266129585225|3642874410681215651|comment_excerpt|0",
+      "app_id": "1361210",
+      "app_name": "Warhammer 40,000: Darktide",
+      "release_date": "2022-11-30",
+      "release_relative_day": -49,
+      "sentence": "The FPS portion of the game to feel solid and that the ranged weapons feel as they should in strength and balance, also ammo types/gear customization would be sweet.",
+      "validation_order": 101
+    },
+    {
+      "id": "990080|3761104682793507476|3761104682793787265|comment_excerpt|3",
+      "app_id": "990080",
+      "app_name": "Hogwarts Legacy",
+      "release_date": "2023-02-10",
+      "release_relative_day": -1,
+      "sentence": "Spending time reading the threads people go crazy over in the meantime.",
+      "validation_order": 102
+    },
+    {
+      "id": "1084600|3883851232924980630|3883851232927866798|comment_excerpt|1",
+      "app_id": "1084600",
+      "app_name": "My Time at Sandrock",
+      "release_date": "2023-11-02",
+      "release_relative_day": -5,
+      "sentence": "Not sure what the final release brings with it but i am dying to get started :)",
+      "validation_order": 103
+    },
+    {
+      "id": "2479810|4355619782839860535|4355619782841088886|comment_excerpt|2",
+      "app_id": "2479810",
+      "app_name": "Gray Zone Warfare",
+      "release_date": "2024-05-01",
+      "release_relative_day": -7,
+      "sentence": "Wipes most likely must happen depending on how serious the devs want to test their game before slapping the 1.0 sign on it.",
+      "validation_order": 104
+    },
+    {
+      "id": "1782120|4765459305689298394|4753074499848972805|comment_excerpt|13",
+      "app_id": "1782120",
+      "app_name": "ZERO Sievert",
+      "release_date": "2024-10-23",
+      "release_relative_day": -48,
+      "sentence": "Still cheaper than to have to buy a new one, but ouch.",
+      "validation_order": 105
+    },
+    {
+      "id": "990080|3761104498510606101|TOPIC|topic_summary|3",
+      "app_id": "990080",
+      "app_name": "Hogwarts Legacy",
+      "release_date": "2023-02-10",
+      "release_relative_day": -4,
+      "sentence": "Has anyone seen comment on them confirming to continue working on the game after launch?",
+      "validation_order": 106
+    },
+    {
+      "id": "2429640|4839771250826338112|4839771250826511496|comment_excerpt|13",
+      "app_id": "2429640",
+      "app_name": "THRONE AND LIBERTY",
+      "release_date": "2024-10-02",
+      "release_relative_day": -1,
+      "sentence": "Just try not to be a nuisance or needy bastard about it, more than any other person man or woman or none of these as you wish are, because somehow i think most people judge others by behavior.",
+      "validation_order": 107
+    },
+    {
+      "id": "1894430|3763356482611530849|3763356482611575536|comment_excerpt|3",
+      "app_id": "1894430",
+      "app_name": "Plan B: Terraform",
+      "release_date": "2023-02-15",
+      "release_relative_day": -4,
+      "sentence": "However, I did wonder if a toggle was necessary because the game seems insanely generous with resources.",
+      "validation_order": 108
+    },
+    {
+      "id": "251570|4354499488250590179|4516631080140741328|comment_excerpt|7",
+      "app_id": "251570",
+      "app_name": "7 Days to Die",
+      "release_date": "2024-07-25",
+      "release_relative_day": -7,
+      "sentence": "A21 wasn't that fast either, but it was fast enough it didn't feel like walking thru a swamp, however v1.0?",
+      "validation_order": 109
+    },
+    {
+      "id": "494840|4509876948599587746|TOPIC|topic_title|0",
+      "app_id": "494840",
+      "app_name": "UBOAT",
+      "release_date": "2024-08-02",
+      "release_relative_day": -3,
+      "sentence": "better tech descriptors",
+      "validation_order": 110
+    },
+    {
+      "id": "1472660|3178981911781873624|3178981911782062173|comment_excerpt|1",
+      "app_id": "1472660",
+      "app_name": "No Place Like Home",
+      "release_date": "2022-03-17",
+      "release_relative_day": -31,
+      "sentence": "All this time I had been making sure to grow some potatoes so I could make their food",
+      "validation_order": 111
+    },
+    {
+      "id": "1858630|4848778277272262430|4848778277272356446|comment_excerpt|0",
+      "app_id": "1858630",
+      "app_name": "SWORD ART ONLINE Fractured Daydream",
+      "release_date": "2024-10-04",
+      "release_relative_day": -4,
+      "sentence": "I think it's safe to say that we all want our Waifus, Bandai!",
+      "validation_order": 112
+    },
+    {
+      "id": "2382520|506199960687027428|TOPIC|topic_summary|4",
+      "app_id": "2382520",
+      "app_name": "Erenshor",
+      "release_date": "2025-04-15",
+      "release_relative_day": -8,
+      "sentence": "The only possible quests that can be completed for me is the fishing quest and the dagger guy's coin.",
+      "validation_order": 113
+    },
+    {
+      "id": "2353250|599638625087403128|599638625087403248|comment_excerpt|3",
+      "app_id": "2353250",
+      "app_name": "Astrometica",
+      "release_date": "2024-12-12",
+      "release_relative_day": -1,
+      "sentence": "What really distinguishes games from eacht other like these, are mostly story and maybe some game elements that werent here before.i have only played a few hours so im anxious to see if there are unique elements to it.",
+      "validation_order": 114
+    },
+    {
+      "id": "1361510|4932019120731513760|TOPIC|topic_summary|2",
+      "app_id": "1361510",
+      "app_name": "Teenage Mutant Ninja Turtles: Shredder's Revenge",
+      "release_date": "2022-06-16",
+      "release_relative_day": -1,
+      "sentence": "Hoping steam but on the product page it just doesn't say which version for PC.",
+      "validation_order": 115
+    },
+    {
+      "id": "1179580|4408542972897010223|4408543304945370263|comment_excerpt|0",
+      "app_id": "1179580",
+      "app_name": "Kaku Ancient Seal",
+      "release_date": "2024-07-11",
+      "release_relative_day": -9,
+      "sentence": "Possible to rebind it or just swap it in the escp menu something ?",
+      "validation_order": 116
+    },
+    {
+      "id": "538030|3809529155521539943|TOPIC|topic_title|0",
+      "app_id": "538030",
+      "app_name": "Xenonauts 2",
+      "release_date": "2023-07-18",
+      "release_relative_day": -40,
+      "sentence": "Minimum arming Distance for Rocket launcher",
+      "validation_order": 117
+    },
+    {
+      "id": "2828860|4842022222930507464|4839770694272397924|comment_excerpt|2",
+      "app_id": "2828860",
+      "app_name": "The Forever Winter",
+      "release_date": "2024-09-25",
+      "release_relative_day": -1,
+      "sentence": "Maybe it'll show up in the lore.",
+      "validation_order": 118
+    },
+    {
+      "id": "1274600|3979554632469070781|3979554632469125089|comment_excerpt|0",
+      "app_id": "1274600",
+      "app_name": "The Last Faith",
+      "release_date": "2023-11-16",
+      "release_relative_day": -1,
+      "sentence": "pretty sure they fed up the publish setting for steam and its probably gonna be in like 40 min hence its out on gog and switch but not steam yet",
+      "validation_order": 119
+    },
+    {
+      "id": "1693980|5562542086338856000|5562542086338896681|comment_excerpt|0",
+      "app_id": "1693980",
+      "app_name": "Dead Space",
+      "release_date": "2023-01-27",
+      "release_relative_day": -12,
+      "sentence": "I say wait, remember: it's an EA game so anything can go wrong with it.",
+      "validation_order": 120
+    },
+    {
+      "id": "1844380|5774239174010875317|5774239174011029255|comment_excerpt|2",
+      "app_id": "1844380",
+      "app_name": "Warhammer Age of Sigmar: Realms of Ruin",
+      "release_date": "2023-11-18",
+      "release_relative_day": -2,
+      "sentence": "Not sure where it is but there should be a way to open a ticket.",
+      "validation_order": 121
+    },
+    {
+      "id": "1145350|4358997660741949862|TOPIC|topic_title|0",
+      "app_id": "1145350",
+      "app_name": "Hades II",
+      "release_date": "2024-05-07",
+      "release_relative_day": -11,
+      "sentence": "Tech Test only issue so far (Was never prompted from game to send a report)",
+      "validation_order": 122
+    },
+    {
+      "id": "1401730|516332888607753547|516332888607756130|comment_excerpt|1",
+      "app_id": "1401730",
+      "app_name": "Crashlands 2",
+      "release_date": "2025-04-11",
+      "release_relative_day": -1,
+      "sentence": "as in if you want to craft it you can) and leave the current workbench as is (unless you craft the builder workbench, in which case it stops showing those items in the original workbench)i'm not sure if that would be doable, but to separate out the walls, floors, doors and windows, maybe the fences too, onto a different workbench *just* for those items, might make it a bit easier.",
+      "validation_order": 123
+    },
+    {
+      "id": "261550|3422194223905627622|TOPIC|topic_summary|0",
+      "app_id": "261550",
+      "app_name": "Mount & Blade II: Bannerlord",
+      "release_date": "2022-10-25",
+      "release_relative_day": -53,
+      "sentence": "Hated it from the start and it seems like it here to stay.",
+      "validation_order": 124
+    },
+    {
+      "id": "2358720|4514381284532406226|4514381284535668903|comment_excerpt|0",
+      "app_id": "2358720",
+      "app_name": "Black Myth: Wukong",
+      "release_date": "2024-08-21",
+      "release_relative_day": -12,
+      "sentence": "15 hours confirmed few years ago and I don't think Is changed..",
+      "validation_order": 125
+    },
+    {
+      "id": "1844380|3950281156760488620|3970547433228052651|comment_excerpt|0",
+      "app_id": "1844380",
+      "app_name": "Warhammer Age of Sigmar: Realms of Ruin",
+      "release_date": "2023-11-18",
+      "release_relative_day": -3,
+      "sentence": "Played some ranked matches, some rough edges but it seems pretty fun, i like how every faction is pretty distinct.",
+      "validation_order": 126
+    },
+    {
+      "id": "2429640|4839771079453140743|TOPIC|topic_summary|0",
+      "app_id": "2429640",
+      "app_name": "THRONE AND LIBERTY",
+      "release_date": "2024-10-02",
+      "release_relative_day": -2,
+      "sentence": "CANT EVEN CONNECT - ♥♥♥♥ GAME CANT EVEN CONNECT - ♥♥♥♥ GAME CANT EVEN CONNECT - ♥♥♥♥ GAME CANT EVEN CONNECT - ♥♥♥♥ GAME CANT EVEN CONNECT - ♥♥♥♥ GAME CANT EVEN CONNECT - ♥♥♥♥ GAME",
+      "validation_order": 127
+    },
+    {
+      "id": "494840|4414173425006013284|TOPIC|topic_summary|0",
+      "app_id": "494840",
+      "app_name": "UBOAT",
+      "release_date": "2024-08-02",
+      "release_relative_day": -25,
+      "sentence": "just wondering how i can give a breathing apparatus to my officers since I can't take over their bodies in skipper mode to go grab one.",
+      "validation_order": 128
+    },
+    {
+      "id": "1938090|3489752656783831489|TOPIC|topic_title|0",
+      "app_id": "1938090",
+      "app_name": "Call of Duty®",
+      "release_date": "2022-10-27",
+      "release_relative_day": -7,
+      "sentence": "Restarted my PC and it worked",
+      "validation_order": 129
+    },
+    {
+      "id": "2287330|4699035455825502775|4699035966525943697|comment_excerpt|0",
+      "app_id": "2287330",
+      "app_name": "Empire of the Ants",
+      "release_date": "2024-11-08",
+      "release_relative_day": -14,
+      "sentence": "same, PvP i tend to avoid all games with that thesedays.",
+      "validation_order": 130
+    },
+    {
+      "id": "1817070|3468352884035523128|3468352315405343204|comment_excerpt|0",
+      "app_id": "1817070",
+      "app_name": "Marvel’s Spider-Man Remastered",
+      "release_date": "2022-08-12",
+      "release_relative_day": -18,
+      "sentence": "it doesn't matter that its 5 years old, its still a legendary game, and Sony is a genius for waiting 5 years to bring it to PC, cause they already made all their money they can on PS, now their going to release it to PC to make some more.",
+      "validation_order": 131
+    },
+    {
+      "id": "900040|3190241086267964382|3190241086269909652|comment_excerpt|1",
+      "app_id": "900040",
+      "app_name": "ELEX II",
+      "release_date": "2022-03-01",
+      "release_relative_day": -13,
+      "sentence": "Realistically, most likely the only way you will be able to make the game harder will be putting some arbitrary self imposed maluses on to yourself.",
+      "validation_order": 132
+    },
+    {
+      "id": "2071500|4202490864585136626|4202490864585297674|comment_excerpt|0",
+      "app_id": "2071500",
+      "app_name": "Islands of Insight",
+      "release_date": "2024-02-14",
+      "release_relative_day": -2,
+      "sentence": "I think the graphics are quite nice.",
+      "validation_order": 133
+    },
+    {
+      "id": "1133760|3186863386557044042|3186863386558681379|comment_excerpt|6",
+      "app_id": "1133760",
+      "app_name": "CHRONO CROSS: THE RADICAL DREAMERS EDITION",
+      "release_date": "2022-04-07",
+      "release_relative_day": -48,
+      "sentence": "That's whole other can of worms that I really don't see the point of arguing over if it should be called a sequel.",
+      "validation_order": 134
+    },
+    {
+      "id": "1496790|3642874410684044701|6126609705328191571|comment_excerpt|2",
+      "app_id": "1496790",
+      "app_name": "Gotham Knights",
+      "release_date": "2022-10-21",
+      "release_relative_day": -8,
+      "sentence": "When we need you Most",
+      "validation_order": 135
+    },
+    {
+      "id": "1790600|4846527127885432825|4846527127885551173|comment_excerpt|0",
+      "app_id": "1790600",
+      "app_name": "DRAGON BALL: Sparking! ZERO",
+      "release_date": "2024-10-11",
+      "release_relative_day": -4,
+      "sentence": "No ultrawide, 60 FPS lock, outdated UE5 engine without shader compiling... sigh... another japanese PC port...",
+      "validation_order": 136
+    },
+    {
+      "id": "1778820|4030223299340475969|4132682093266524642|comment_excerpt|3",
+      "app_id": "1778820",
+      "app_name": "TEKKEN 8",
+      "release_date": "2024-01-26",
+      "release_relative_day": -16,
+      "sentence": "Please please get a cable and upgrade your PC if possible.",
+      "validation_order": 137
+    },
+    {
+      "id": "1643320|7051043016322133900|TOPIC|topic_summary|0",
+      "app_id": "1643320",
+      "app_name": "S.T.A.L.K.E.R. 2: Heart of Chornobyl",
+      "release_date": "2024-11-21",
+      "release_relative_day": -2,
+      "sentence": "Dear community, all stalkers and fans of the game, and of course the amazing GSC Game World team.",
+      "validation_order": 138
+    },
+    {
+      "id": "1324130|3780247324079977271|3780247324086146900|comment_excerpt|1",
+      "app_id": "1324130",
+      "app_name": "Stranded: Alien Dawn",
+      "release_date": "2023-04-25",
+      "release_relative_day": -49,
+      "sentence": "I haven't played Rimworld, so I can't comment on that comparison.",
+      "validation_order": 139
+    },
+    {
+      "id": "494840|6811212184817596943|TOPIC|topic_summary|7",
+      "app_id": "494840",
+      "app_name": "UBOAT",
+      "release_date": "2024-08-02",
+      "release_relative_day": -47,
+      "sentence": "Maybe the sailor got trapped outside ...",
+      "validation_order": 140
+    },
+    {
+      "id": "1361210|3594464430424476129|3594464430428088220|comment_excerpt|6",
+      "app_id": "1361210",
+      "app_name": "Warhammer 40,000: Darktide",
+      "release_date": "2022-11-30",
+      "release_relative_day": -7,
+      "sentence": "It also might help explain some of my dislike for the VS in that it's not a familiar style of play in such a game.",
+      "validation_order": 141
+    },
+    {
+      "id": "3183280|603030065018592244|TOPIC|topic_summary|8",
+      "app_id": "3183280",
+      "app_name": "Game of Thrones: Kingsroad",
+      "release_date": "2025-05-21",
+      "release_relative_day": -9,
+      "sentence": "I know they do but seems like its taking forever to level up my momentum.",
+      "validation_order": 142
+    },
+    {
+      "id": "1361210|3594464430424235883|TOPIC|topic_summary|5",
+      "app_id": "1361210",
+      "app_name": "Warhammer 40,000: Darktide",
+      "release_date": "2022-11-30",
+      "release_relative_day": -9,
+      "sentence": "It's a frustrating achievement to get once you're required to dodge 20 attacks in a row....",
+      "validation_order": 143
+    },
+    {
+      "id": "1845910|4635986167856104357|4635986167856105410|comment_excerpt|3",
+      "app_id": "1845910",
+      "app_name": "Dragon Age™: The Veilguard",
+      "release_date": "2024-11-01",
+      "release_relative_day": -1,
+      "sentence": "Also, the characters just plain make stupid plans.",
+      "validation_order": 144
+    },
+    {
+      "id": "3183280|612037567209085804|TOPIC|topic_summary|1",
+      "app_id": "3183280",
+      "app_name": "Game of Thrones: Kingsroad",
+      "release_date": "2025-05-21",
+      "release_relative_day": -5,
+      "sentence": "Next your using monetization models which ...",
+      "validation_order": 145
+    },
+    {
+      "id": "990080|3761104498515466502|3761104498515475581|comment_excerpt|0",
+      "app_id": "990080",
+      "app_name": "Hogwarts Legacy",
+      "release_date": "2023-02-10",
+      "release_relative_day": -3,
+      "sentence": "10am PST/ 1pm EST for early access on pc",
+      "validation_order": 146
+    },
+    {
+      "id": "1948980|6993585599477724425|TOPIC|topic_summary|0",
+      "app_id": "1948980",
+      "app_name": "Hero's Adventure: Road to Passion",
+      "release_date": "2023-11-15",
+      "release_relative_day": -33,
+      "sentence": "These are the final NPC status bonuses in version 1690: innate super armor, innate protection, internal injury, bleeding, and so on.",
+      "validation_order": 147
+    },
+    {
+      "id": "1601570|555745238868580516|555745238868583265|comment_excerpt|0",
+      "app_id": "1601570",
+      "app_name": "The Alters",
+      "release_date": "2025-06-14",
+      "release_relative_day": -1,
+      "sentence": "You need a cartridge to make it work.",
+      "validation_order": 148
+    },
+    {
+      "id": "2646460|4357873276732690090|4357873276732706862|comment_excerpt|1",
+      "app_id": "2646460",
+      "app_name": "Soulmask",
+      "release_date": "2024-05-31",
+      "release_relative_day": -17,
+      "sentence": "Birds doing bird things.",
+      "validation_order": 149
+    },
+    {
+      "id": "1361210|3541546590703606713|TOPIC|topic_summary|0",
+      "app_id": "1361210",
+      "app_name": "Warhammer 40,000: Darktide",
+      "release_date": "2022-11-30",
+      "release_relative_day": -14,
+      "sentence": "Will we be able to preload the beta prior to the 17th?",
+      "validation_order": 150
+    },
+    {
+      "id": "1643320|7051042840464413795|TOPIC|topic_summary|0",
+      "app_id": "1643320",
+      "app_name": "S.T.A.L.K.E.R. 2: Heart of Chornobyl",
+      "release_date": "2024-11-21",
+      "release_relative_day": -4,
+      "sentence": "4080 + 13700k + 32gb DDR5 I play at 2k, I see that with 4070 you might or might not reach the 60fps threshold with DLSS on, not sure if we are getting Frame Generation which helps slot in stability.",
+      "validation_order": 151
+    },
+    {
+      "id": "3159330|612032279991044510|612032279991077075|comment_excerpt|0",
+      "app_id": "3159330",
+      "app_name": "Assassin's Creed Shadows",
+      "release_date": "2025-03-20",
+      "release_relative_day": -2,
+      "sentence": "Wasn't there an Ultimate Version before?",
+      "validation_order": 152
+    },
+    {
+      "id": "920210|3192495941186520617|3192495941187736848|comment_excerpt|0",
+      "app_id": "920210",
+      "app_name": "LEGO® Star Wars™: The Skywalker Saga",
+      "release_date": "2022-04-05",
+      "release_relative_day": -14,
+      "sentence": "No online no buy, I will \"get\" the game another way...",
+      "validation_order": 153
+    },
+    {
+      "id": "1410710|3202617741906870669|3202617741907127195|comment_excerpt|2",
+      "app_id": "1410710",
+      "app_name": "Democracy 4",
+      "release_date": "2022-01-13",
+      "release_relative_day": -55,
+      "sentence": "I actually regret adding a lot of the 'flavor' text to the sliders, so take the opposite view, but I completely understand your position (which is why I added such text initially).",
+      "validation_order": 154
+    },
+    {
+      "id": "1282100|3809533247341592633|TOPIC|topic_summary|2",
+      "app_id": "1282100",
+      "app_name": "Remnant II",
+      "release_date": "2023-07-25",
+      "release_relative_day": -4,
+      "sentence": "Anybody with a solution ?",
+      "validation_order": 155
+    },
+    {
+      "id": "1448440|3770113150031708125|3782498683137516621|comment_excerpt|1",
+      "app_id": "1448440",
+      "app_name": "Wo Long: Fallen Dynasty",
+      "release_date": "2023-03-03",
+      "release_relative_day": -1,
+      "sentence": "Until you actually implement PC controls you are misleading consumers.",
+      "validation_order": 156
+    },
+    {
+      "id": "2124490|4849904427681900412|4849904427681936187|comment_excerpt|2",
+      "app_id": "2124490",
+      "app_name": "SILENT HILL 2",
+      "release_date": "2024-10-08",
+      "release_relative_day": -5,
+      "sentence": "I noticed this recently at Hogwarts Legacy.",
+      "validation_order": 157
+    },
+    {
+      "id": "2130460|3763356482608057037|3763356482608308992|comment_excerpt|1",
+      "app_id": "2130460",
+      "app_name": "FATAL FRAME / PROJECT ZERO: Mask of the Lunar Eclipse",
+      "release_date": "2023-03-08",
+      "release_relative_day": -26,
+      "sentence": "I hope KOEI TECMO revises these prices, they are far from our reality.",
+      "validation_order": 158
+    },
+    {
+      "id": "2183900|4763208113390373353|4763208113390391569|comment_excerpt|4",
+      "app_id": "2183900",
+      "app_name": "Warhammer 40,000: Space Marine 2",
+      "release_date": "2024-09-10",
+      "release_relative_day": -1,
+      "sentence": "Lore is they are men based on the god emperor?",
+      "validation_order": 159
+    },
+    {
+      "id": "2622380|597401931247274021|597401931247276227|comment_excerpt|2",
+      "app_id": "2622380",
+      "app_name": "ELDEN RING NIGHTREIGN",
+      "release_date": "2025-05-30",
+      "release_relative_day": -4,
+      "sentence": "If I get the game after launch I may help you.",
+      "validation_order": 160
+    },
+    {
+      "id": "1801520|596268332586395346|TOPIC|topic_summary|1",
+      "app_id": "1801520",
+      "app_name": "Zombieville USA 3D",
+      "release_date": "2025-03-08",
+      "release_relative_day": -6,
+      "sentence": "I wanted to know if the four new characters that we can discover in a recent video will be present immediately in your games?",
+      "validation_order": 161
+    },
+    {
+      "id": "261550|3422194223902985495|TOPIC|topic_summary|2",
+      "app_id": "261550",
+      "app_name": "Mount & Blade II: Bannerlord",
+      "release_date": "2022-10-25",
+      "release_relative_day": -54,
+      "sentence": "the character was bugged was a spicevendor if thats relevant in any way....",
+      "validation_order": 162
+    },
+    {
+      "id": "1255630|3178980819225294421|TOPIC|topic_summary|0",
+      "app_id": "1255630",
+      "app_name": "WWE 2K22",
+      "release_date": "2022-03-10",
+      "release_relative_day": -36,
+      "sentence": "WWE® 2K22 RINGSIDE REPORT UNVEILS 9+ MINUTES OF GAMEPLAY FOOTAGE WITH DEVELOPER COMMENTARY Visual Concepts developers break down full match of new WWE 2K22 gameplay 2K today unveiled WWE® 2K22 Ringside Report #1, the first in an ongoing video series offering deep dives into the game’s features, mechanics, and more.",
+      "validation_order": 163
+    },
+    {
+      "id": "1340480|3805026824444922782|3805026824445227438|comment_excerpt|0",
+      "app_id": "1340480",
+      "app_name": "The Cosmic Wheel Sisterhood",
+      "release_date": "2023-08-16",
+      "release_relative_day": -52,
+      "sentence": "Game should play both music and sfx.",
+      "validation_order": 164
+    },
+    {
+      "id": "990080|3761104498513075541|TOPIC|topic_title|0",
+      "app_id": "990080",
+      "app_name": "Hogwarts Legacy",
+      "release_date": "2023-02-10",
+      "release_relative_day": -4,
+      "sentence": "FOV slider, does it have one?",
+      "validation_order": 165
+    },
+    {
+      "id": "1061910|3317484899032967424|3431201423162134608|comment_excerpt|0",
+      "app_id": "1061910",
+      "app_name": "Metal: Hellsinger",
+      "release_date": "2022-09-15",
+      "release_relative_day": -13,
+      "sentence": "DOOM isn't the only FPS where you shoot demons.",
+      "validation_order": 166
+    },
+    {
+      "id": "1811260|3460471649942215785|3460471649945752152|comment_excerpt|0",
+      "app_id": "1811260",
+      "app_name": "EA SPORTS™ FIFA 23",
+      "release_date": "2022-09-29",
+      "release_relative_day": -59,
+      "sentence": "Imagine being someone who pre-orders a FIFA game; what are you thinking?",
+      "validation_order": 167
+    },
+    {
+      "id": "954850|5400412918961306876|5400412918962897109|comment_excerpt|0",
+      "app_id": "954850",
+      "app_name": "Kerbal Space Program 2",
+      "release_date": "2023-02-24",
+      "release_relative_day": -38,
+      "sentence": "I am a huuuuuuge KSP fan.",
+      "validation_order": 168
+    },
+    {
+      "id": "1472660|3178981452996610311|3178981452996950008|comment_excerpt|0",
+      "app_id": "1472660",
+      "app_name": "No Place Like Home",
+      "release_date": "2022-03-17",
+      "release_relative_day": -32,
+      "sentence": "Also, I don't think I can recycle the old chickencoop, so that's a bunch of wasted materials, and a coop that either takes up space in a box/inventory or is just deleted from existence.",
+      "validation_order": 169
+    },
+    {
+      "id": "747200|3272437487149760476|3272437487152363351|comment_excerpt|6",
+      "app_id": "747200",
+      "app_name": "Keplerth",
+      "release_date": "2022-05-23",
+      "release_relative_day": -30,
+      "sentence": "Having attacks will put those to some use.",
+      "validation_order": 170
+    },
+    {
+      "id": "2479810|4355620303681711047|4355620303682050439|comment_excerpt|1",
+      "app_id": "2479810",
+      "app_name": "Gray Zone Warfare",
+      "release_date": "2024-05-01",
+      "release_relative_day": -1,
+      "sentence": "But I just bought the support edition,only the locker changed to 10X60,nothing else.",
+      "validation_order": 171
+    },
+    {
+      "id": "2183900|4763207599010812139|4763207599011015187|comment_excerpt|0",
+      "app_id": "2183900",
+      "app_name": "Warhammer 40,000: Space Marine 2",
+      "release_date": "2024-09-10",
+      "release_relative_day": -6,
+      "sentence": "Sane players need beta testers to try the game before the release.",
+      "validation_order": 172
+    },
+    {
+      "id": "1816300|3472864793314826141|3472864793317754822|comment_excerpt|1",
+      "app_id": "1816300",
+      "app_name": "HARVESTELLA",
+      "release_date": "2022-11-04",
+      "release_relative_day": -5,
+      "sentence": "Hasn't been one since FFX",
+      "validation_order": 173
+    },
+    {
+      "id": "2111170|3807278817579771703|3807278817582010698|comment_excerpt|0",
+      "app_id": "2111170",
+      "app_name": "STORY OF SEASONS: A Wonderful Life",
+      "release_date": "2023-06-27",
+      "release_relative_day": -1,
+      "sentence": "I made some reviews for a nintendo site a few years ago, you have basically 3 options:1 - If they are big, they call you (we got a few like this, but most indies)2 - You can contact them directly and ask for it, while proving info that backup why they should give you one.",
+      "validation_order": 174
+    },
+    {
+      "id": "526870|4767710741164947948|4767710741166553026|comment_excerpt|1",
+      "app_id": "526870",
+      "app_name": "Satisfactory",
+      "release_date": "2024-09-10",
+      "release_relative_day": -11,
+      "sentence": "Maybe if you provided a more spread out layout with an explanation as to what it is accomplishing it will make sense.",
+      "validation_order": 175
+    },
+    {
+      "id": "1361210|3541546590709970047|TOPIC|topic_summary|5",
+      "app_id": "1361210",
+      "app_name": "Warhammer 40,000: Darktide",
+      "release_date": "2022-11-30",
+      "release_relative_day": -12,
+      "sentence": "Then also add 16x the particle effects, force ultra ray tracing for everything, and add a bunch of redundant code to slow things down.",
+      "validation_order": 176
+    },
+    {
+      "id": "1944790|3431200155173924271|3431200155176056228|comment_excerpt|6",
+      "app_id": "1944790",
+      "app_name": "Train Sim World® 3",
+      "release_date": "2022-09-06",
+      "release_relative_day": -19,
+      "sentence": "I don't think DTG is holding back copies, but they don't provide them to everybody.",
+      "validation_order": 177
+    },
+    {
+      "id": "2015270|4353367983027008491|4353367983028769132|comment_excerpt|3",
+      "app_id": "2015270",
+      "app_name": "Rotwood",
+      "release_date": "2024-04-26",
+      "release_relative_day": -1,
+      "sentence": "That being said, I think your runs will get better as you farm materials to upgrade armor and weapons.",
+      "validation_order": 178
+    },
+    {
+      "id": "899770|4208119923885367083|TOPIC|topic_summary|1",
+      "app_id": "899770",
+      "app_name": "Last Epoch",
+      "release_date": "2024-02-21",
+      "release_relative_day": -13,
+      "sentence": "Does that mean I can buy one copy of the game and my wife can play from her PC on my account co-op style...?",
+      "validation_order": 179
+    },
+    {
+      "id": "1960270|7056650139345470951|4355620586422764863|comment_excerpt|6",
+      "app_id": "1960270",
+      "app_name": "Lootun",
+      "release_date": "2024-05-14",
+      "release_relative_day": -11,
+      "sentence": "Anyways, definitely I think it would be BAD to have 6 from the start and be default for all content...",
+      "validation_order": 180
+    },
+    {
+      "id": "526870|4767710564308666725|4767710741163683113|comment_excerpt|5",
+      "app_id": "526870",
+      "app_name": "Satisfactory",
+      "release_date": "2024-09-10",
+      "release_relative_day": -12,
+      "sentence": "I will post the specs if anyone is interested.",
+      "validation_order": 181
+    },
+    {
+      "id": "1844380|3879346300822486906|6393480947846318080|comment_excerpt|10",
+      "app_id": "1844380",
+      "app_name": "Warhammer Age of Sigmar: Realms of Ruin",
+      "release_date": "2023-11-18",
+      "release_relative_day": -37,
+      "sentence": "And for the most part its going to be the last.",
+      "validation_order": 182
+    },
+    {
+      "id": "1469610|3875968426428723202|3875968426431429891|comment_excerpt|2",
+      "app_id": "1469610",
+      "app_name": "Last Train Home",
+      "release_date": "2023-11-29",
+      "release_relative_day": -50,
+      "sentence": "And it's not like there's an hour or two between those two sentences, which might explain this being a honest mistake.",
+      "validation_order": 183
+    },
+    {
+      "id": "1270580|596262211620453141|TOPIC|topic_summary|4",
+      "app_id": "1270580",
+      "app_name": "Mind Over Magic",
+      "release_date": "2025-02-12",
+      "release_relative_day": -49,
+      "sentence": "Killing Burrower over and over doesn't seem to increase it appreciably.",
+      "validation_order": 184
+    },
+    {
+      "id": "2669320|4845400399761555754|TOPIC|topic_summary|3",
+      "app_id": "2669320",
+      "app_name": "EA SPORTS FC™ 25",
+      "release_date": "2024-09-28",
+      "release_relative_day": -1,
+      "sentence": "I tried everything ( reinstalling, VPN, Restarting, PC restart, Controlling the local data, deleting Trial Version) but nothing seems to work.",
+      "validation_order": 185
+    },
+    {
+      "id": "1845910|4635985982183810549|4635985982183814736|comment_excerpt|2",
+      "app_id": "1845910",
+      "app_name": "Dragon Age™: The Veilguard",
+      "release_date": "2024-11-01",
+      "release_relative_day": -1,
+      "sentence": "Thus, it doesn't really matter whether the next target for the mob is actually bad or just rubbed someone the wrong way:they are addicted to the way complaining and feeling unjustly wronged makes them feel.",
+      "validation_order": 186
+    },
+    {
+      "id": "2183900|4763207599014696191|4763207599014769805|comment_excerpt|2",
+      "app_id": "2183900",
+      "app_name": "Warhammer 40,000: Space Marine 2",
+      "release_date": "2024-09-10",
+      "release_relative_day": -5,
+      "sentence": "it IS annoying BUT they clearly communicated it and i can see why this isnt exactly a priority.",
+      "validation_order": 187
+    },
+    {
+      "id": "1245620|3177854919324061248|3177854919324786800|comment_excerpt|3",
+      "app_id": "1245620",
+      "app_name": "ELDEN RING",
+      "release_date": "2022-02-24",
+      "release_relative_day": -20,
+      "sentence": "Finally plugin n playin my gamepads instead of those cheap knockoffs I used to have when as a kid.",
+      "validation_order": 188
+    },
+    {
+      "id": "1693980|3770110614216223198|3770110614216355410|comment_excerpt|0",
+      "app_id": "1693980",
+      "app_name": "Dead Space",
+      "release_date": "2023-01-27",
+      "release_relative_day": -2,
+      "sentence": "20 - Basically grew up with the Dead Space franchise on the ps3 and I even played Dead Space mobile when that was a thing too when I was really young.",
+      "validation_order": 189
+    },
+    {
+      "id": "2457220|523083237290968429|523083237290975309|comment_excerpt|3",
+      "app_id": "2457220",
+      "app_name": "Avowed",
+      "release_date": "2025-02-19",
+      "release_relative_day": -6,
+      "sentence": "You can take many games past 2 years .. 70 EUR - mostly dead, studio closed, game abandoned often even before it was released.",
+      "validation_order": 190
+    },
+    {
+      "id": "1283400|3426697823608144393|3426697823609494384|comment_excerpt|5",
+      "app_id": "1283400",
+      "app_name": "Steelrising",
+      "release_date": "2022-09-08",
+      "release_relative_day": -4,
+      "sentence": "It's not a game I will get now but most likely will when it's on sales.",
+      "validation_order": 191
+    },
+    {
+      "id": "1545560|6812310007742947015|3808409598687087474|comment_excerpt|2",
+      "app_id": "1545560",
+      "app_name": "Shadow Gambit: The Cursed Crew",
+      "release_date": "2023-08-17",
+      "release_relative_day": -1,
+      "sentence": "Regardless, since the game is generally balanced around not assuming any one crew member, it should be possible to just avoid that crew member.",
+      "validation_order": 192
+    },
+    {
+      "id": "990080|3761104682789789303|3761104682789806586|comment_excerpt|1",
+      "app_id": "990080",
+      "app_name": "Hogwarts Legacy",
+      "release_date": "2023-02-10",
+      "release_relative_day": -2,
+      "sentence": "I am loving the game and want to know how the story changes with different houses and decisions.",
+      "validation_order": 193
+    },
+    {
+      "id": "1845910|4697910365481091428|TOPIC|topic_summary|0",
+      "app_id": "1845910",
+      "app_name": "Dragon Age™: The Veilguard",
+      "release_date": "2024-11-01",
+      "release_relative_day": -4,
+      "sentence": "It really feels good to have a game I can see myself in.",
+      "validation_order": 194
+    },
+    {
+      "id": "1790600|7428213661352781970|4848777260030037047|comment_excerpt|0",
+      "app_id": "1790600",
+      "app_name": "DRAGON BALL: Sparking! ZERO",
+      "release_date": "2024-10-11",
+      "release_relative_day": -23,
+      "sentence": "Ultimate for PCAnd i pre ordered for xbox",
+      "validation_order": 195
+    },
+    {
+      "id": "1332010|3417682380503274628|3417682380503329752|comment_excerpt|0",
+      "app_id": "1332010",
+      "app_name": "Stray",
+      "release_date": "2022-07-19",
+      "release_relative_day": -46,
+      "sentence": "So they're forced to use humans and can't use robots?",
+      "validation_order": 196
+    },
+    {
+      "id": "1013140|7410182519534783752|TOPIC|topic_summary|3",
+      "app_id": "1013140",
+      "app_name": "Outcast - A New Beginning",
+      "release_date": "2024-03-16",
+      "release_relative_day": -2,
+      "sentence": "This game is pepega andy.",
+      "validation_order": 197
+    },
+    {
+      "id": "2300320|4638239054524060938|TOPIC|topic_summary|6",
+      "app_id": "2300320",
+      "app_name": "Farming Simulator 25",
+      "release_date": "2024-11-15",
+      "release_relative_day": -3,
+      "sentence": "Now my only guess is that...",
+      "validation_order": 198
+    },
+    {
+      "id": "2000890|4691153809030665480|4691153809031009960|comment_excerpt|0",
+      "app_id": "2000890",
+      "app_name": "MechWarrior 5: Clans",
+      "release_date": "2024-10-17",
+      "release_relative_day": -1,
+      "sentence": "Yes yes i get it fans of the lore aka tradition.",
+      "validation_order": 199
+    },
+    {
+      "id": "1361210|5568165891219209163|5568165891219352422|comment_excerpt|2",
+      "app_id": "1361210",
+      "app_name": "Warhammer 40,000: Darktide",
+      "release_date": "2022-11-30",
+      "release_relative_day": -18,
+      "sentence": "Can a SoB inspired work narratively and game play wise, Yes.",
+      "validation_order": 200
+    },
+    {
+      "id": "1643320|4626980689722522764|TOPIC|topic_title|0",
+      "app_id": "1643320",
+      "app_name": "S.T.A.L.K.E.R. 2: Heart of Chornobyl",
+      "release_date": "2024-11-21",
+      "release_relative_day": -1,
+      "sentence": "PSA: Do NOT check achievements for the game",
+      "validation_order": 201
+    },
+    {
+      "id": "1466060|591769703346637611|TOPIC|topic_title|0",
+      "app_id": "1466060",
+      "app_name": "Tainted Grail: The Fall of Avalon",
+      "release_date": "2025-05-23",
+      "release_relative_day": -25,
+      "sentence": "Chance for physical console edition?",
+      "validation_order": 202
+    },
+    {
+      "id": "2492040|604154053014921883|604154053014923014|comment_excerpt|1",
+      "app_id": "2492040",
+      "app_name": "FATAL FURY: City of the Wolves",
+      "release_date": "2025-04-22",
+      "release_relative_day": -1,
+      "sentence": "It feels weird that we only got one Kim Kid, a DJ and a controversial Soccer Player.",
+      "validation_order": 203
+    },
+    {
+      "id": "1173820|3180107352890901264|5034464604302266605|comment_excerpt|0",
+      "app_id": "1173820",
+      "app_name": "FINAL FANTASY VI",
+      "release_date": "2022-02-23",
+      "release_relative_day": -10,
+      "sentence": "We pay more for worse games and you think 20$ for FF6 is too expensive...?",
+      "validation_order": 204
+    },
+    {
+      "id": "2670630|600776353252438040|TOPIC|topic_summary|1",
+      "app_id": "2670630",
+      "app_name": "Supermarket Simulator",
+      "release_date": "2025-06-19",
+      "release_relative_day": -59,
+      "sentence": "Customers ask for fruit its there but they don't buy it.",
+      "validation_order": 205
+    },
+    {
+      "id": "1845910|4697909843220086378|4697909843220086703|comment_excerpt|2",
+      "app_id": "1845910",
+      "app_name": "Dragon Age™: The Veilguard",
+      "release_date": "2024-11-01",
+      "release_relative_day": -7,
+      "sentence": "There is no such thing as a single, ultimate, definitive GOTY.",
+      "validation_order": 206
+    },
+    {
+      "id": "2457220|592888815005261924|TOPIC|topic_summary|0",
+      "app_id": "2457220",
+      "app_name": "Avowed",
+      "release_date": "2025-02-19",
+      "release_relative_day": -8,
+      "sentence": "I'm not sure if the promo is world-wide, but I got 2 months of xbox-game pass for 0.99$ a week ago.",
+      "validation_order": 207
+    },
+    {
+      "id": "2291060|4509876314624929417|4509876314624941421|comment_excerpt|0",
+      "app_id": "2291060",
+      "app_name": "EARTH DEFENSE FORCE 6",
+      "release_date": "2024-07-26",
+      "release_relative_day": -1,
+      "sentence": "The fallacy of relative privation is a type of equivalence fallacy wherein it is asserted that, because something worse than the current problem being discussed exists, the current problem should not be discussed.",
+      "validation_order": 208
+    },
+    {
+      "id": "990080|3761104498515845576|TOPIC|topic_summary|2",
+      "app_id": "990080",
+      "app_name": "Hogwarts Legacy",
+      "release_date": "2023-02-10",
+      "release_relative_day": -3,
+      "sentence": "After it has finished downloading and unpacking, instead of using the steam interface to launch the game, use the desktop icon it creates.",
+      "validation_order": 209
+    },
+    {
+      "id": "2429640|4839771250825986859|4839771250826005480|comment_excerpt|0",
+      "app_id": "2429640",
+      "app_name": "THRONE AND LIBERTY",
+      "release_date": "2024-10-02",
+      "release_relative_day": -1,
+      "sentence": "If you can't do it, you may need a clean windows install to clean the blinker fluid from the flux capacitor.",
+      "validation_order": 210
+    },
+    {
+      "id": "1364780|3830917450442552982|3830917450442570215|comment_excerpt|0",
+      "app_id": "1364780",
+      "app_name": "Street Fighter™ 6",
+      "release_date": "2023-06-01",
+      "release_relative_day": -34,
+      "sentence": "Finally a normal Topic!,",
+      "validation_order": 211
+    },
+    {
+      "id": "3017860|599652165026351426|599652165026352745|comment_excerpt|0",
+      "app_id": "3017860",
+      "app_name": "DOOM: The Dark Ages",
+      "release_date": "2025-05-15",
+      "release_relative_day": -6,
+      "sentence": "No issue with drivers so far on my 5080",
+      "validation_order": 212
+    },
+    {
+      "id": "1713350|4514380788154725449|TOPIC|topic_summary|1",
+      "app_id": "1713350",
+      "app_name": "Project Castaway",
+      "release_date": "2024-09-24",
+      "release_relative_day": -53,
+      "sentence": "I looked if there were any games like it and was excited to join the beta.",
+      "validation_order": 213
+    },
+    {
+      "id": "1486920|603026190505098596|603026569768768677|comment_excerpt|8",
+      "app_id": "1486920",
+      "app_name": "Tempest Rising",
+      "release_date": "2025-04-18",
+      "release_relative_day": -15,
+      "sentence": "I think the recent demos spoke volumes that this is at least a good game and worth getting if ur an RTS fan, as lets face it RTS isn't that popular for a long time now.",
+      "validation_order": 214
+    },
+    {
+      "id": "1845910|4843147950366361013|4843147950366379240|comment_excerpt|0",
+      "app_id": "1845910",
+      "app_name": "Dragon Age™: The Veilguard",
+      "release_date": "2024-11-01",
+      "release_relative_day": -42,
+      "sentence": "they will tell you this game is woke because of pronouns and vitiligo but bg3 who also have these option isn't",
+      "validation_order": 215
+    },
+    {
+      "id": "1448440|3770113150034976979|3770113150038189540|comment_excerpt|2",
+      "app_id": "1448440",
+      "app_name": "Wo Long: Fallen Dynasty",
+      "release_date": "2023-03-03",
+      "release_relative_day": -6,
+      "sentence": "There is some kind of slowdown when there’s large groups, not of FPS though, the game itself seems to slow down briefly at times.",
+      "validation_order": 216
+    },
+    {
+      "id": "1845910|4635985982183849435|4635986167856104190|comment_excerpt|6",
+      "app_id": "1845910",
+      "app_name": "Dragon Age™: The Veilguard",
+      "release_date": "2024-11-01",
+      "release_relative_day": -1,
+      "sentence": "Every PC game will try to optimize within whatever parameters the developers decide, but that will never cover all PCs and make it so some games run great and some games don't because developers have different criteria of what they want to support.",
+      "validation_order": 217
+    },
+    {
+      "id": "1875060|4336482609598884167|4336482609599217369|comment_excerpt|2",
+      "app_id": "1875060",
+      "app_name": "Reus 2",
+      "release_date": "2024-05-29",
+      "release_relative_day": -1,
+      "sentence": "I just assume your whole system to be the same age as the card, which means everything is weak by current standards (slow CPU, DDR3 Ram, closed off case design).",
+      "validation_order": 218
+    },
+    {
+      "id": "736820|3716062344549195674|3716062344549913957|comment_excerpt|3",
+      "app_id": "736820",
+      "app_name": "Knights of Honor II: Sovereign",
+      "release_date": "2022-12-06",
+      "release_relative_day": -5,
+      "sentence": "Probably more \"slots\" than in the original.",
+      "validation_order": 219
+    },
+    {
+      "id": "1995520|4331979689560324643|6811212350652729303|comment_excerpt|0",
+      "app_id": "1995520",
+      "app_name": "Pax Dei",
+      "release_date": "2024-06-20",
+      "release_relative_day": -3,
+      "sentence": "I can't see a business model other than subs which is sustainable in the long run.",
+      "validation_order": 220
+    },
+    {
+      "id": "2791440|4628105320572409885|4628105320572410228|comment_excerpt|1",
+      "app_id": "2791440",
+      "app_name": "Brighter Shores",
+      "release_date": "2024-11-07",
+      "release_relative_day": -1,
+      "sentence": "$5.99/month, $23.99/90 days, $74.99/year.",
+      "validation_order": 221
+    },
+    {
+      "id": "1469610|7098294290813384923|TOPIC|topic_summary|3",
+      "app_id": "1469610",
+      "app_name": "Last Train Home",
+      "release_date": "2023-11-29",
+      "release_relative_day": -47,
+      "sentence": "which is obviously unrealistic.",
+      "validation_order": 222
+    },
+    {
+      "id": "669330|6394635224717787636|TOPIC|topic_title|0",
+      "app_id": "669330",
+      "app_name": "Mechabellum",
+      "release_date": "2024-09-26",
+      "release_relative_day": -37,
+      "sentence": "Default, 6,000, 8,000, or more?",
+      "validation_order": 223
+    },
+    {
+      "id": "1790600|4846527127885484791|4846527127885507240|comment_excerpt|0",
+      "app_id": "1790600",
+      "app_name": "DRAGON BALL: Sparking! ZERO",
+      "release_date": "2024-10-11",
+      "release_relative_day": -4,
+      "sentence": "I was thinking Goku black, Trunks (Future, DBZ era), Cooler, and maybe fusion reborn Gogeta.",
+      "validation_order": 224
+    },
+    {
+      "id": "2479810|4355620303681409943|TOPIC|topic_summary|2",
+      "app_id": "2479810",
+      "app_name": "Gray Zone Warfare",
+      "release_date": "2024-05-01",
+      "release_relative_day": -1,
+      "sentence": "Some games feel finished by that point, others dont and some never passes this state.",
+      "validation_order": 225
+    },
+    {
+      "id": "1214650|4286935719733468771|4286935719733821751|comment_excerpt|0",
+      "app_id": "1214650",
+      "app_name": "SOUTH PARK: SNOW DAY!",
+      "release_date": "2024-03-27",
+      "release_relative_day": -18,
+      "sentence": "THQ seem to want people to buy this game based off IP alone.",
+      "validation_order": 226
+    },
+    {
+      "id": "715400|5595184948702729244|5595184948707510310|comment_excerpt|0",
+      "app_id": "715400",
+      "app_name": "Frozen Flame",
+      "release_date": "2022-11-17",
+      "release_relative_day": -32,
+      "sentence": "Devs have said 10 players for story mode, and 50 for survival.",
+      "validation_order": 227
+    },
+    {
+      "id": "990080|3761104498515749690|3761104498515778390|comment_excerpt|1",
+      "app_id": "990080",
+      "app_name": "Hogwarts Legacy",
+      "release_date": "2023-02-10",
+      "release_relative_day": -3,
+      "sentence": "Digital Deluxe Edition.",
+      "validation_order": 228
+    },
+    {
+      "id": "1361210|3594464430429863545|TOPIC|topic_title|0",
+      "app_id": "1361210",
+      "app_name": "Warhammer 40,000: Darktide",
+      "release_date": "2022-11-30",
+      "release_relative_day": -7,
+      "sentence": "Hellfire ammunition when?",
+      "validation_order": 229
+    },
+    {
+      "id": "1895880|3814032755166166313|3814033305514143081|comment_excerpt|2",
+      "app_id": "1895880",
+      "app_name": "Ratchet & Clank: Rift Apart",
+      "release_date": "2023-07-26",
+      "release_relative_day": -43,
+      "sentence": "Then we have the Spyro reignited trilogy and Crash Bandicoot N-Sane Trilogy, both solid PC ports they got under their belt.",
+      "validation_order": 230
+    },
+    {
+      "id": "1142710|3186860850590439448|TOPIC|topic_title|0",
+      "app_id": "1142710",
+      "app_name": "Total War: WARHAMMER III",
+      "release_date": "2022-02-16",
+      "release_relative_day": -26,
+      "sentence": "Be'lakor is your reward for beating the game",
+      "validation_order": 231
+    },
+    {
+      "id": "2109370|3823033163014402520|3823033617221979179|comment_excerpt|2",
+      "app_id": "2109370",
+      "app_name": "The Great War: Western Front™",
+      "release_date": "2023-03-30",
+      "release_relative_day": -1,
+      "sentence": "This may be the case.",
+      "validation_order": 232
+    },
+    {
+      "id": "1150440|3823038052305767146|TOPIC|topic_summary|0",
+      "app_id": "1150440",
+      "app_name": "Aliens: Dark Descent",
+      "release_date": "2023-06-19",
+      "release_relative_day": -30,
+      "sentence": "Looking at the 2minute gameplay video it looks like you have a squad of five but you can't control them individually.",
+      "validation_order": 233
+    },
+    {
+      "id": "261550|3482997257335227936|3482997257335808527|comment_excerpt|0",
+      "app_id": "261550",
+      "app_name": "Mount & Blade II: Bannerlord",
+      "release_date": "2022-10-25",
+      "release_relative_day": -5,
+      "sentence": "Hm yes, at this point they are probably not taking suggestion for development any more.",
+      "validation_order": 234
+    },
+    {
+      "id": "2701660|4632609554996157799|4632609554996158147|comment_excerpt|0",
+      "app_id": "2701660",
+      "app_name": "DRAGON QUEST III HD-2D Remake",
+      "release_date": "2024-11-15",
+      "release_relative_day": -2,
+      "sentence": "This is Square Enix problem for all their game actually...they clearly think they are the absolute reference of perfect rpg quality and they make it sure you understand it with their price and how long it remains this way hahaha",
+      "validation_order": 235
+    },
+    {
+      "id": "1433140|6363076374194026539|TOPIC|topic_summary|2",
+      "app_id": "1433140",
+      "app_name": "The Texas Chain Saw Massacre",
+      "release_date": "2023-08-18",
+      "release_relative_day": -3,
+      "sentence": "I assume you're just farming for points....",
+      "validation_order": 236
+    },
+    {
+      "id": "1845910|4635986167856105836|TOPIC|topic_summary|1",
+      "app_id": "1845910",
+      "app_name": "Dragon Age™: The Veilguard",
+      "release_date": "2024-11-01",
+      "release_relative_day": -1,
+      "sentence": "I don't want to reason with this guy.",
+      "validation_order": 237
+    },
+    {
+      "id": "1845910|4635985982183755678|TOPIC|topic_summary|2",
+      "app_id": "1845910",
+      "app_name": "Dragon Age™: The Veilguard",
+      "release_date": "2024-11-01",
+      "release_relative_day": -2,
+      "sentence": "So I have a couple questions for the masses.",
+      "validation_order": 238
+    },
+    {
+      "id": "611500|3408677083958171333|3408677083959222064|comment_excerpt|4",
+      "app_id": "611500",
+      "app_name": "Quake Champions",
+      "release_date": "2022-08-18",
+      "release_relative_day": -55,
+      "sentence": "🔹 Totems & turrets are now destroyed at the end of a match🔹 Fixed scoring event medal CONTROLLER description.",
+      "validation_order": 239
+    },
+    {
+      "id": "1486920|603027846150007073|TOPIC|topic_summary|3",
+      "app_id": "1486920",
+      "app_name": "Tempest Rising",
+      "release_date": "2025-04-18",
+      "release_relative_day": -1,
+      "sentence": "Not into MP or skirmishes at all.",
+      "validation_order": 240
+    },
+    {
+      "id": "1361210|3594464960493208315|TOPIC|topic_summary|0",
+      "app_id": "1361210",
+      "app_name": "Warhammer 40,000: Darktide",
+      "release_date": "2022-11-30",
+      "release_relative_day": -3,
+      "sentence": "Been playing a lot and I can say there are some cool and funny voice lines, one of my favorites are ogryn with ''Barrels gonna BOOM'' and Psyker ''Buzzin.... Buzzin...''",
+      "validation_order": 241
+    },
+    {
+      "id": "2993780|508455280334342860|508455280334343210|comment_excerpt|0",
+      "app_id": "2993780",
+      "app_name": "FANTASY LIFE i: The Girl Who Steals Time",
+      "release_date": "2025-05-22",
+      "release_relative_day": -2,
+      "sentence": "I presume #1 at least is purposeful.",
+      "validation_order": 242
+    },
+    {
+      "id": "1689620|624416849890683391|TOPIC|topic_title|0",
+      "app_id": "1689620",
+      "app_name": "BLEACH Rebirth of Souls",
+      "release_date": "2025-03-21",
+      "release_relative_day": -7,
+      "sentence": "the game is releasing on last gen too so whats up with the system requirements??",
+      "validation_order": 243
+    },
+    {
+      "id": "3159330|600768571255058886|600769605204457429|comment_excerpt|1",
+      "app_id": "3159330",
+      "app_name": "Assassin's Creed Shadows",
+      "release_date": "2025-03-20",
+      "release_relative_day": -43,
+      "sentence": "It's 92% positive, your anti-woke crew already tried to neg it and got shut down.",
+      "validation_order": 244
+    },
+    {
+      "id": "1361210|3541546590708315286|3594464430433261560|comment_excerpt|0",
+      "app_id": "1361210",
+      "app_name": "Warhammer 40,000: Darktide",
+      "release_date": "2022-11-30",
+      "release_relative_day": -6,
+      "sentence": "Turn off Ray Tracing, thats probably tanking around 50-60 fps.",
+      "validation_order": 245
+    },
+    {
+      "id": "990080|3761104498515602537|3761104498515639642|comment_excerpt|0",
+      "app_id": "990080",
+      "app_name": "Hogwarts Legacy",
+      "release_date": "2023-02-10",
+      "release_relative_day": -3,
+      "sentence": "Just got off the phone with warner bros, apparently EA for pc is cancelled.",
+      "validation_order": 246
+    },
+    {
+      "id": "1150440|3832043983161140164|3819662254695088799|comment_excerpt|1",
+      "app_id": "1150440",
+      "app_name": "Aliens: Dark Descent",
+      "release_date": "2023-06-19",
+      "release_relative_day": -11,
+      "sentence": "I guess I might be able to play it at medium to high settings then.",
+      "validation_order": 247
+    },
+    {
+      "id": "1944430|3845556684650664705|TOPIC|topic_summary|0",
+      "app_id": "1944430",
+      "app_name": "Amnesia: The Bunker",
+      "release_date": "2023-06-06",
+      "release_relative_day": -13,
+      "sentence": "I think it would be just nice on one of left/right buttons or triggers.",
+      "validation_order": 248
+    },
+    {
+      "id": "1938090|3367027031774846117|TOPIC|topic_title|0",
+      "app_id": "1938090",
+      "app_name": "Call of Duty®",
+      "release_date": "2022-10-27",
+      "release_relative_day": -36,
+      "sentence": "whats the next pro player game after cod?",
+      "validation_order": 249
+    },
+    {
+      "id": "2183900|4763207599013874362|4763207599013880075|comment_excerpt|0",
+      "app_id": "2183900",
+      "app_name": "Warhammer 40,000: Space Marine 2",
+      "release_date": "2024-09-10",
+      "release_relative_day": -5,
+      "sentence": "The people asking cant even read the store page so I wouldn't hold out much hope but its the thought that counts.",
+      "validation_order": 250
+    },
+    {
+      "id": "2701660|6400272499512197515|6400272499512201506|comment_excerpt|5",
+      "app_id": "2701660",
+      "app_name": "DRAGON QUEST III HD-2D Remake",
+      "release_date": "2024-11-15",
+      "release_relative_day": -1,
+      "sentence": "The luck granting crit chance could turn wizards with poisoned needles into assassins.",
+      "validation_order": 251
+    },
+    {
+      "id": "1590760|4630356482652640276|TOPIC|topic_title|0",
+      "app_id": "1590760",
+      "app_name": "Metal Slug Tactics",
+      "release_date": "2024-11-06",
+      "release_relative_day": -8,
+      "sentence": "Ukrainian Localization",
+      "validation_order": 252
+    },
+    {
+      "id": "1172710|595149997463361221|TOPIC|topic_summary|2",
+      "app_id": "1172710",
+      "app_name": "Dune: Awakening",
+      "release_date": "2025-06-11",
+      "release_relative_day": -16,
+      "sentence": "Perhaps even 2 seconds as you can chain multiple CC even as a solo.",
+      "validation_order": 253
+    },
+    {
+      "id": "1084600|6770657417428128205|6770657417430558937|comment_excerpt|0",
+      "app_id": "1084600",
+      "app_name": "My Time at Sandrock",
+      "release_date": "2023-11-02",
+      "release_relative_day": -20,
+      "sentence": "this is happening to me now, with quartz.",
+      "validation_order": 254
+    },
+    {
+      "id": "1649240|3758850980070893421|3758850980071557658|comment_excerpt|1",
+      "app_id": "1649240",
+      "app_name": "Returnal™",
+      "release_date": "2023-02-15",
+      "release_relative_day": -27,
+      "sentence": "THAT is the main reason games are so over-priced, bug-ridden and underwhelming at release.",
+      "validation_order": 255
+    },
+    {
+      "id": "1361210|3541546590716825684|3541546590716857693|comment_excerpt|3",
+      "app_id": "1361210",
+      "app_name": "Warhammer 40,000: Darktide",
+      "release_date": "2022-11-30",
+      "release_relative_day": -10,
+      "sentence": "ogryn weapons are true to the army books as well, (Energy) mace and shield or a short range oversiced autoshotgun good for 2h bashing on top.impirial guard have a basic melee weapon (knife) by the book with no otehr choise, impirial sanctioned Psykers normaly have there 2H Copper Staff (not so much for beating but more for control of there power not roasting themself) and can deem themself happy if they get a Psy Sword (onehanded) as a Melee Weapon.",
+      "validation_order": 256
+    },
+    {
+      "id": "494840|4545904024630236048|4545904024630317772|comment_excerpt|2",
+      "app_id": "494840",
+      "app_name": "UBOAT",
+      "release_date": "2024-08-02",
+      "release_relative_day": -21,
+      "sentence": "I'm definitely more on the sim side than arcade but if the game is fun then that's really what matters.",
+      "validation_order": 257
+    },
+    {
+      "id": "251570|6320322606663043471|TOPIC|topic_title|0",
+      "app_id": "251570",
+      "app_name": "7 Days to Die",
+      "release_date": "2024-07-25",
+      "release_relative_day": -10,
+      "sentence": "I think i broke challenges",
+      "validation_order": 258
+    },
+    {
+      "id": "990080|3757725715255846394|3757725715255870269|comment_excerpt|0",
+      "app_id": "990080",
+      "app_name": "Hogwarts Legacy",
+      "release_date": "2023-02-10",
+      "release_relative_day": -12,
+      "sentence": "Rumour is steam may not get predownload, sadly",
+      "validation_order": 259
+    },
+    {
+      "id": "920210|3186866558202651858|TOPIC|topic_summary|0",
+      "app_id": "920210",
+      "app_name": "LEGO® Star Wars™: The Skywalker Saga",
+      "release_date": "2022-04-05",
+      "release_relative_day": -10,
+      "sentence": "You think this will be worth it or best wait on a sale?",
+      "validation_order": 260
+    },
+    {
+      "id": "2677660|604141771964902892|604141771964908849|comment_excerpt|4",
+      "app_id": "2677660",
+      "app_name": "Indiana Jones and the Great Circle",
+      "release_date": "2024-12-09",
+      "release_relative_day": -2,
+      "sentence": "had a look if the Steam API wasn't loading, but not that.)So if my hardware can't run it, I suspect there is an issue launching.",
+      "validation_order": 261
+    },
+    {
+      "id": "2050650|3790380616226673234|3790380616226730358|comment_excerpt|1",
+      "app_id": "2050650",
+      "app_name": "Resident Evil 4",
+      "release_date": "2023-03-23",
+      "release_relative_day": -14,
+      "sentence": "isnt that like 46 euros ?",
+      "validation_order": 262
+    },
+    {
+      "id": "1777620|3432326587495039941|3321988498655090651|comment_excerpt|0",
+      "app_id": "1777620",
+      "app_name": "Soul Hackers 2",
+      "release_date": "2022-08-25",
+      "release_relative_day": -1,
+      "sentence": "At the risk of sounding ignorant or possibly racist, I wonder if that has something to do with the costume packs and not wanting 'women' to be shown dressed in anything else for that region, since some of the bonus packs are a little risqué (No idea if there's forced censorship regarding this over there )",
+      "validation_order": 263
+    },
+    {
+      "id": "1376200|601899704908794325|601900047372711206|comment_excerpt|0",
+      "app_id": "1376200",
+      "app_name": "KARMA: The Dark World",
+      "release_date": "2025-03-28",
+      "release_relative_day": -1,
+      "sentence": "It's Just A Boring Walking/Run Simulator With ♥♥♥♥ Story & Few Weak \"Riddles\" Like In The Room 🤦♂ It Has Scorn Museum Vibes Mostly 😴 Worth Maximal 10$ (1 Cinema Ticket 👍 Because It Has More CutScenes Than Game Self 😑)Don't Play The DEMO 💯It Skip The Whole Act I WTF 🤨🤷♂",
+      "validation_order": 264
+    },
+    {
+      "id": "494840|4331980200220613322|6811212350653155897|comment_excerpt|2",
+      "app_id": "494840",
+      "app_name": "UBOAT",
+      "release_date": "2024-08-02",
+      "release_relative_day": -46,
+      "sentence": "But it would be such an intense force that I would assume it would meld the metal near the impact and cause a lot of sparks of molten metal flying around.",
+      "validation_order": 265
+    },
+    {
+      "id": "2864560|604158165590763593|604158165590780032|comment_excerpt|3",
+      "app_id": "2864560",
+      "app_name": "Rune Factory: Guardians of Azuma",
+      "release_date": "2025-06-07",
+      "release_relative_day": -2,
+      "sentence": "If you're a long time fan, just be mindful that this is Rune Factory only in name.",
+      "validation_order": 266
+    },
+    {
+      "id": "2456740|565870482296959569|565870482296962113|comment_excerpt|0",
+      "app_id": "2456740",
+      "app_name": "inZOI",
+      "release_date": "2025-03-28",
+      "release_relative_day": -9,
+      "sentence": "I was expecting around $60, how great!",
+      "validation_order": 267
+    },
+    {
+      "id": "2680010|595144405227198942|595144405227201441|comment_excerpt|15",
+      "app_id": "2680010",
+      "app_name": "The First Berserker: Khazan",
+      "release_date": "2025-03-28",
+      "release_relative_day": -3,
+      "sentence": "At half health he will do a tornado so back up.",
+      "validation_order": 268
+    },
+    {
+      "id": "3061810|715612499312936924|TOPIC|topic_title|0",
+      "app_id": "3061810",
+      "app_name": "Like a Dragon: Pirate Yakuza in Hawaii",
+      "release_date": "2025-02-21",
+      "release_relative_day": -4,
+      "sentence": "What karaoke song do you think will be in the deluxe edition?",
+      "validation_order": 269
+    },
+    {
+      "id": "1361210|3498761139322262384|3498761139325909847|comment_excerpt|0",
+      "app_id": "1361210",
+      "app_name": "Warhammer 40,000: Darktide",
+      "release_date": "2022-11-30",
+      "release_relative_day": -25,
+      "sentence": "You guy's need to post your CPU as well when posting your specs!",
+      "validation_order": 270
+    },
+    {
+      "id": "251570|6320322363295397946|6320322363295412723|comment_excerpt|1",
+      "app_id": "251570",
+      "app_name": "7 Days to Die",
+      "release_date": "2024-07-25",
+      "release_relative_day": -12,
+      "sentence": "Maybe their inventory list could be shorter/smaller, maybe they couldn't sell certain things (like magazines, whatever) - but you could sell to them as usual.",
+      "validation_order": 271
+    },
+    {
+      "id": "648410|3881599433112829749|3881599433115197522|comment_excerpt|0",
+      "app_id": "648410",
+      "app_name": "Colony Ship: A Post-Earth Role Playing Game",
+      "release_date": "2023-11-09",
+      "release_relative_day": -12,
+      "sentence": "Maybe I will in the future, with a much different build",
+      "validation_order": 272
+    },
+    {
+      "id": "1816670|3455968685020825177|3436829654714434728|comment_excerpt|1",
+      "app_id": "1816670",
+      "app_name": "GUNDAM EVOLUTION",
+      "release_date": "2022-09-19",
+      "release_relative_day": -31,
+      "sentence": "There's a fair bit in game, even for the flying suits.",
+      "validation_order": 273
+    },
+    {
+      "id": "1593500|3202622816411654872|3202622816411849410|comment_excerpt|3",
+      "app_id": "1593500",
+      "app_name": "God of War",
+      "release_date": "2022-01-14",
+      "release_relative_day": -2,
+      "sentence": "In pre-ordering this I am showing support and hoping they put the originals on Steam.",
+      "validation_order": 274
+    },
+    {
+      "id": "261550|3364775232087401293|3364775232087568205|comment_excerpt|1",
+      "app_id": "261550",
+      "app_name": "Mount & Blade II: Bannerlord",
+      "release_date": "2022-10-25",
+      "release_relative_day": -34,
+      "sentence": "currently there is an broken modding kit it worked in earlier versions hopefully it will be fixed soon.2.",
+      "validation_order": 275
+    },
+    {
+      "id": "315210|4204741588974449032|4204741588974954095|comment_excerpt|0",
+      "app_id": "315210",
+      "app_name": "Suicide Squad: Kill the Justice League",
+      "release_date": "2024-02-03",
+      "release_relative_day": -2,
+      "sentence": "You guys have all the same identical strawmen and talking points but we're the sheep lol.",
+      "validation_order": 276
+    },
+    {
+      "id": "1585180|4759830249544667463|TOPIC|topic_summary|0",
+      "app_id": "1585180",
+      "app_name": "Drova - Forsaken Kin",
+      "release_date": "2024-10-16",
+      "release_relative_day": -39,
+      "sentence": "I played and loved the demo of this on steam and will absolutely be picking it up but recently after seeing the new trailer and finding out its also coming to consoles I would love to play it on switch.",
+      "validation_order": 277
+    },
+    {
+      "id": "674020|5277681174367585070|TOPIC|topic_summary|2",
+      "app_id": "674020",
+      "app_name": "World War 3",
+      "release_date": "2022-12-10",
+      "release_relative_day": -54,
+      "sentence": "Reset to default does not help.",
+      "validation_order": 278
+    },
+    {
+      "id": "1172710|595147526195125981|595148190215357414|comment_excerpt|0",
+      "app_id": "1172710",
+      "app_name": "Dune: Awakening",
+      "release_date": "2025-06-11",
+      "release_relative_day": -36,
+      "sentence": "it looks alot like conan and if its anything like conan It will be an expensive mid tier game with clunky combat and the only thing going for it is the IP",
+      "validation_order": 279
+    },
+    {
+      "id": "1817070|3468352315393730818|3468352315393735725|comment_excerpt|2",
+      "app_id": "1817070",
+      "app_name": "Marvel’s Spider-Man Remastered",
+      "release_date": "2022-08-12",
+      "release_relative_day": -21,
+      "sentence": "The game is 75$ here in Norway.",
+      "validation_order": 280
+    },
+    {
+      "id": "1284190|4345480979781586170|TOPIC|topic_summary|3",
+      "app_id": "1284190",
+      "app_name": "The Planet Crafter",
+      "release_date": "2024-04-10",
+      "release_relative_day": -49,
+      "sentence": "Then it goes all crazy wonky.",
+      "validation_order": 281
+    },
+    {
+      "id": "1840080|4357872852117079898|TOPIC|topic_title|0",
+      "app_id": "1840080",
+      "app_name": "Homeworld 3",
+      "release_date": "2024-05-14",
+      "release_relative_day": -7,
+      "sentence": "HOMEWORLD 3 HAS BIG PROBLEMS",
+      "validation_order": 282
+    },
+    {
+      "id": "2479810|4355620303682342611|TOPIC|topic_summary|0",
+      "app_id": "2479810",
+      "app_name": "Gray Zone Warfare",
+      "release_date": "2024-05-01",
+      "release_relative_day": -1,
+      "sentence": "2x disconected on my way to loot my dead body so result is whole loot is gone..... this starting to be pain in as*........",
+      "validation_order": 283
+    },
+    {
+      "id": "2701660|4635986342046644399|4635986512580774958|comment_excerpt|0",
+      "app_id": "2701660",
+      "app_name": "DRAGON QUEST III HD-2D Remake",
+      "release_date": "2024-11-15",
+      "release_relative_day": -10,
+      "sentence": "Don't think there is any and its not wanted by the majority 99.5% of gamers nor do they feel games need it.",
+      "validation_order": 284
+    },
+    {
+      "id": "2124490|4849904828209762565|TOPIC|topic_summary|0",
+      "app_id": "2124490",
+      "app_name": "SILENT HILL 2",
+      "release_date": "2024-10-08",
+      "release_relative_day": -2,
+      "sentence": "Will we be able to play with familysharing?",
+      "validation_order": 285
+    },
+    {
+      "id": "2000890|4423184558848572261|4845399746427655210|comment_excerpt|3",
+      "app_id": "2000890",
+      "app_name": "MechWarrior 5: Clans",
+      "release_date": "2024-10-17",
+      "release_relative_day": -26,
+      "sentence": "Maybe this will be good but maybe it wont.",
+      "validation_order": 286
+    },
+    {
+      "id": "1845910|4697909843220030915|4697909843220030986|comment_excerpt|0",
+      "app_id": "1845910",
+      "app_name": "Dragon Age™: The Veilguard",
+      "release_date": "2024-11-01",
+      "release_relative_day": -8,
+      "sentence": "It's a possibility since the target audience will be activist games journalists who want to beat the game as quickly as possible along with the tourists that are just going to buy the game to \"own the chuds\"",
+      "validation_order": 287
+    },
+    {
+      "id": "1691340|592889800496854348|592889900452288979|comment_excerpt|0",
+      "app_id": "1691340",
+      "app_name": "Steel Hunters",
+      "release_date": "2025-04-03",
+      "release_relative_day": -40,
+      "sentence": "\"But you see, if you had a 5090, youd have no problems!\"Unreal Engine and Up-scaling is not the future, software should not replace hardware innovation.",
+      "validation_order": 288
+    },
+    {
+      "id": "1060230|3424437779940924811|3424438414111096756|comment_excerpt|0",
+      "app_id": "1060230",
+      "app_name": "Sapiens",
+      "release_date": "2022-07-26",
+      "release_relative_day": -47,
+      "sentence": "The game is only >400mb, meaning a demo of 2 ingame days seems reasonable, definitely made me want to play more.",
+      "validation_order": 289
+    },
+    {
+      "id": "3228590|591769258100339330|591769371817279785|comment_excerpt|0",
+      "app_id": "3228590",
+      "app_name": "Deadzone Rogue",
+      "release_date": "2025-04-30",
+      "release_relative_day": -8,
+      "sentence": "It's just all rng I've had ice a whole ton of those modes no problems",
+      "validation_order": 290
+    },
+    {
+      "id": "1282100|3809533247341466657|3809533247341670224|comment_excerpt|2",
+      "app_id": "1282100",
+      "app_name": "Remnant II",
+      "release_date": "2023-07-25",
+      "release_relative_day": -3,
+      "sentence": "It's entirely possible Steam had an oopsie and managed to screw itself up.",
+      "validation_order": 291
+    },
+    {
+      "id": "2108330|5617721963185966057|3835423585501177961|comment_excerpt|11",
+      "app_id": "2108330",
+      "app_name": "F1® 23",
+      "release_date": "2023-06-15",
+      "release_relative_day": -20,
+      "sentence": "Unfortunately, I can tell you right now, F1 2028,2029 gameplay will be same as F1 2023.",
+      "validation_order": 292
+    },
+    {
+      "id": "2066020|603028938520818053|603028938520819508|comment_excerpt|2",
+      "app_id": "2066020",
+      "app_name": "Soulstone Survivors",
+      "release_date": "2025-06-17",
+      "release_relative_day": -49,
+      "sentence": "I get what you mean about calling it a day, I think, but more modes does \"scratch an itch\" for many players.",
+      "validation_order": 293
+    },
+    {
+      "id": "2300320|4638239054524062668|TOPIC|topic_summary|3",
+      "app_id": "2300320",
+      "app_name": "Farming Simulator 25",
+      "release_date": "2024-11-15",
+      "release_relative_day": -3,
+      "sentence": "Figure it's sliders on T16000..nope.",
+      "validation_order": 294
+    },
+    {
+      "id": "3177970|4840897430880274689|4840896797476320668|comment_excerpt|2",
+      "app_id": "3177970",
+      "app_name": "Bioweaver",
+      "release_date": "2024-11-17",
+      "release_relative_day": -49,
+      "sentence": "Could you please explain in detail under what circumstances the game lag may be triggered?",
+      "validation_order": 295
+    },
+    {
+      "id": "1336490|4040354734352128681|4040354734352168587|comment_excerpt|6",
+      "app_id": "1336490",
+      "app_name": "Against the Storm",
+      "release_date": "2023-12-08",
+      "release_relative_day": -4,
+      "sentence": "3 for the dewbar farmers)",
+      "validation_order": 296
+    },
+    {
+      "id": "2183900|4763208113390145351|4763208113390151936|comment_excerpt|3",
+      "app_id": "2183900",
+      "app_name": "Warhammer 40,000: Space Marine 2",
+      "release_date": "2024-09-10",
+      "release_relative_day": -1,
+      "sentence": "Some steam unpaid intern just had got the counter wrong.",
+      "validation_order": 297
+    },
+    {
+      "id": "251570|4417549985251038599|4417549985252379830|comment_excerpt|26",
+      "app_id": "251570",
+      "app_name": "7 Days to Die",
+      "release_date": "2024-07-25",
+      "release_relative_day": -28,
+      "sentence": "ExecutionContext:Run(ExecutionContext, ContextCallback, Object, Boolean)System.",
+      "validation_order": 298
+    },
+    {
+      "id": "3028310|592890434797219448|TOPIC|topic_summary|4",
+      "app_id": "3028310",
+      "app_name": "Nordhold",
+      "release_date": "2025-03-26",
+      "release_relative_day": -25,
+      "sentence": "My other guess is, that maybe the Artifact that helps with Blocking isn't so good, because I then end up with 90% blocking-ignore instead of 100.",
+      "validation_order": 299
+    },
+    {
+      "id": "1668540|3810657379778797230|TOPIC|topic_title|0",
+      "app_id": "1668540",
+      "app_name": "The Legend of Heroes: Trails into Reverie",
+      "release_date": "2023-07-07",
+      "release_relative_day": -5,
+      "sentence": "I like the characters and story but don't like the battles",
+      "validation_order": 300
+    },
+    {
+      "id": "1844380|3879346121701402961|3879346300822139965|comment_excerpt|0",
+      "app_id": "1844380",
+      "app_name": "Warhammer Age of Sigmar: Realms of Ruin",
+      "release_date": "2023-11-18",
+      "release_relative_day": -39,
+      "sentence": "Yep heavy DoW 2 vibes and feeling from this game.",
+      "validation_order": 301
+    },
+    {
+      "id": "1282100|3809533247344507565|TOPIC|topic_summary|0",
+      "app_id": "1282100",
+      "app_name": "Remnant II",
+      "release_date": "2023-07-25",
+      "release_relative_day": -3,
+      "sentence": "Good day.",
+      "validation_order": 302
+    },
+    {
+      "id": "1408610|3324240298488639539|3324240298488674084|comment_excerpt|0",
+      "app_id": "1408610",
+      "app_name": "Call of the Wild: The Angler™",
+      "release_date": "2022-08-31",
+      "release_relative_day": -2,
+      "sentence": "Yeah, seems like you get points for discovering things, fishing, doing 'quests/missions'; like \"Reserve Bucks\" that they let you spend on things.",
+      "validation_order": 303
+    },
+    {
+      "id": "2183900|4763207947399688609|4763207947399712077|comment_excerpt|2",
+      "app_id": "2183900",
+      "app_name": "Warhammer 40,000: Space Marine 2",
+      "release_date": "2024-09-10",
+      "release_relative_day": -2,
+      "sentence": "You seem to not know the lore of 40k or what true gothic horror is all about.",
+      "validation_order": 304
+    },
+    {
+      "id": "1361210|3541546590709983609|3541546590710032373|comment_excerpt|0",
+      "app_id": "1361210",
+      "app_name": "Warhammer 40,000: Darktide",
+      "release_date": "2022-11-30",
+      "release_relative_day": -12,
+      "sentence": "After playing the psyker I feel brain burst does need some help.",
+      "validation_order": 305
+    },
+    {
+      "id": "505460|3315233099217896906|3315233099219335909|comment_excerpt|1",
+      "app_id": "505460",
+      "app_name": "Foxhole",
+      "release_date": "2022-09-28",
+      "release_relative_day": -33,
+      "sentence": "I honestly don't think it's possible with a controller.",
+      "validation_order": 306
+    },
+    {
+      "id": "1840080|4357873056147295148|4357873276727864741|comment_excerpt|36",
+      "app_id": "1840080",
+      "app_name": "Homeworld 3",
+      "release_date": "2024-05-14",
+      "release_relative_day": -2,
+      "sentence": "It's as if the writers didn't hire a copy editor.",
+      "validation_order": 307
+    },
+    {
+      "id": "1566690|4356743146668950447|4356743146669042113|comment_excerpt|3",
+      "app_id": "1566690",
+      "app_name": "Outpost: Infinity Siege",
+      "release_date": "2024-03-27",
+      "release_relative_day": -1,
+      "sentence": "After that there is no problem",
+      "validation_order": 308
+    },
+    {
+      "id": "2134320|603025951007181777|TOPIC|topic_title|0",
+      "app_id": "2134320",
+      "app_name": "ENA: Dream BBQ",
+      "release_date": "2025-03-28",
+      "release_relative_day": -1,
+      "sentence": "i'ms stuck at the purge",
+      "validation_order": 309
+    },
+    {
+      "id": "2918300|599653352264973265|599653352264973489|comment_excerpt|2",
+      "app_id": "2918300",
+      "app_name": "Splitgate 2 Beta",
+      "release_date": "2025-05-23",
+      "release_relative_day": -1,
+      "sentence": "I'll try to ask for a refund and would do that if i were you :c",
+      "validation_order": 310
+    },
+    {
+      "id": "1938090|3489752656793873747|TOPIC|topic_summary|1",
+      "app_id": "1938090",
+      "app_name": "Call of Duty®",
+      "release_date": "2022-10-27",
+      "release_relative_day": -4,
+      "sentence": "This is a first for me.",
+      "validation_order": 311
+    },
+    {
+      "id": "1928420|3808408963760388198|3812913565882219958|comment_excerpt|0",
+      "app_id": "1928420",
+      "app_name": "Farlight 84",
+      "release_date": "2023-09-21",
+      "release_relative_day": -32,
+      "sentence": "same, after the last update my game keep crashing after 10 minutes playing",
+      "validation_order": 312
+    },
+    {
+      "id": "2688950|6382252791845838062|4846525652482076677|comment_excerpt|1",
+      "app_id": "2688950",
+      "app_name": "Planet Coaster 2",
+      "release_date": "2024-11-07",
+      "release_relative_day": -47,
+      "sentence": "there is a Egyptian sphinx at one part that is warning the riders to turn back or face the curse or something; right before a major drop and speed-up of the current of the water.",
+      "validation_order": 313
+    },
+    {
+      "id": "1845910|4635985982183813970|TOPIC|topic_summary|0",
+      "app_id": "1845910",
+      "app_name": "Dragon Age™: The Veilguard",
+      "release_date": "2024-11-01",
+      "release_relative_day": -1,
+      "sentence": "This will be a Goty for sure!",
+      "validation_order": 314
+    },
+    {
+      "id": "1361210|3594464430433580525|3594464430433584069|comment_excerpt|1",
+      "app_id": "1361210",
+      "app_name": "Warhammer 40,000: Darktide",
+      "release_date": "2022-11-30",
+      "release_relative_day": -6,
+      "sentence": "it seems reasonable to me.",
+      "validation_order": 315
+    },
+    {
+      "id": "1408610|3324240298477017727|3324240298481102046|comment_excerpt|1",
+      "app_id": "1408610",
+      "app_name": "Call of the Wild: The Angler™",
+      "release_date": "2022-08-31",
+      "release_relative_day": -4,
+      "sentence": "I have some concerns about the game, but tell me when was the last time when a game come out without major bugs or perfectly working mechanisms ?",
+      "validation_order": 316
+    },
+    {
+      "id": "920210|3186862565354219707|3192493375698809497|comment_excerpt|3",
+      "app_id": "920210",
+      "app_name": "LEGO® Star Wars™: The Skywalker Saga",
+      "release_date": "2022-04-05",
+      "release_relative_day": -42,
+      "sentence": "Also the games that take more hours to complete are rife with filler missions, extra tasks and the like.",
+      "validation_order": 317
+    },
+    {
+      "id": "2457220|523083364935190417|523083364935193906|comment_excerpt|1",
+      "app_id": "2457220",
+      "app_name": "Avowed",
+      "release_date": "2025-02-19",
+      "release_relative_day": -4,
+      "sentence": "Thats honestly how I even heard about the game.",
+      "validation_order": 318
+    },
+    {
+      "id": "1282100|3809533247347502957|3809533247347535194|comment_excerpt|0",
+      "app_id": "1282100",
+      "app_name": "Remnant II",
+      "release_date": "2023-07-25",
+      "release_relative_day": -2,
+      "sentence": "not every game supports family share and they don't owe you it",
+      "validation_order": 319
+    },
+    {
+      "id": "1361210|3594464430427332596|TOPIC|topic_title|0",
+      "app_id": "1361210",
+      "app_name": "Warhammer 40,000: Darktide",
+      "release_date": "2022-11-30",
+      "release_relative_day": -8,
+      "sentence": "Why not another chaos faction?",
+      "validation_order": 320
+    },
+    {
+      "id": "1677110|4202490864585447390|TOPIC|topic_summary|2",
+      "app_id": "1677110",
+      "app_name": "Lightyear Frontier",
+      "release_date": "2024-03-20",
+      "release_relative_day": -37,
+      "sentence": "This step could contribute to more interaction among Turkish gamers on the platform.",
+      "validation_order": 321
+    },
+    {
+      "id": "1961460|3720566578374137780|TOPIC|topic_summary|1",
+      "app_id": "1961460",
+      "app_name": "Project Playtime",
+      "release_date": "2022-12-12",
+      "release_relative_day": -3,
+      "sentence": "And likely there will be LOTS of kids.",
+      "validation_order": 322
+    },
+    {
+      "id": "1774580|3825286048533215730|6492543723421521269|comment_excerpt|0",
+      "app_id": "1774580",
+      "app_name": "STAR WARS Jedi: Survivor™",
+      "release_date": "2023-04-27",
+      "release_relative_day": -9,
+      "sentence": "._. A little history lesson for you.",
+      "validation_order": 323
+    },
+    {
+      "id": "975370|3498761139319883837|3498761686672758447|comment_excerpt|1",
+      "app_id": "975370",
+      "app_name": "Dwarf Fortress",
+      "release_date": "2022-12-06",
+      "release_relative_day": -28,
+      "sentence": "If you're growing them for fruit or nuts (or some other harvestable product if you've modded it in), you'll want to cut down all the pure wood trees as soon as possible to favor the product-producing trees.",
+      "validation_order": 324
+    },
+    {
+      "id": "1938090|3489752656788929514|3489752656789092528|comment_excerpt|8",
+      "app_id": "1938090",
+      "app_name": "Call of Duty®",
+      "release_date": "2022-10-27",
+      "release_relative_day": -5,
+      "sentence": "Now I have to wait till 28 oct. :(",
+      "validation_order": 325
+    },
+    {
+      "id": "1245620|3183486320462680624|3183486320462770136|comment_excerpt|0",
+      "app_id": "1245620",
+      "app_name": "ELDEN RING",
+      "release_date": "2022-02-24",
+      "release_relative_day": -1,
+      "sentence": "A - Cyberpunk was made by Seedy PR, who have always made janky games that are very overrated.",
+      "validation_order": 326
+    },
+    {
+      "id": "1284190|4299320559084540279|4299320559089173827|comment_excerpt|1",
+      "app_id": "1284190",
+      "app_name": "The Planet Crafter",
+      "release_date": "2024-04-10",
+      "release_relative_day": -32,
+      "sentence": "Like if you built a foundation, whenever you hit ctrl (or whatever key), it triggers the production of a new foundation (until you choose another item, of course).",
+      "validation_order": 327
+    },
+    {
+      "id": "2479810|4355620303681409943|TOPIC|topic_summary|1",
+      "app_id": "2479810",
+      "app_name": "Gray Zone Warfare",
+      "release_date": "2024-05-01",
+      "release_relative_day": -1,
+      "sentence": "Fact check: - Game launches into early access : Early access is by definition NOT A FINAL release , its more like an open beta.",
+      "validation_order": 328
+    },
+    {
+      "id": "261550|3380536561714873283|3380536561715786538|comment_excerpt|13",
+      "app_id": "261550",
+      "app_name": "Mount & Blade II: Bannerlord",
+      "release_date": "2022-10-25",
+      "release_relative_day": -46,
+      "sentence": "Then you just wait while they get picked off by archers and cavalry while smashing up against your shields.",
+      "validation_order": 329
+    },
+    {
+      "id": "1273400|3387291961148369002|TOPIC|topic_summary|2",
+      "app_id": "1273400",
+      "app_name": "Construction Simulator",
+      "release_date": "2022-09-20",
+      "release_relative_day": -10,
+      "sentence": "Will multiplayer work like it did in the previous game?",
+      "validation_order": 330
+    },
+    {
+      "id": "526870|4511002742440419954|4511002742440654606|comment_excerpt|3",
+      "app_id": "526870",
+      "app_name": "Satisfactory",
+      "release_date": "2024-09-10",
+      "release_relative_day": -42,
+      "sentence": "Steam check the other games and no issues.",
+      "validation_order": 331
+    },
+    {
+      "id": "2429640|4434443737395101078|4755326650047836032|comment_excerpt|9",
+      "app_id": "2429640",
+      "app_name": "THRONE AND LIBERTY",
+      "release_date": "2024-10-02",
+      "release_relative_day": -24,
+      "sentence": "It just because time gated work instead of progressing into new fun.",
+      "validation_order": 332
+    },
+    {
+      "id": "1979440|7607215340157405089|7607215340157572616|comment_excerpt|4",
+      "app_id": "1979440",
+      "app_name": "SAND LAND",
+      "release_date": "2024-04-26",
+      "release_relative_day": -38,
+      "sentence": "Here, there's really just kind of nothing except combat.",
+      "validation_order": 333
+    },
+    {
+      "id": "784150|4353368616868596067|4353368787460830849|comment_excerpt|29",
+      "app_id": "784150",
+      "app_name": "Workers & Resources: Soviet Republic",
+      "release_date": "2024-06-20",
+      "release_relative_day": -48,
+      "sentence": "And it is such a waste if you successfully force 7 people to turn up constantly to the heating plant, because even the small heating plant can generate enough hot water to provide heating for a reasonable size city.",
+      "validation_order": 334
+    },
+    {
+      "id": "1938090|3367027031787237559|3367027031787568028|comment_excerpt|1",
+      "app_id": "1938090",
+      "app_name": "Call of Duty®",
+      "release_date": "2022-10-27",
+      "release_relative_day": -32,
+      "sentence": "In theory 150 millions players in the history of Warzone so.. imaging.",
+      "validation_order": 335
+    },
+    {
+      "id": "1774580|3825286682758119469|6492543647688913606|comment_excerpt|0",
+      "app_id": "1774580",
+      "app_name": "STAR WARS Jedi: Survivor™",
+      "release_date": "2023-04-27",
+      "release_relative_day": -14,
+      "sentence": "I feel like aside from Jedi Survivor, the next really good Star Wars game will likely be a Star-field mod..",
+      "validation_order": 336
+    },
+    {
+      "id": "2218750|4516632734725752774|TOPIC|topic_summary|0",
+      "app_id": "2218750",
+      "app_name": "Halls of Torment",
+      "release_date": "2024-09-24",
+      "release_relative_day": -50,
+      "sentence": "I don't know if this is necessarily a bug, but this isn't stated anywhere in the ability's description so I will assume it is.",
+      "validation_order": 337
+    },
+    {
+      "id": "1268590|4294818016876089238|4294818016876296628|comment_excerpt|0",
+      "app_id": "1268590",
+      "app_name": "Millennia",
+      "release_date": "2024-03-27",
+      "release_relative_day": -5,
+      "sentence": "I think the most common theory (or guess if you like) tossed around by people in thesee forums, is that it will be something like in Humankind.",
+      "validation_order": 338
+    },
+    {
+      "id": "1336490|3875969300106354937|TOPIC|topic_summary|0",
+      "app_id": "1336490",
+      "app_name": "Against the Storm",
+      "release_date": "2023-12-08",
+      "release_relative_day": -47,
+      "sentence": "So for instance, if you have a cornerstone that gives +1 to berry production, and you're using a herbalist camp to pick a herb node that has 40% chance to also give a berry.",
+      "validation_order": 339
+    },
+    {
+      "id": "261550|3397427506590860834|TOPIC|topic_summary|4",
+      "app_id": "261550",
+      "app_name": "Mount & Blade II: Bannerlord",
+      "release_date": "2022-10-25",
+      "release_relative_day": -16,
+      "sentence": "The AI ​​does not react to enemy sieges in their land.",
+      "validation_order": 340
+    },
+    {
+      "id": "2479810|4355620303682989256|TOPIC|topic_summary|0",
+      "app_id": "2479810",
+      "app_name": "Gray Zone Warfare",
+      "release_date": "2024-05-01",
+      "release_relative_day": -1,
+      "sentence": "will say game is consistent and has rarely lagged for me",
+      "validation_order": 341
+    },
+    {
+      "id": "1013140|4201364524148225766|4201364524149211970|comment_excerpt|0",
+      "app_id": "1013140",
+      "app_name": "Outcast - A New Beginning",
+      "release_date": "2024-03-16",
+      "release_relative_day": -37,
+      "sentence": "Thank you all for your feedback!",
+      "validation_order": 342
+    },
+    {
+      "id": "2457220|523083237290974751|523083237290974864|comment_excerpt|0",
+      "app_id": "2457220",
+      "app_name": "Avowed",
+      "release_date": "2025-02-19",
+      "release_relative_day": -6,
+      "sentence": "Only human or elfThis is what Obsidian thinks a AAA RPG game should have",
+      "validation_order": 343
+    },
+    {
+      "id": "1361210|5568165891224657708|5568165891229142381|comment_excerpt|0",
+      "app_id": "1361210",
+      "app_name": "Warhammer 40,000: Darktide",
+      "release_date": "2022-11-30",
+      "release_relative_day": -15,
+      "sentence": "What are you on about?",
+      "validation_order": 344
+    },
+    {
+      "id": "915810|4211498059467014995|4211498059469025557|comment_excerpt|2",
+      "app_id": "915810",
+      "app_name": "Midnight Ghost Hunt",
+      "release_date": "2024-03-21",
+      "release_relative_day": -37,
+      "sentence": "You can find them %localappdata%/midnightghosthunt/saved/logsThat will help us narrow down what might be happening for you, and hopefully be able to fix it!",
+      "validation_order": 345
+    },
+    {
+      "id": "1448440|3770113547000224947|3770113547000236277|comment_excerpt|0",
+      "app_id": "1448440",
+      "app_name": "Wo Long: Fallen Dynasty",
+      "release_date": "2023-03-03",
+      "release_relative_day": -4,
+      "sentence": "You cannot, you can only create type 1 or 2",
+      "validation_order": 346
+    },
+    {
+      "id": "1466060|591766704612253345|591766950678398583|comment_excerpt|0",
+      "app_id": "1466060",
+      "app_name": "Tainted Grail: The Fall of Avalon",
+      "release_date": "2025-05-23",
+      "release_relative_day": -57,
+      "sentence": "Hi everyone, weren't localizations in languages other than English supposed to be available with version 0.9?",
+      "validation_order": 347
+    },
+    {
+      "id": "1680880|3766732716814356689|3766732716814645767|comment_excerpt|2",
+      "app_id": "1680880",
+      "app_name": "Forspoken",
+      "release_date": "2023-01-24",
+      "release_relative_day": -1,
+      "sentence": "The PS5 version runs at sub-20fps most of the time.",
+      "validation_order": 348
+    },
+    {
+      "id": "2767030|596260472619028876|596260472619029958|comment_excerpt|1",
+      "app_id": "2767030",
+      "app_name": "Marvel Rivals",
+      "release_date": "2024-12-07",
+      "release_relative_day": -1,
+      "sentence": "All the chicks are manly and angry, except that 300 punds one.",
+      "validation_order": 349
+    },
+    {
+      "id": "2669320|4847651722859488057|TOPIC|topic_summary|5",
+      "app_id": "2669320",
+      "app_name": "EA SPORTS FC™ 25",
+      "release_date": "2024-09-28",
+      "release_relative_day": -5,
+      "sentence": "Does anyone have an idea what I can do?",
+      "validation_order": 350
+    },
+    {
+      "id": "1307660|3765608096040717605|3765608728346420898|comment_excerpt|0",
+      "app_id": "1307660",
+      "app_name": "Ravenbound",
+      "release_date": "2023-03-30",
+      "release_relative_day": -45,
+      "sentence": "Same here these people are stupid.....read the TERMS: They have 3rd party systems churning your data to others for $$$$$",
+      "validation_order": 351
+    },
+    {
+      "id": "928960|3276939640769765452|3276939640771214492|comment_excerpt|2",
+      "app_id": "928960",
+      "app_name": "Godfall",
+      "release_date": "2022-04-07",
+      "release_relative_day": -2,
+      "sentence": "Especially since you really made no valid points about criticizing GodFall besides the always online aspect (which I agree with).GodFall did some things right (combat imo, animations/visuals, Build variety, but not better then Nioh) and a lot wrong on launch (boring valorplates, story, and stale end game).",
+      "validation_order": 352
+    },
+    {
+      "id": "1845910|4843147950370003449|4843148117768503717|comment_excerpt|0",
+      "app_id": "1845910",
+      "app_name": "Dragon Age™: The Veilguard",
+      "release_date": "2024-11-01",
+      "release_relative_day": -40,
+      "sentence": "The character creator give you all the options in your mind, it's not about what your eyes see.",
+      "validation_order": 353
+    },
+    {
+      "id": "1790600|4846527127885051698|4846527127885550629|comment_excerpt|0",
+      "app_id": "1790600",
+      "app_name": "DRAGON BALL: Sparking! ZERO",
+      "release_date": "2024-10-11",
+      "release_relative_day": -4,
+      "sentence": "In theory, it is already time, but the download is still unavailable.",
+      "validation_order": 354
+    },
+    {
+      "id": "1357210|3884974960173201018|3884974960173234119|comment_excerpt|0",
+      "app_id": "1357210",
+      "app_name": "Galactic Civilizations IV",
+      "release_date": "2023-10-19",
+      "release_relative_day": -18,
+      "sentence": "They retain their levels",
+      "validation_order": 355
+    },
+    {
+      "id": "1161830|604148916879924173|600775809837323059|comment_excerpt|4",
+      "app_id": "1161830",
+      "app_name": "Age of Reforging: The Freelands",
+      "release_date": "2025-04-28",
+      "release_relative_day": -14,
+      "sentence": "There seems to hardly be any effort in the game's presentation.",
+      "validation_order": 356
+    },
+    {
+      "id": "990080|3761104498515674142|3761104498516301219|comment_excerpt|2",
+      "app_id": "990080",
+      "app_name": "Hogwarts Legacy",
+      "release_date": "2023-02-10",
+      "release_relative_day": -3,
+      "sentence": "The Steam button is grayed out like it has been for the last day.",
+      "validation_order": 357
+    },
+    {
+      "id": "1662210|4200238454191150678|TOPIC|topic_summary|4",
+      "app_id": "1662210",
+      "app_name": "Arms Trade Tycoon Tanks",
+      "release_date": "2024-02-07",
+      "release_relative_day": -1,
+      "sentence": "Is this normal or other countries are getting in on the purchasetrain later?...",
+      "validation_order": 358
+    },
+    {
+      "id": "1448440|3770113546996846388|3770113546999644374|comment_excerpt|26",
+      "app_id": "1448440",
+      "app_name": "Wo Long: Fallen Dynasty",
+      "release_date": "2023-03-03",
+      "release_relative_day": -4,
+      "sentence": "And don't think for a second I didn't catch that you avoided my logical arguments involving transformers and revenue, and the difference between a person who finished a product and someone who didn't.",
+      "validation_order": 359
+    },
+    {
+      "id": "1114150|4763206964691763755|4763206964692269193|comment_excerpt|18",
+      "app_id": "1114150",
+      "app_name": "CarX Street",
+      "release_date": "2024-08-30",
+      "release_relative_day": -1,
+      "sentence": "Approach with caution is all I'll say.",
+      "validation_order": 360
+    },
+    {
+      "id": "2300320|6589423683861780873|TOPIC|topic_title|0",
+      "app_id": "2300320",
+      "app_name": "Farming Simulator 25",
+      "release_date": "2024-11-15",
+      "release_relative_day": -1,
+      "sentence": "Textures are not loading?",
+      "validation_order": 361
+    },
+    {
+      "id": "1621310|4772128648810994402|3176729019412642992|comment_excerpt|2",
+      "app_id": "1621310",
+      "app_name": "Atelier Sophie 2: The Alchemist of the Mysterious Dream",
+      "release_date": "2022-02-24",
+      "release_relative_day": -21,
+      "sentence": "That \"boss\" may as well have been a 5 million HP dummy.",
+      "validation_order": 362
+    },
+    {
+      "id": "1172710|595151277615299969|595151277615302463|comment_excerpt|1",
+      "app_id": "1172710",
+      "app_name": "Dune: Awakening",
+      "release_date": "2025-06-11",
+      "release_relative_day": -2,
+      "sentence": "Mine wanted to launch the beta client and it has no play button now.",
+      "validation_order": 363
+    },
+    {
+      "id": "962130|5427423328673134240|5427423328673212600|comment_excerpt|15",
+      "app_id": "962130",
+      "app_name": "Grounded",
+      "release_date": "2022-09-27",
+      "release_relative_day": -9,
+      "sentence": "The game time was also significantly higher than any game that I have.",
+      "validation_order": 364
+    },
+    {
+      "id": "526870|4751948774785697179|4751948599940251783|comment_excerpt|1",
+      "app_id": "526870",
+      "app_name": "Satisfactory",
+      "release_date": "2024-09-10",
+      "release_relative_day": -5,
+      "sentence": "To run with my AMD of course.",
+      "validation_order": 365
+    },
+    {
+      "id": "2767030|596260472619016088|596260472619025424|comment_excerpt|1",
+      "app_id": "2767030",
+      "app_name": "Marvel Rivals",
+      "release_date": "2024-12-07",
+      "release_relative_day": -1,
+      "sentence": "Changing to 4000hz polling rate (or lower) seems to fix the issue.",
+      "validation_order": 366
+    },
+    {
+      "id": "2429640|4839771079451638579|4839771079451690848|comment_excerpt|1",
+      "app_id": "2429640",
+      "app_name": "THRONE AND LIBERTY",
+      "release_date": "2024-10-02",
+      "release_relative_day": -2,
+      "sentence": "Characters from EA servers can be transfered to release servers to a later time.",
+      "validation_order": 367
+    },
+    {
+      "id": "990080|3761104498515897130|TOPIC|topic_title|0",
+      "app_id": "990080",
+      "app_name": "Hogwarts Legacy",
+      "release_date": "2023-02-10",
+      "release_relative_day": -3,
+      "sentence": "Secret door leading out to dark arts.",
+      "validation_order": 368
+    },
+    {
+      "id": "1282100|3809533247349558653|3809533247349581164|comment_excerpt|5",
+      "app_id": "1282100",
+      "app_name": "Remnant II",
+      "release_date": "2023-07-25",
+      "release_relative_day": -1,
+      "sentence": "It's like Dark Souls, you have to learn it, basically getting good.",
+      "validation_order": 369
+    },
+    {
+      "id": "2490990|4512128748415445794|4512128748420072215|comment_excerpt|6",
+      "app_id": "2490990",
+      "app_name": "Visions of Mana",
+      "release_date": "2024-08-30",
+      "release_relative_day": -28,
+      "sentence": "PC appears to be fine now.",
+      "validation_order": 370
+    },
+    {
+      "id": "1268590|4201364759910006347|7410182519537972454|comment_excerpt|3",
+      "app_id": "1268590",
+      "app_name": "Millennia",
+      "release_date": "2024-03-27",
+      "release_relative_day": -12,
+      "sentence": "That's needlessly complicating and confusing.",
+      "validation_order": 371
+    },
+    {
+      "id": "2384580|4629232694089231728|4629232694089236127|comment_excerpt|1",
+      "app_id": "2384580",
+      "app_name": "DYNASTY WARRIORS: ORIGINS",
+      "release_date": "2025-01-17",
+      "release_relative_day": -56,
+      "sentence": "kinda remapped jump into it since i dont jump a lot.",
+      "validation_order": 372
+    },
+    {
+      "id": "1643320|4839771250826702809|TOPIC|topic_summary|1",
+      "app_id": "1643320",
+      "app_name": "S.T.A.L.K.E.R. 2: Heart of Chornobyl",
+      "release_date": "2024-11-21",
+      "release_relative_day": -51,
+      "sentence": "Intel 6700K, GTX 1080 Ti, and 32 GB of RAM: what should I upgrade?",
+      "validation_order": 373
+    },
+    {
+      "id": "2399420|7221029098493984533|7221029098494193748|comment_excerpt|4",
+      "app_id": "2399420",
+      "app_name": "Le Mans Ultimate",
+      "release_date": "2024-02-21",
+      "release_relative_day": -1,
+      "sentence": "I think i will return this game.",
+      "validation_order": 374
+    },
+    {
+      "id": "1486920|744883366278492242|603023872658249192|comment_excerpt|2",
+      "app_id": "1486920",
+      "app_name": "Tempest Rising",
+      "release_date": "2025-04-18",
+      "release_relative_day": -45,
+      "sentence": "I think there are only eleven or twelve missions per faction, so it would be a manageable amount of work.",
+      "validation_order": 375
+    },
+    {
+      "id": "2407270|601899933994397656|TOPIC|topic_summary|0",
+      "app_id": "2407270",
+      "app_name": "AI Limit",
+      "release_date": "2025-03-28",
+      "release_relative_day": -1,
+      "sentence": "So we have far to many threads about censorship.",
+      "validation_order": 376
+    },
+    {
+      "id": "1790600|4852156862425388751|TOPIC|topic_title|0",
+      "app_id": "1790600",
+      "app_name": "DRAGON BALL: Sparking! ZERO",
+      "release_date": "2024-10-11",
+      "release_relative_day": -2,
+      "sentence": "what time does it release tomorrrow?",
+      "validation_order": 377
+    },
+    {
+      "id": "1641960|597396873172492210|597396873172492335|comment_excerpt|1",
+      "app_id": "1641960",
+      "app_name": "Forever Skies",
+      "release_date": "2025-04-14",
+      "release_relative_day": -13,
+      "sentence": "I have had it happen.",
+      "validation_order": 378
+    },
+    {
+      "id": "674020|3551679689856170625|3551679689870650028|comment_excerpt|1",
+      "app_id": "674020",
+      "app_name": "World War 3",
+      "release_date": "2022-12-10",
+      "release_relative_day": -19,
+      "sentence": "Please keep things civil, we are listening to feedback concerning various weapons and balance.",
+      "validation_order": 379
+    },
+    {
+      "id": "2478970|4131557115914595661|4141690823051816233|comment_excerpt|3",
+      "app_id": "2478970",
+      "app_name": "Tomb Raider I-III Remastered Starring Lara Croft",
+      "release_date": "2024-02-14",
+      "release_relative_day": -17,
+      "sentence": "But I guess Donkey Kong Country 2 is a survival horror game now.",
+      "validation_order": 380
+    },
+    {
+      "id": "2494350|4356744224518488554|4361250086032641609|comment_excerpt|1",
+      "app_id": "2494350",
+      "app_name": "Pro Cycling Manager 2024",
+      "release_date": "2024-06-06",
+      "release_relative_day": -34,
+      "sentence": "Maybe you just need to switch game..and try to play the right for you.",
+      "validation_order": 381
+    },
+    {
+      "id": "1811260|3453716885203103830|3453716885203296466|comment_excerpt|1",
+      "app_id": "1811260",
+      "app_name": "EA SPORTS™ FIFA 23",
+      "release_date": "2022-09-29",
+      "release_relative_day": -53,
+      "sentence": "Your graphic card is slightly behind the 1660 which is the recommended one.",
+      "validation_order": 382
+    },
+    {
+      "id": "2124490|4849904631718090493|4849904631722002371|comment_excerpt|3",
+      "app_id": "2124490",
+      "app_name": "SILENT HILL 2",
+      "release_date": "2024-10-08",
+      "release_relative_day": -2,
+      "sentence": "You learn more stuff as you reply and see the game differently.",
+      "validation_order": 383
+    },
+    {
+      "id": "1361210|3594464430437117815|3594464430437124576|comment_excerpt|0",
+      "app_id": "1361210",
+      "app_name": "Warhammer 40,000: Darktide",
+      "release_date": "2022-11-30",
+      "release_relative_day": -5,
+      "sentence": "It may only apply to the grimoire you pick up.",
+      "validation_order": 384
+    },
+    {
+      "id": "1928980|4211497235892027847|4211498059466333592|comment_excerpt|4",
+      "app_id": "1928980",
+      "app_name": "Nightingale",
+      "release_date": "2024-02-22",
+      "release_relative_day": -10,
+      "sentence": "There are things (UI...cough) that I already have a distaste for but my main concern is the capacity of the servers.",
+      "validation_order": 385
+    },
+    {
+      "id": "768200|4041483618125017959|TOPIC|topic_summary|2",
+      "app_id": "768200",
+      "app_name": "Smalland: Survive the Wilds",
+      "release_date": "2024-02-15",
+      "release_relative_day": -41,
+      "sentence": "it needs more story elements as well as upgrades for all workstations.",
+      "validation_order": 386
+    },
+    {
+      "id": "1790600|4852156862424191481|4852156862424253757|comment_excerpt|0",
+      "app_id": "1790600",
+      "app_name": "DRAGON BALL: Sparking! ZERO",
+      "release_date": "2024-10-11",
+      "release_relative_day": -2,
+      "sentence": "I have the same problem",
+      "validation_order": 387
+    },
+    {
+      "id": "886250|6792046983685698241|6792046983686875497|comment_excerpt|0",
+      "app_id": "886250",
+      "app_name": "Vegas Infinite by PokerStars",
+      "release_date": "2023-11-10",
+      "release_relative_day": -54,
+      "sentence": "I hope that through flat version of the game, you'll be able to see the movements of VR players.",
+      "validation_order": 388
+    },
+    {
+      "id": "990080|3761104498515664952|TOPIC|topic_title|0",
+      "app_id": "990080",
+      "app_name": "Hogwarts Legacy",
+      "release_date": "2023-02-10",
+      "release_relative_day": -3,
+      "sentence": "Bonus tip - and enjoy your game!",
+      "validation_order": 389
+    },
+    {
+      "id": "2290000|6426156954544253415|TOPIC|topic_summary|2",
+      "app_id": "2290000",
+      "app_name": "TerraScape",
+      "release_date": "2024-07-17",
+      "release_relative_day": -3,
+      "sentence": "It's a refreshing surprise, and I hope other developers will learn something from your good example.",
+      "validation_order": 390
+    },
+    {
+      "id": "3099020|4851030723894646170|TOPIC|topic_summary|6",
+      "app_id": "3099020",
+      "app_name": "Fast Food Simulator: Prologue",
+      "release_date": "2024-10-08",
+      "release_relative_day": -1,
+      "sentence": "Maybe you should rethink the single player.",
+      "validation_order": 391
+    },
+    {
+      "id": "1016950|3776868105351386027|TOPIC|topic_summary|1",
+      "app_id": "1016950",
+      "app_name": "Blood Bowl 3",
+      "release_date": "2023-02-23",
+      "release_relative_day": -3,
+      "sentence": "It has also been encountered during the test version.",
+      "validation_order": 392
+    },
+    {
+      "id": "251570|4417550902862815799|4417551094432918110|comment_excerpt|19",
+      "app_id": "251570",
+      "app_name": "7 Days to Die",
+      "release_date": "2024-07-25",
+      "release_relative_day": -17,
+      "sentence": "I think there would be less contention if an option was introduced in the game: Learn By DoingLearn By StudyI do get that searching for magazines does in fact encourage the player to explore specific areas for certain magazines.",
+      "validation_order": 393
+    },
+    {
+      "id": "1845910|4635985982183749203|4635985982183751246|comment_excerpt|23",
+      "app_id": "1845910",
+      "app_name": "Dragon Age™: The Veilguard",
+      "release_date": "2024-11-01",
+      "release_relative_day": -2,
+      "sentence": "But at least it would be something that they might not resolve as easily on their own.",
+      "validation_order": 394
+    },
+    {
+      "id": "1928980|7221029098493763598|7221029098493774196|comment_excerpt|1",
+      "app_id": "1928980",
+      "app_name": "Nightingale",
+      "release_date": "2024-02-22",
+      "release_relative_day": -2,
+      "sentence": "Every game has this issue.",
+      "validation_order": 395
+    },
+    {
+      "id": "1466060|601904795201158249|TOPIC|topic_summary|2",
+      "app_id": "1466060",
+      "app_name": "Tainted Grail: The Fall of Avalon",
+      "release_date": "2025-05-23",
+      "release_relative_day": -1,
+      "sentence": "Maybe in a 1v1 vs random mobs if you abuse shields, you may just feel like you can do something.",
+      "validation_order": 396
+    },
+    {
+      "id": "2382520|506199960687028041|TOPIC|topic_summary|1",
+      "app_id": "2382520",
+      "app_name": "Erenshor",
+      "release_date": "2025-04-15",
+      "release_relative_day": -10,
+      "sentence": "It would be great to have the center of the screen not cluttered with it.",
+      "validation_order": 397
+    },
+    {
+      "id": "1363080|4362374548286823012|TOPIC|topic_summary|0",
+      "app_id": "1363080",
+      "app_name": "Manor Lords",
+      "release_date": "2024-04-27",
+      "release_relative_day": -10,
+      "sentence": "That's unfair, a lot of streamers get early access but people who have supported the game since day one and in the beta where you helped with messages to improve the game don't have early access?",
+      "validation_order": 398
+    },
+    {
+      "id": "1245620|4543572701313055894|4543572701313263536|comment_excerpt|0",
+      "app_id": "1245620",
+      "app_name": "ELDEN RING",
+      "release_date": "2022-02-24",
+      "release_relative_day": -9,
+      "sentence": "Looks like i will play confessor then",
+      "validation_order": 399
+    },
+    {
+      "id": "2108330|3823036783915884193|TOPIC|topic_summary|5",
+      "app_id": "2108330",
+      "app_name": "F1® 23",
+      "release_date": "2023-06-15",
+      "release_relative_day": -38,
+      "sentence": "FIFA 23 hv random banned, wonder it will come to F1 too, cz it hv online mode.",
+      "validation_order": 400
+    },
+    {
+      "id": "315210|6852856640101395011|6852856640101442873|comment_excerpt|0",
+      "app_id": "315210",
+      "app_name": "Suicide Squad: Kill the Justice League",
+      "release_date": "2024-02-03",
+      "release_relative_day": -18,
+      "sentence": "Oh btw, this group can actually hurt The Justice League.",
+      "validation_order": 401
+    },
+    {
+      "id": "1944430|3843305689132247894|3843305689142400273|comment_excerpt|0",
+      "app_id": "1944430",
+      "app_name": "Amnesia: The Bunker",
+      "release_date": "2023-06-06",
+      "release_relative_day": -1,
+      "sentence": "We're locking this thread as it has devolved into non-productive argument.",
+      "validation_order": 402
+    },
+    {
+      "id": "1928980|7221029098493445336|7221029098493644700|comment_excerpt|4",
+      "app_id": "1928980",
+      "app_name": "Nightingale",
+      "release_date": "2024-02-22",
+      "release_relative_day": -2,
+      "sentence": "however, that's another story.",
+      "validation_order": 403
+    },
+    {
+      "id": "1172710|595151065797689065|595151167064963746|comment_excerpt|0",
+      "app_id": "1172710",
+      "app_name": "Dune: Awakening",
+      "release_date": "2025-06-11",
+      "release_relative_day": -4,
+      "sentence": "Asmon is so bad at every game he plays, i cant stand watching him try to understand mechanics for 5-10 min instead of reading anything or even trying to comprehend what he is doing.. He is a man that cant take care of himself, his home or understand the most simple of concepts in some games - and somehow the latter is his job.. I cant for the life of me understand how someone can look at him to make informed decisions.",
+      "validation_order": 404
+    },
+    {
+      "id": "990080|5792223132443507863|5792223132446996281|comment_excerpt|1",
+      "app_id": "990080",
+      "app_name": "Hogwarts Legacy",
+      "release_date": "2023-02-10",
+      "release_relative_day": -55,
+      "sentence": "It may be bugged to the deepest, darkest pits of hell and back, we won't know until it drops, but you can still refund it.",
+      "validation_order": 405
+    },
+    {
+      "id": "261550|3364775232086754380|TOPIC|topic_summary|0",
+      "app_id": "261550",
+      "app_name": "Mount & Blade II: Bannerlord",
+      "release_date": "2022-10-25",
+      "release_relative_day": -34,
+      "sentence": "Hello, so my problem is that my game is crashing every time when i start time on one specific campaign (i spent 30h+ on this run so i'am pretty sad that i cannot play it) i have bunch of mods but i think that cause of this all, is there is too many wanderers in armies. (",
+      "validation_order": 406
+    },
+    {
+      "id": "1284210|3432326055087778917|3432326055088649174|comment_excerpt|3",
+      "app_id": "1284210",
+      "app_name": "Guild Wars 2",
+      "release_date": "2022-08-23",
+      "release_relative_day": -3,
+      "sentence": "I think you will enjoy Firebrand if you like a Paladin-like support character.",
+      "validation_order": 407
+    },
+    {
+      "id": "2183900|4763208113392364163|TOPIC|topic_title|0",
+      "app_id": "2183900",
+      "app_name": "Warhammer 40,000: Space Marine 2",
+      "release_date": "2024-09-10",
+      "release_relative_day": -1,
+      "sentence": "Literally CANNOT play any PvE game mode because I cant see the enemy or ally models",
+      "validation_order": 408
+    },
+    {
+      "id": "2878960|596268777261241766|TOPIC|topic_summary|0",
+      "app_id": "2878960",
+      "app_name": "WWE 2K25",
+      "release_date": "2025-03-14",
+      "release_relative_day": -7,
+      "sentence": "I'm having trouble accessing the image upload page doesn't wanna load anyone know if its down or anything",
+      "validation_order": 409
+    },
+    {
+      "id": "954850|3772364949839878165|3772364949842675021|comment_excerpt|11",
+      "app_id": "954850",
+      "app_name": "Kerbal Space Program 2",
+      "release_date": "2023-02-24",
+      "release_relative_day": -1,
+      "sentence": "All planets have 0 inclination compared to their orbit (actually, I am not sure if KSP2 has the same thing).",
+      "validation_order": 410
+    },
+    {
+      "id": "3159330|612032374411156515|612032374411157729|comment_excerpt|0",
+      "app_id": "3159330",
+      "app_name": "Assassin's Creed Shadows",
+      "release_date": "2025-03-20",
+      "release_relative_day": -1,
+      "sentence": "can i do that with a free vpn?",
+      "validation_order": 411
+    },
+    {
+      "id": "1944570|3761104049334324532|3761104049334447869|comment_excerpt|0",
+      "app_id": "1944570",
+      "app_name": "Boneraiser Minions",
+      "release_date": "2023-03-09",
+      "release_relative_day": -36,
+      "sentence": "Thanks fixed (v25.3). :]",
+      "validation_order": 412
+    },
+    {
+      "id": "1934680|4768836464225529345|4764333498916775969|comment_excerpt|1",
+      "app_id": "1934680",
+      "app_name": "Age of Mythology: Retold",
+      "release_date": "2024-09-05",
+      "release_relative_day": -1,
+      "sentence": "You need to turn on your headset after the game starts.",
+      "validation_order": 413
+    },
+    {
+      "id": "538030|7222135213513151505|7222135213513924089|comment_excerpt|0",
+      "app_id": "538030",
+      "app_name": "Xenonauts 2",
+      "release_date": "2023-07-18",
+      "release_relative_day": -1,
+      "sentence": "I bet people can't stand hanging out with you.",
+      "validation_order": 414
+    },
+    {
+      "id": "1496790|3395176266129575290|3642874410681347918|comment_excerpt|0",
+      "app_id": "1496790",
+      "app_name": "Gotham Knights",
+      "release_date": "2022-10-21",
+      "release_relative_day": -9,
+      "sentence": "No idea. When I try stealth, I usually plan to go in quietly, get spotted, and then switch to an all-out approach. I have the stealth skills of a rock band.",
+      "validation_order": 415
+    },
+    {
+      "id": "1662210|4200238454190711049|TOPIC|topic_summary|0",
+      "app_id": "1662210",
+      "app_name": "Arms Trade Tycoon Tanks",
+      "release_date": "2024-02-07",
+      "release_relative_day": -1,
+      "sentence": "I don't know if its my computer or the game but the graphics are bad.",
+      "validation_order": 416
+    },
+    {
+      "id": "2130460|3781373213479310688|3781373213482397490|comment_excerpt|0",
+      "app_id": "2130460",
+      "app_name": "FATAL FRAME / PROJECT ZERO: Mask of the Lunar Eclipse",
+      "release_date": "2023-03-08",
+      "release_relative_day": -1,
+      "sentence": "If this performs well at 4K 60 FPS with semi decent mouse and keyboard controls (I KNOW not to expect Surround Sound at all even if the original had it, too), I will deal with it, but if it isn't good I'm buying a physical copy for PS5, got it in the cart at Play Asia..",
+      "validation_order": 417
+    },
+    {
+      "id": "2138720|594024420581847524|594026244919547186|comment_excerpt|0",
+      "app_id": "2138720",
+      "app_name": "REMATCH",
+      "release_date": "2025-06-20",
+      "release_relative_day": -2,
+      "sentence": "People who want 3v3 are the same people who don't actually pass the ball and want to solo run the entire pitch.",
+      "validation_order": 418
+    },
+    {
+      "id": "2479810|4358998116395670515|TOPIC|topic_summary|2",
+      "app_id": "2479810",
+      "app_name": "Gray Zone Warfare",
+      "release_date": "2024-05-01",
+      "release_relative_day": -1,
+      "sentence": "My wife's pc is I9 with RTX-2080 running this game at 1080 or full HD.",
+      "validation_order": 419
+    },
+    {
+      "id": "1995520|4342113429989520223|TOPIC|topic_summary|0",
+      "app_id": "1995520",
+      "app_name": "Pax Dei",
+      "release_date": "2024-06-20",
+      "release_relative_day": -8,
+      "sentence": "So if you haven't read the fine print or scrolled down towards the bottom of the Pax Dei business model, highly likely we will be paying a subscription fee to continue use of the additional plots that Pax Dei is charging you for the higher tiers to get to begin with.",
+      "validation_order": 420
+    },
+    {
+      "id": "954850|3759978149436259892|3779119714747908299|comment_excerpt|2",
+      "app_id": "954850",
+      "app_name": "Kerbal Space Program 2",
+      "release_date": "2023-02-24",
+      "release_relative_day": -9,
+      "sentence": "Why cry about it on a forum?",
+      "validation_order": 421
+    },
+    {
+      "id": "867210|4356743320307961904|4356743320308309967|comment_excerpt|1",
+      "app_id": "867210",
+      "app_name": "Songs of Conquest",
+      "release_date": "2024-05-20",
+      "release_relative_day": -52,
+      "sentence": "You've got the Fey Noble as the Arleon fey path T3 unitYou've got dragons as the T3 unit for Rana and turle sages as the quasi T3 unitYou've got the Hellroars as the T3 unit for Barya and assassins as the quasi T3 unitYou've got the Legions as the T3 unit For Loth and Necromancers as the quasi T3 unit - ain't the biggest fan of the latter unit, tbh",
+      "validation_order": 422
+    },
+    {
+      "id": "1361210|3594464430437552497|TOPIC|topic_summary|2",
+      "app_id": "1361210",
+      "app_name": "Warhammer 40,000: Darktide",
+      "release_date": "2022-11-30",
+      "release_relative_day": -5,
+      "sentence": "Now I play Heresy and behold: Level 5 and 6 join into the quickplay.",
+      "validation_order": 423
+    },
+    {
+      "id": "1794960|3419934814469204187|TOPIC|topic_summary|1",
+      "app_id": "1794960",
+      "app_name": "Sonic Origins",
+      "release_date": "2022-06-22",
+      "release_relative_day": -13,
+      "sentence": "Jun Senoue has been working really hard to adapt the original music that was composed in 1993 for Origins,\" \"It was also added that Senoue (@crush40) is reproducing portions of the S3&K soundtrack in #SonicOrigins \"with the same soundchip from the SEGA Genesis, and using his own digital audio tape collection to make as faithful to the original as possible.\"...",
+      "validation_order": 424
+    },
+    {
+      "id": "534380|5015323495608057920|5015323495608091293|comment_excerpt|0",
+      "app_id": "534380",
+      "app_name": "Dying Light 2: Reloaded Edition",
+      "release_date": "2022-02-03",
+      "release_relative_day": -2,
+      "sentence": "Just wait for the release and test It yourself, Min / med / high requirements are just requirements on paper.",
+      "validation_order": 425
+    },
+    {
+      "id": "1142710|5034464604306371679|5034464604306825389|comment_excerpt|0",
+      "app_id": "1142710",
+      "app_name": "Total War: WARHAMMER III",
+      "release_date": "2022-02-16",
+      "release_relative_day": -2,
+      "sentence": "This is the OP's first post (under this name) since 2015.",
+      "validation_order": 426
+    },
+    {
+      "id": "1712350|4407416886082814465|TOPIC|topic_summary|9",
+      "app_id": "1712350",
+      "app_name": "Riven",
+      "release_date": "2024-06-26",
+      "release_relative_day": -1,
+      "sentence": "Close the app and start Riven.",
+      "validation_order": 427
+    },
+    {
+      "id": "3255380|597398453436317833|597398453436326003|comment_excerpt|1",
+      "app_id": "3255380",
+      "app_name": "LUNAR Remastered Collection",
+      "release_date": "2025-04-19",
+      "release_relative_day": -1,
+      "sentence": "Why should others make way for spineless losers that can't exist outside of their own metaphorical padded room safe spaces?",
+      "validation_order": 428
+    },
+    {
+      "id": "1693980|3770110614220048706|3770110614220314522|comment_excerpt|2",
+      "app_id": "1693980",
+      "app_name": "Dead Space",
+      "release_date": "2023-01-27",
+      "release_relative_day": -1,
+      "sentence": "They're all extremely biased, in support of censorship, and fail to mention the crashing and animation glitches.",
+      "validation_order": 429
+    },
+    {
+      "id": "1937500|3803901559414628383|3803901559414934107|comment_excerpt|0",
+      "app_id": "1937500",
+      "app_name": "Let's School",
+      "release_date": "2023-07-26",
+      "release_relative_day": -25,
+      "sentence": "The cat is intentional.",
+      "validation_order": 430
+    },
+    {
+      "id": "899770|7198510808235878975|TOPIC|topic_summary|4",
+      "app_id": "899770",
+      "app_name": "Last Epoch",
+      "release_date": "2024-02-21",
+      "release_relative_day": -4,
+      "sentence": "Hell, add in another entire dungeon and have a special fuser as the end.",
+      "validation_order": 431
+    },
+    {
+      "id": "1245620|3183486320462059722|3183486320462122368|comment_excerpt|0",
+      "app_id": "1245620",
+      "app_name": "ELDEN RING",
+      "release_date": "2022-02-24",
+      "release_relative_day": -1,
+      "sentence": "can't wait to completely obliterate reds as a blue phantom and then read all the threads winning how pvp is balanced towards the host",
+      "validation_order": 432
+    },
+    {
+      "id": "1790600|4846526931619954342|4846526931621733928|comment_excerpt|0",
+      "app_id": "1790600",
+      "app_name": "DRAGON BALL: Sparking! ZERO",
+      "release_date": "2024-10-11",
+      "release_relative_day": -7,
+      "sentence": "No I don’t watch trailers, no I don’t care about social interaction and I don’t care about cinematic transformations.",
+      "validation_order": 433
+    },
+    {
+      "id": "2353250|599638625087403128|599638625087403248|comment_excerpt|2",
+      "app_id": "2353250",
+      "app_name": "Astrometica",
+      "release_date": "2024-12-12",
+      "release_relative_day": -1,
+      "sentence": "A base can be either round or rectangular, so haters are going to make either on or the other connection to any game.",
+      "validation_order": 434
+    },
+    {
+      "id": "1677110|4202490036020574105|TOPIC|topic_summary|6",
+      "app_id": "1677110",
+      "app_name": "Lightyear Frontier",
+      "release_date": "2024-03-20",
+      "release_relative_day": -45,
+      "sentence": "I found the movement in the mecha to be a bit too sluggish.",
+      "validation_order": 435
+    },
+    {
+      "id": "1158160|3940146862837862238|TOPIC|topic_title|0",
+      "app_id": "1158160",
+      "app_name": "Coral Island",
+      "release_date": "2023-11-14",
+      "release_relative_day": -10,
+      "sentence": "Petrified Perpetrator",
+      "validation_order": 436
+    },
+    {
+      "id": "1361210|3594464430435154003|3594464430437864332|comment_excerpt|10",
+      "app_id": "1361210",
+      "app_name": "Warhammer 40,000: Darktide",
+      "release_date": "2022-11-30",
+      "release_relative_day": -5,
+      "sentence": "But more and more I think, it's the load out of weapons that needs to be balanced amongst the team, less so than the characters itself.",
+      "validation_order": 437
+    },
+    {
+      "id": "1604270|599651729653391050|599651729653394221|comment_excerpt|0",
+      "app_id": "1604270",
+      "app_name": "Broken Arrow",
+      "release_date": "2025-06-20",
+      "release_relative_day": -47,
+      "sentence": "No you can't anticipate anything because there's 5 people per team with 2 specializations each.",
+      "validation_order": 438
+    },
+    {
+      "id": "1084600|3883851232930177336|TOPIC|topic_summary|2",
+      "app_id": "1084600",
+      "app_name": "My Time at Sandrock",
+      "release_date": "2023-11-02",
+      "release_relative_day": -4,
+      "sentence": "But I can only do that if I upgrade my machines.",
+      "validation_order": 439
+    },
+    {
+      "id": "990080|3757725715249230159|3757725715249290388|comment_excerpt|0",
+      "app_id": "990080",
+      "app_name": "Hogwarts Legacy",
+      "release_date": "2023-02-10",
+      "release_relative_day": -14,
+      "sentence": "Dammit, we need footage of a hardboiled player doing the nasty on hardcore difficulty.",
+      "validation_order": 440
+    },
+    {
+      "id": "1114150|4763206964691661521|4763206964691697944|comment_excerpt|3",
+      "app_id": "1114150",
+      "app_name": "CarX Street",
+      "release_date": "2024-08-30",
+      "release_relative_day": -1,
+      "sentence": "although your cpu should handle it with no issue.",
+      "validation_order": 441
+    },
+    {
+      "id": "1677110|4202490864585721386|TOPIC|topic_summary|1",
+      "app_id": "1677110",
+      "app_name": "Lightyear Frontier",
+      "release_date": "2024-03-20",
+      "release_relative_day": -37,
+      "sentence": "I quite liked the short demo, and it made me want to see more.",
+      "validation_order": 442
+    },
+    {
+      "id": "1746930|4331979876127076040|4331980041758929494|comment_excerpt|1",
+      "app_id": "1746930",
+      "app_name": "SunnySide",
+      "release_date": "2024-06-15",
+      "release_relative_day": -6,
+      "sentence": "Shadows seems to be the worst offender, anything but Low sees a massive framerate drop, and Low looks terrible, it's effectively No Shadows.",
+      "validation_order": 443
+    },
+    {
+      "id": "990080|3761104498515069641|3761104498515090612|comment_excerpt|1",
+      "app_id": "990080",
+      "app_name": "Hogwarts Legacy",
+      "release_date": "2023-02-10",
+      "release_relative_day": -3,
+      "sentence": "Today must be difficult for them, with all those people arguing about a game that they will probably hack sooner or later.",
+      "validation_order": 444
+    },
+    {
+      "id": "990080|3757725715255760904|TOPIC|topic_summary|1",
+      "app_id": "990080",
+      "app_name": "Hogwarts Legacy",
+      "release_date": "2023-02-10",
+      "release_relative_day": -12,
+      "sentence": "Is it a common practice to only show consoles' gameplay?",
+      "validation_order": 445
+    },
+    {
+      "id": "1307660|3765608096042945577|3765608096043015879|comment_excerpt|1",
+      "app_id": "1307660",
+      "app_name": "Ravenbound",
+      "release_date": "2023-03-30",
+      "release_relative_day": -51,
+      "sentence": "screenshots look nice, but an acoount for a demo is just asking people to not try the game",
+      "validation_order": 446
+    },
+    {
+      "id": "2239150|4757577647516649074|TOPIC|topic_summary|0",
+      "app_id": "2239150",
+      "app_name": "Thronefall",
+      "release_date": "2024-10-11",
+      "release_relative_day": -42,
+      "sentence": "I hope the game called Kingshot is you guys, because they are using your game-play to advertise their game.",
+      "validation_order": 447
+    },
+    {
+      "id": "2124490|4849904828211019594|4849904828211033753|comment_excerpt|1",
+      "app_id": "2124490",
+      "app_name": "SILENT HILL 2",
+      "release_date": "2024-10-08",
+      "release_relative_day": -2,
+      "sentence": "Maybe it’s your tv or monitor, this game is supposed to be dark",
+      "validation_order": 448
+    },
+    {
+      "id": "1351240|4297068552118771769|TOPIC|topic_summary|1",
+      "app_id": "1351240",
+      "app_name": "Taxi Life: A City Driving Simulator",
+      "release_date": "2024-03-08",
+      "release_relative_day": -1,
+      "sentence": "The steering wheel works perfectly, but the game doesn't recognize the gas and brake",
+      "validation_order": 449
+    },
+    {
+      "id": "3017860|603020257754392724|599651626189400110|comment_excerpt|0",
+      "app_id": "3017860",
+      "app_name": "DOOM: The Dark Ages",
+      "release_date": "2025-05-15",
+      "release_relative_day": -11,
+      "sentence": "I just wait for sales",
+      "validation_order": 450
+    },
+    {
+      "id": "2772750|4694531508754552755|TOPIC|topic_summary|1",
+      "app_id": "2772750",
+      "app_name": "Age of History 3",
+      "release_date": "2024-10-24",
+      "release_relative_day": -7,
+      "sentence": "Will there be some sort of interceptors or anti-air defenses building?",
+      "validation_order": 451
+    },
+    {
+      "id": "1062520|603027101813056740|TOPIC|topic_summary|8",
+      "app_id": "1062520",
+      "app_name": "Dinkum",
+      "release_date": "2025-04-22",
+      "release_relative_day": -57,
+      "sentence": "I would like to know the meanings of buffs, but there are not many people playing in my country, so there is no information available.",
+      "validation_order": 452
+    },
+    {
+      "id": "1812450|4364626948848195293|4364626948848650945|comment_excerpt|1",
+      "app_id": "1812450",
+      "app_name": "Bellwright",
+      "release_date": "2024-04-24",
+      "release_relative_day": -1,
+      "sentence": "I guess that seems fair.",
+      "validation_order": 453
+    },
+    {
+      "id": "2321470|6292161380805723098|TOPIC|topic_summary|0",
+      "app_id": "2321470",
+      "app_name": "Deep Rock Galactic: Survivor",
+      "release_date": "2024-02-15",
+      "release_relative_day": -1,
+      "sentence": "welp ill try agian but if it happens agian guess ill refund it.",
+      "validation_order": 454
+    },
+    {
+      "id": "1643320|7051042646089874525|7051042646089874992|comment_excerpt|0",
+      "app_id": "1643320",
+      "app_name": "S.T.A.L.K.E.R. 2: Heart of Chornobyl",
+      "release_date": "2024-11-21",
+      "release_relative_day": -6,
+      "sentence": "Awesome thanks guys, decision made then :D",
+      "validation_order": 455
+    },
+    {
+      "id": "3569500|819206164467175737|TOPIC|topic_summary|7",
+      "app_id": "3569500",
+      "app_name": "Card Shop Simulator Multiplayer",
+      "release_date": "2025-06-19",
+      "release_relative_day": -1,
+      "sentence": "The game needs filters to search for cards, either by name (fistyape, eyelone), or by element (fire, water, etc.)...",
+      "validation_order": 456
+    },
+    {
+      "id": "990080|3761104682789221261|3761104682791036972|comment_excerpt|0",
+      "app_id": "990080",
+      "app_name": "Hogwarts Legacy",
+      "release_date": "2023-02-10",
+      "release_relative_day": -2,
+      "sentence": "That's a lot of words.",
+      "validation_order": 457
+    },
+    {
+      "id": "1680880|3766732716813238430|3766732716813538825|comment_excerpt|0",
+      "app_id": "1680880",
+      "app_name": "Forspoken",
+      "release_date": "2023-01-24",
+      "release_relative_day": -1,
+      "sentence": "I think tetris is for you !",
+      "validation_order": 458
+    },
+    {
+      "id": "526870|6741411926483576242|4423184558848734923|comment_excerpt|1",
+      "app_id": "526870",
+      "app_name": "Satisfactory",
+      "release_date": "2024-09-10",
+      "release_relative_day": -20,
+      "sentence": "There's also several starting positions, each with their own flavour and hurdles to overcome.",
+      "validation_order": 459
+    },
+    {
+      "id": "2429640|4839770694272833111|TOPIC|topic_summary|7",
+      "app_id": "2429640",
+      "app_name": "THRONE AND LIBERTY",
+      "release_date": "2024-10-02",
+      "release_relative_day": -8,
+      "sentence": "Just at a right time?...",
+      "validation_order": 460
+    },
+    {
+      "id": "1845910|4635985982183756630|4635985982183775365|comment_excerpt|0",
+      "app_id": "1845910",
+      "app_name": "Dragon Age™: The Veilguard",
+      "release_date": "2024-11-01",
+      "release_relative_day": -1,
+      "sentence": "We're fortunate to have indie devs who tell stories without the compulsive need to shove agendas down our throats",
+      "validation_order": 461
+    },
+    {
+      "id": "1938090|5875531492226107772|5875531492226824780|comment_excerpt|0",
+      "app_id": "1938090",
+      "app_name": "Call of Duty®",
+      "release_date": "2022-10-27",
+      "release_relative_day": -38,
+      "sentence": "I'd wait till the reviews come out and if your system can support this game.",
+      "validation_order": 462
+    },
+    {
+      "id": "2477340|4302697419067927072|4302697419069563760|comment_excerpt|2",
+      "app_id": "2477340",
+      "app_name": "Expeditions: A MudRunner Game",
+      "release_date": "2024-03-06",
+      "release_relative_day": -5,
+      "sentence": "I guess you'd have to go back to do that?",
+      "validation_order": 463
+    },
+    {
+      "id": "2651280|734749878368898583|734749878368927289|comment_excerpt|2",
+      "app_id": "2651280",
+      "app_name": "Marvel's Spider-Man 2",
+      "release_date": "2025-01-31",
+      "release_relative_day": -14,
+      "sentence": "And for example the ToS of PSN say you are not llowed to alter the game files, this means \"no modding allowed\".",
+      "validation_order": 464
+    },
+    {
+      "id": "1282100|3809533247346567216|TOPIC|topic_summary|0",
+      "app_id": "1282100",
+      "app_name": "Remnant II",
+      "release_date": "2023-07-25",
+      "release_relative_day": -2,
+      "sentence": "I am mildly infuriated that after the first interaction with her as a trader, she seems to be constantly out of bounds of Ward 13 (the only one blue NPC icon that's out of gray plane on the map, decently far off too.",
+      "validation_order": 465
+    },
+    {
+      "id": "1718870|3202621953677737659|3202622271468730157|comment_excerpt|1",
+      "app_id": "1718870",
+      "app_name": "Spaceflight Simulator",
+      "release_date": "2022-02-17",
+      "release_relative_day": -40,
+      "sentence": "I think Steam Workshop would be a great way for people to share mods, their designs and even BP edits and custom planets",
+      "validation_order": 466
+    },
+    {
+      "id": "1189630|5179725348518164887|TOPIC|topic_summary|2",
+      "app_id": "1189630",
+      "app_name": "Path Of Wuxia",
+      "release_date": "2022-11-14",
+      "release_relative_day": -57,
+      "sentence": "Because this work expresses frustration, the author also takes a clear position and does not claim complete impartiality.",
+      "validation_order": 467
+    },
+    {
+      "id": "1216060|3387282447739477341|3418808280394411248|comment_excerpt|4",
+      "app_id": "1216060",
+      "app_name": "DNF DUEL",
+      "release_date": "2022-06-27",
+      "release_relative_day": -26,
+      "sentence": "But for now, there is no communication on that point, this is part of their marketing campain I guess, to keep everything shady for consumers.",
+      "validation_order": 468
+    },
+    {
+      "id": "2358720|6149189044494459984|TOPIC|topic_summary|0",
+      "app_id": "2358720",
+      "app_name": "Black Myth: Wukong",
+      "release_date": "2024-08-21",
+      "release_relative_day": -1,
+      "sentence": "Everyone is talking about this game, but I suck at souls like games.",
+      "validation_order": 469
+    },
+    {
+      "id": "2071500|4202490257583396705|4202490864583565400|comment_excerpt|2",
+      "app_id": "2071500",
+      "app_name": "Islands of Insight",
+      "release_date": "2024-02-14",
+      "release_relative_day": -2,
+      "sentence": "Is it how many rings you go through, or does each course only count for one thing... I'll have to see if I can find one.",
+      "validation_order": 470
+    },
+    {
+      "id": "1822060|599640352765324002|599640352765333511|comment_excerpt|0",
+      "app_id": "1822060",
+      "app_name": "Those Who Rule",
+      "release_date": "2025-01-28",
+      "release_relative_day": -28,
+      "sentence": "1) Classes work as follows: Tier 1 (Base), Tier 2 (Advanced), Tier 3 (Exalted).",
+      "validation_order": 471
+    },
+    {
+      "id": "1721060|603027846150003531|603027846150006452|comment_excerpt|3",
+      "app_id": "1721060",
+      "app_name": "Mandragora: Whispers of the Witch Tree",
+      "release_date": "2025-04-18",
+      "release_relative_day": -1,
+      "sentence": "and at the same time i got the virus warning.",
+      "validation_order": 472
+    },
+    {
+      "id": "674020|3493131640453814860|3493131640454338665|comment_excerpt|0",
+      "app_id": "674020",
+      "app_name": "World War 3",
+      "release_date": "2022-12-10",
+      "release_relative_day": -37,
+      "sentence": "maybe aimbots got detected",
+      "validation_order": 473
+    },
+    {
+      "id": "1811260|3365901132013316826|3365901132013354578|comment_excerpt|0",
+      "app_id": "1811260",
+      "app_name": "EA SPORTS™ FIFA 23",
+      "release_date": "2022-09-29",
+      "release_relative_day": -3,
+      "sentence": "Thing is, it is stated on origin that the game has launched its early access since 00h CEST, which was currently 58 minutes ago.",
+      "validation_order": 474
+    },
+    {
+      "id": "2183900|6149188575106118836|6149188808690707957|comment_excerpt|0",
+      "app_id": "2183900",
+      "app_name": "Warhammer 40,000: Space Marine 2",
+      "release_date": "2024-09-10",
+      "release_relative_day": -22,
+      "sentence": "What's really baffling is why people think the Astartes SHOULD have female Marines, no one is arguing for Male Sisters of Battle, or Male Sisters of Silence, The Space Marines are the Imperiums Battle Monks, and the SIsters of Battle are the Imperiums Battle Nuns, there is no need to change this.",
+      "validation_order": 475
+    },
+    {
+      "id": "1286220|4631483574657244204|4631483574657259943|comment_excerpt|2",
+      "app_id": "1286220",
+      "app_name": "Sea Power",
+      "release_date": "2024-11-13",
+      "release_relative_day": -1,
+      "sentence": "Yes EA is a leap of faith, but if you don't think its worth it then don't buy it.",
+      "validation_order": 476
+    },
+    {
+      "id": "2429640|4839770900412358389|TOPIC|topic_title|1",
+      "app_id": "2429640",
+      "app_name": "THRONE AND LIBERTY",
+      "release_date": "2024-10-02",
+      "release_relative_day": -5,
+      "sentence": "but when you pay for EA and you can´t play so what is this ????",
+      "validation_order": 477
+    },
+    {
+      "id": "1944570|3757725715255510844|TOPIC|topic_summary|0",
+      "app_id": "1944570",
+      "app_name": "Boneraiser Minions",
+      "release_date": "2023-03-09",
+      "release_relative_day": -39,
+      "sentence": "Because I'm tired of accidentally using up ressources just by using dash.",
+      "validation_order": 478
+    },
+    {
+      "id": "1145350|4357872738329292376|4357872738329376640|comment_excerpt|2",
+      "app_id": "1145350",
+      "app_name": "Hades II",
+      "release_date": "2024-05-07",
+      "release_relative_day": -1,
+      "sentence": "Sounds like you’re just intentionally out of the loop friend.",
+      "validation_order": 479
+    },
+    {
+      "id": "1623730|4035854109130003147|TOPIC|topic_title|0",
+      "app_id": "1623730",
+      "app_name": "Palworld",
+      "release_date": "2024-01-19",
+      "release_relative_day": -15,
+      "sentence": "can we at least get a possible price?",
+      "validation_order": 480
+    },
+    {
+      "id": "1605220|3800526046833015592|TOPIC|topic_summary|1",
+      "app_id": "1605220",
+      "app_name": "Dune: Spice Wars",
+      "release_date": "2023-09-14",
+      "release_relative_day": -54,
+      "sentence": "Destroy 1 renegade base.",
+      "validation_order": 481
+    },
+    {
+      "id": "494840|4351121630173714373|4351121803600674027|comment_excerpt|3",
+      "app_id": "494840",
+      "app_name": "UBOAT",
+      "release_date": "2024-08-02",
+      "release_relative_day": -38,
+      "sentence": "Again, I am playing an early war campaign so unsure if these are dynamically added or not, but I assume the missing ships are not intended.",
+      "validation_order": 482
+    },
+    {
+      "id": "1817070|3418808914584832596|3419935448618812409|comment_excerpt|1",
+      "app_id": "1817070",
+      "app_name": "Marvel’s Spider-Man Remastered",
+      "release_date": "2022-08-12",
+      "release_relative_day": -58,
+      "sentence": "why do you want Dark Souls: Even more edge Edition?",
+      "validation_order": 483
+    },
+    {
+      "id": "2688950|4631482917606946207|4634860720019743052|comment_excerpt|1",
+      "app_id": "2688950",
+      "app_name": "Planet Coaster 2",
+      "release_date": "2024-11-07",
+      "release_relative_day": -1,
+      "sentence": "how exactly do you expect them to make it lgbtlmnop inclusive?",
+      "validation_order": 484
+    },
+    {
+      "id": "2993780|508455105152965955|TOPIC|topic_summary|0",
+      "app_id": "2993780",
+      "app_name": "FANTASY LIFE i: The Girl Who Steals Time",
+      "release_date": "2025-05-22",
+      "release_relative_day": -4,
+      "sentence": "Friend is but I can't even open the tab for them?",
+      "validation_order": 485
+    },
+    {
+      "id": "1466060|601904795201070036|601904795201095844|comment_excerpt|0",
+      "app_id": "1466060",
+      "app_name": "Tainted Grail: The Fall of Avalon",
+      "release_date": "2025-05-23",
+      "release_relative_day": -4,
+      "sentence": "I actually think the combat is much better than TES, as you have proper dodge and parry and magic is much better designed: Even the most basic spells have status effects instead of just damage-from-<insert element> and the higher level spells are more varied and creative than the mere damage/aoe scaling you get from most TES magic.",
+      "validation_order": 486
+    },
+    {
+      "id": "1361210|3541546590714151041|3541546590714164570|comment_excerpt|1",
+      "app_id": "1361210",
+      "app_name": "Warhammer 40,000: Darktide",
+      "release_date": "2022-11-30",
+      "release_relative_day": -11,
+      "sentence": "i've spent more time this morning in loading screens than actual gameplay.",
+      "validation_order": 487
+    },
+    {
+      "id": "1361210|3594464430424008813|3594464430429527689|comment_excerpt|0",
+      "app_id": "1361210",
+      "app_name": "Warhammer 40,000: Darktide",
+      "release_date": "2022-11-30",
+      "release_relative_day": -7,
+      "sentence": "Dan Abnett true to form, massive let down.",
+      "validation_order": 488
+    },
+    {
+      "id": "1902960|521957655794698199|521957760961623267|comment_excerpt|0",
+      "app_id": "1902960",
+      "app_name": "Lost Records: Bloom & Rage",
+      "release_date": "2025-02-19",
+      "release_relative_day": -2,
+      "sentence": "girlie if you've been told that on three separate occasions in one day, maybe some self-reflection is in order",
+      "validation_order": 489
+    },
+    {
+      "id": "1284190|4345480979780446082|4345480979780637073|comment_excerpt|0",
+      "app_id": "1284190",
+      "app_name": "The Planet Crafter",
+      "release_date": "2024-04-10",
+      "release_relative_day": -49,
+      "sentence": "Later this year were not at 1.0 Update yet so after 1.0 we will eventually get Co-Op mode",
+      "validation_order": 490
+    },
+    {
+      "id": "962130|3453716250601154945|5733664933455936541|comment_excerpt|0",
+      "app_id": "962130",
+      "app_name": "Grounded",
+      "release_date": "2022-09-27",
+      "release_relative_day": -45,
+      "sentence": "and all of this has what to do with the actual topic?",
+      "validation_order": 491
+    },
+    {
+      "id": "2139460|4330854300977251071|4338735730268806478|comment_excerpt|1",
+      "app_id": "2139460",
+      "app_name": "Once Human",
+      "release_date": "2024-07-10",
+      "release_relative_day": -28,
+      "sentence": "I use mouse n keyboard template but set it up to where my controller works",
+      "validation_order": 492
+    },
+    {
+      "id": "1846380|3597842642221844399|3712684644822489681|comment_excerpt|1",
+      "app_id": "1846380",
+      "app_name": "Need for Speed™ Unbound",
+      "release_date": "2022-12-01",
+      "release_relative_day": -2,
+      "sentence": "I am loving 90% of the tracks.",
+      "validation_order": 493
+    },
+    {
+      "id": "2183900|4763207599014568546|TOPIC|topic_title|0",
+      "app_id": "2183900",
+      "app_name": "Warhammer 40,000: Space Marine 2",
+      "release_date": "2024-09-10",
+      "release_relative_day": -5,
+      "sentence": "Game wont even start",
+      "validation_order": 494
+    },
+    {
+      "id": "2916430|4628107478026014940|TOPIC|topic_summary|3",
+      "app_id": "2916430",
+      "app_name": "Fast Food Simulator",
+      "release_date": "2024-12-11",
+      "release_relative_day": -10,
+      "sentence": "I think the general pacing is okay contrary to what some people are saying.",
+      "validation_order": 495
+    },
+    {
+      "id": "1824220|3426690213924737475|TOPIC|topic_summary|0",
+      "app_id": "1824220",
+      "app_name": "Chivalry 2",
+      "release_date": "2022-06-12",
+      "release_relative_day": -1,
+      "sentence": "Going to try this though, how does the combat work?",
+      "validation_order": 496
+    },
+    {
+      "id": "1363080|4362374970369163332|4362375151030915789|comment_excerpt|0",
+      "app_id": "1363080",
+      "app_name": "Manor Lords",
+      "release_date": "2024-04-27",
+      "release_relative_day": -4,
+      "sentence": "Oh look.. Another private anime profile complaining about something.",
+      "validation_order": 497
+    },
+    {
+      "id": "2130460|3763356482607824728|3781372783227247339|comment_excerpt|0",
+      "app_id": "2130460",
+      "app_name": "FATAL FRAME / PROJECT ZERO: Mask of the Lunar Eclipse",
+      "release_date": "2023-03-08",
+      "release_relative_day": -7,
+      "sentence": "The only sensible choice is to wait.",
+      "validation_order": 498
+    },
+    {
+      "id": "1790600|4846526298375706992|4846526298376937817|comment_excerpt|0",
+      "app_id": "1790600",
+      "app_name": "DRAGON BALL: Sparking! ZERO",
+      "release_date": "2024-10-11",
+      "release_relative_day": -13,
+      "sentence": "imma just try on release to see if its playable and refund if its genuinely bad but ion think i should be struggling too much considering its like a 70-80% compared to the minimum",
+      "validation_order": 499
+    },
+    {
+      "id": "1245620|3177855553074577985|TOPIC|topic_summary|0",
+      "app_id": "1245620",
+      "app_name": "ELDEN RING",
+      "release_date": "2022-02-24",
+      "release_relative_day": -15,
+      "sentence": "Dark Souls Twitter just announced, that the RCE for Elden Ring has been worked on and is fixed.",
+      "validation_order": 500
+    }
+  ]
+}
