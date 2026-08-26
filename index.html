@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>Product Speculation Sentence Coding</title>
     <link rel="icon" href="data:," />
-    <link rel="stylesheet" href="styles.css?v=20260826-certainty-v1" />
+    <link rel="stylesheet" href="styles.css?v=20260826-certainty-v2" />
   </head>
   <body>
     <main class="app-shell">
@@ -155,7 +155,7 @@
           <h2>Is the user presenting this as certain knowledge?</h2>
           <p class="step-help">If the sentence leaves any room for doubt, treat it as uncertainty.</p>
           <div class="decision-grid three-options">
-            <button class="choice primary-choice" type="button" data-cue-answer="yes">
+            <button class="choice uncertain-choice" type="button" data-cue-answer="yes">
               <strong>No, there is room for doubt</strong>
               <span>The user does not fully present the idea as settled knowledge.</span>
             </button>
@@ -163,7 +163,7 @@
               <strong>It is just a request for information</strong>
               <span>The sentence asks for an answer without suggesting one.</span>
             </button>
-            <button class="choice" type="button" data-cue-answer="no">
+            <button class="choice primary-choice" type="button" data-cue-answer="no">
               <strong>Yes, it is stated as certain knowledge</strong>
               <span>The user presents it as known or settled fact.</span>
             </button>

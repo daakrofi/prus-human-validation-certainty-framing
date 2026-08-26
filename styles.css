@@ -540,6 +540,21 @@ blockquote {
   background: var(--accent-soft);
 }
 
+.primary-choice:hover {
+  border-color: #789684;
+  background: #e0ece6;
+}
+
+.uncertain-choice {
+  border-color: #d9aaaa;
+  background: #fbefef;
+}
+
+.uncertain-choice:hover {
+  border-color: #c98787;
+  background: #f9e6e6;
+}
+
 .request-choice {
   border-color: #d8b993;
   background: var(--warm-soft);
