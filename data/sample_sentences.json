@@ -1,9 +1,9 @@
 {
   "metadata": {
-    "sample_name": "Product-speculation sentence certainty-scale game-relation validation sample",
-    "sample_version": "2026-08-26-sentence-certainty-scale-game-relation-v2",
+    "sample_name": "Product-speculation sentence certainty-scale experience-boundary validation sample",
+    "sample_version": "2026-08-26-sentence-certainty-scale-experience-boundary-v3",
     "unit_of_validation": "sentence",
-    "annotation_scheme": "sentence_certainty_scale_game_relation_proposition_v2",
+    "annotation_scheme": "sentence_certainty_scale_game_relation_proposition_experience_v3",
     "target_total": 500,
     "pre_release_window": {
       "minimum_day": -60,

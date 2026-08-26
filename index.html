@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>Product Speculation Sentence Coding</title>
     <link rel="icon" href="data:," />
-    <link rel="stylesheet" href="styles.css?v=20260826-game-relation-v2" />
+    <link rel="stylesheet" href="styles.css?v=20260826-experience-boundary-v3" />
   </head>
   <body>
     <main class="app-shell">
@@ -23,7 +23,7 @@
           <h1>How do users speculate about unreleased products?</h1>
           <p class="lede">
             Review 500 individual sentences from pre-release Steam discussions and identify
-            three simple components: uncertainty, a possible idea, and its product topic.
+            uncertainty, a proposition or product-experience concern, and its product topic.
           </p>
         </div>
 
@@ -97,10 +97,10 @@
             <li>
               <span class="step-index">3</span>
               <div>
-                <h3>Proposition</h3>
+                <h3>Proposition or product-experience concern</h3>
                 <p>
                   Decide whether the post includes a claim, explanation, prediction,
-                  interpretation, theory, or mention of the future state of the game.
+                  interpretation, theory, concern, challenge, or mention of the future state of the game.
                 </p>
               </div>
             </li>
@@ -108,7 +108,7 @@
               <span class="step-index">4</span>
               <div>
                 <h3>Product topic domain</h3>
-                <p>Select every domain that the user's proposition is about.</p>
+                <p>Select every domain that the user's proposition or product-experience concern is about.</p>
                 <dl class="domain-list">
                   <div>
                     <dt>Content</dt>
@@ -185,11 +185,11 @@
               <div class="certainty-endpoints">
                 <div id="certainty-one-description">
                   <strong>1 · Very uncertain</strong>
-                  <span>There is no confidence in the idea being presented.</span>
+                  <span>The user expresses little or no confidence about the idea, situation, or product experience being discussed.</span>
                 </div>
                 <div id="certainty-five-description">
                   <strong>5 · Very certain</strong>
-                  <span>The user states this as certain knowledge, settled fact, or confident opinion.</span>
+                  <span>The user describes the idea, situation, or product experience with full confidence, as known or settled.</span>
                 </div>
               </div>
               <label class="certainty-request-option">
@@ -216,7 +216,7 @@
 
         <section class="decision-panel" id="proposition-decision" hidden>
           <p class="step-kicker">Step 3 of 4</p>
-          <h2>Does the user's post include a “proposition” i.e. a claim, explanation, prediction, interpretation, theory, or mention of the future state of the game?</h2>
+          <h2>Does the user's post include a proposition or a product-experience concern, i.e. a claim, explanation, prediction, interpretation, theory, challenge, or mention of the future state of the game?</h2>
           <div class="decision-grid two-options">
             <button class="choice primary-choice simple-choice" type="button" data-proposition-answer="yes"><strong>Yes</strong></button>
             <button class="choice simple-choice" type="button" data-proposition-answer="no"><strong>No</strong></button>
@@ -226,7 +226,7 @@
 
         <section class="decision-panel" id="domain-decision" hidden>
           <p class="step-kicker">Step 4 of 4</p>
-          <h2>What product topic does the user's proposition about?</h2>
+          <h2>What product topic is the user's proposition or product-experience concern about?</h2>
           <p class="step-help">Select every domain that applies, or select no qualifying domain.</p>
           <div class="domain-options">
             <button class="domain-choice" type="button" data-domain="content" aria-pressed="false">
@@ -243,7 +243,7 @@
             </button>
             <button class="domain-choice no-domain" id="no-qualifying-domain" type="button" aria-pressed="false">
               <strong>No qualifying domain</strong>
-              <span>The possible idea concerns something else.</span>
+              <span>The proposition or product-experience concern is about something else.</span>
             </button>
           </div>
           <div class="domain-actions">
@@ -272,7 +272,7 @@
       </section>
     </main>
 
-    <script src="config.js?v=20260826-game-relation-v2"></script>
-    <script src="app.js?v=20260826-game-relation-v2"></script>
+    <script src="config.js?v=20260826-experience-boundary-v3"></script>
+    <script src="app.js?v=20260826-experience-boundary-v3"></script>
   </body>
 </html>

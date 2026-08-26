@@ -1,6 +1,6 @@
-const STORAGE_PREFIX = "prus-sentence-validation-certainty-scale-game-relation-v2";
-const SAMPLE_VERSION = "2026-08-26-sentence-certainty-scale-game-relation-v2";
-const DATA_PATH = "data/sample_sentences.json?v=20260826-game-relation-v2";
+const STORAGE_PREFIX = "prus-sentence-validation-certainty-scale-experience-boundary-v3";
+const SAMPLE_VERSION = "2026-08-26-sentence-certainty-scale-experience-boundary-v3";
+const DATA_PATH = "data/sample_sentences.json?v=20260826-experience-boundary-v3";
 const CONFIG = window.PRUS_VALIDATION_CONFIG || { backendUrl: "" };
 const ALLOWED_DOMAINS = ["content", "performance", "requirements_access"];
 
@@ -113,7 +113,7 @@ function emptyResponses() {
     cue_response_kind: null,
     uncertainty_cue_present: null,
     game_related_uncertainty_present: null,
-    uncertain_proposition_present: null,
+    proposition_or_experience_concern_present: null,
     human_domains: [],
     no_qualifying_domain: null,
     derived_PRUS: null,
@@ -140,8 +140,8 @@ function responseComplete(response) {
   if (response.uncertainty_cue_present !== true) return false;
   if (response.game_related_uncertainty_present === false) return true;
   if (response.game_related_uncertainty_present !== true) return false;
-  if (response.uncertain_proposition_present === false) return true;
-  if (response.uncertain_proposition_present !== true) return false;
+  if (response.proposition_or_experience_concern_present === false) return true;
+  if (response.proposition_or_experience_concern_present !== true) return false;
   const hasDomain = Array.isArray(response.human_domains) && response.human_domains.length > 0;
   const hasNoDomain = response.no_qualifying_domain === true;
   return hasDomain !== hasNoDomain;
@@ -151,7 +151,7 @@ function derivePrus(response) {
   if (!responseComplete(response)) return null;
   return response.uncertainty_cue_present === true
     && response.game_related_uncertainty_present === true
-    && response.uncertain_proposition_present === true
+    && response.proposition_or_experience_concern_present === true
     && response.no_qualifying_domain !== true
     && response.human_domains.length > 0;
 }
@@ -176,7 +176,7 @@ async function postRemoteProgress(saveReason) {
         ...dataset.metadata,
         sample_version: SAMPLE_VERSION,
         unit_of_validation: "sentence",
-        annotation_scheme: "sentence_certainty_scale_game_relation_proposition_v2"
+        annotation_scheme: "sentence_certainty_scale_game_relation_proposition_experience_v3"
       };
       response = await fetch(CONFIG.backendUrl, {
         method: "POST",
@@ -279,7 +279,7 @@ function startParticipant(person, existingSession = null) {
 function responseStage(response) {
   if (response.uncertainty_cue_present !== true) return "cue";
   if (response.game_related_uncertainty_present !== true) return "game_relation";
-  if (response.uncertain_proposition_present !== true) return "proposition";
+  if (response.proposition_or_experience_concern_present !== true) return "proposition";
   return "domain";
 }
 
@@ -341,7 +341,7 @@ function answerCue(kind) {
     cue_response_kind: kind,
     uncertainty_cue_present: qualifyingCue,
     game_related_uncertainty_present: null,
-    uncertain_proposition_present: null,
+    proposition_or_experience_concern_present: null,
     human_domains: [],
     no_qualifying_domain: null,
     derived_PRUS: qualifyingCue ? null : false,
@@ -361,7 +361,7 @@ function answerGameRelation(present) {
     cue_response_kind: "yes",
     uncertainty_cue_present: true,
     game_related_uncertainty_present: present,
-    uncertain_proposition_present: null,
+    proposition_or_experience_concern_present: null,
     human_domains: [],
     no_qualifying_domain: null,
     derived_PRUS: present ? null : false,
@@ -381,7 +381,7 @@ function answerProposition(present) {
     cue_response_kind: "yes",
     uncertainty_cue_present: true,
     game_related_uncertainty_present: true,
-    uncertain_proposition_present: present,
+    proposition_or_experience_concern_present: present,
     human_domains: [],
     no_qualifying_domain: null,
     derived_PRUS: present ? null : false,
@@ -404,7 +404,7 @@ function toggleDomain(domain) {
   response.cue_response_kind = "yes";
   response.uncertainty_cue_present = true;
   response.game_related_uncertainty_present = true;
-  response.uncertain_proposition_present = true;
+  response.proposition_or_experience_concern_present = true;
   response.human_domains = ALLOWED_DOMAINS.filter((value) => selected.has(value));
   response.no_qualifying_domain = false;
   response.derived_PRUS = null;
@@ -419,7 +419,7 @@ function toggleNoQualifyingDomain() {
   response.cue_response_kind = "yes";
   response.uncertainty_cue_present = true;
   response.game_related_uncertainty_present = true;
-  response.uncertain_proposition_present = true;
+  response.proposition_or_experience_concern_present = true;
   response.human_domains = [];
   response.no_qualifying_domain = !active;
   response.derived_PRUS = null;
@@ -436,7 +436,7 @@ function confirmDomains() {
   response.cue_response_kind = "yes";
   response.uncertainty_cue_present = true;
   response.game_related_uncertainty_present = true;
-  response.uncertain_proposition_present = true;
+  response.proposition_or_experience_concern_present = true;
   response.derived_PRUS = hasDomain;
   response.answered_at = new Date().toISOString();
   advance();
@@ -448,7 +448,7 @@ function resetCurrentResponse() {
     cue_response_kind: null,
     uncertainty_cue_present: null,
     game_related_uncertainty_present: null,
-    uncertain_proposition_present: null,
+    proposition_or_experience_concern_present: null,
     human_domains: [],
     no_qualifying_domain: null,
     derived_PRUS: null,
@@ -468,7 +468,7 @@ function backToGameRelation() {
     cue_response_kind: "yes",
     uncertainty_cue_present: true,
     game_related_uncertainty_present: null,
-    uncertain_proposition_present: null,
+    proposition_or_experience_concern_present: null,
     human_domains: [],
     no_qualifying_domain: null,
     derived_PRUS: null,
@@ -484,7 +484,7 @@ function backToProposition() {
     cue_response_kind: "yes",
     uncertainty_cue_present: true,
     game_related_uncertainty_present: true,
-    uncertain_proposition_present: null,
+    proposition_or_experience_concern_present: null,
     human_domains: [],
     no_qualifying_domain: null,
     derived_PRUS: null,
@@ -566,7 +566,7 @@ function mergedRows() {
       cue_response_kind: response.cue_response_kind,
       uncertainty_cue_present: response.uncertainty_cue_present,
       game_related_uncertainty_present: response.game_related_uncertainty_present,
-      uncertain_proposition_present: response.uncertain_proposition_present,
+      proposition_or_experience_concern_present: response.proposition_or_experience_concern_present,
       human_domains: (response.human_domains || []).join("|"),
       no_qualifying_domain: response.no_qualifying_domain,
       derived_PRUS: derivePrus(response),
