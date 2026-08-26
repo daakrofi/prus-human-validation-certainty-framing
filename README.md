@@ -1,17 +1,21 @@
-# Product Speculation Sentence Coding — Certainty-Scale Variant
+# Product Speculation Sentence Coding — Certainty-Scale Game-Relation Variant
 
-An alternative sentence-level human-validation exercise for three observable
-components of pre-release product speculation:
+An alternative sentence-level human-validation exercise for four observable
+decisions used to identify pre-release product speculation:
 
 1. uncertainty cue or framing, elicited through a five-point certainty scale;
-2. an uncertain proposition; and
-3. one or more qualifying product topic domains.
+2. whether the uncertainty is related to the game;
+3. whether the post includes a proposition; and
+4. one or more qualifying product topic domains.
 
 The first decision asks how certain the user seems on a five-point scale. Ratings
 1–4 are mapped silently to qualifying uncertainty, while 5 is mapped to stated
 certainty. A sixth radio option records a pure request for information. Only
 these three underlying response categories are saved; the individual 1–4 scale
-positions do not become separate response categories.
+positions do not become separate response categories. A rating from 1–4 must
+then pass both the game-relation and proposition decisions before product-topic
+domains are shown. A negative answer at either decision is broader uncertainty
+and does not qualify as PRUS.
 
 The site deliberately avoids asking participants to classify PRUS directly. A
 question that only requests information has its own response option and is
@@ -24,6 +28,6 @@ decisions are unchanged from the preceding sentence-component exercise.
 - Browser progress is retained locally for resume support.
 - Secure checkpoints are sent to the shared Cloudflare Worker.
 - Saved responses use the private
-  `responses/sentence-validation-certainty-scale-v1/` namespace.
+  `responses/sentence-validation-certainty-scale-game-relation-v2/` namespace.
 
 The public sample contains no machine labels or sampling strata.

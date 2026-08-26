@@ -1,6 +1,6 @@
-const STORAGE_PREFIX = "prus-sentence-validation-certainty-scale-v1";
-const SAMPLE_VERSION = "2026-08-26-sentence-certainty-scale-v1";
-const DATA_PATH = "data/sample_sentences.json?v=20260826-scale-v1";
+const STORAGE_PREFIX = "prus-sentence-validation-certainty-scale-game-relation-v2";
+const SAMPLE_VERSION = "2026-08-26-sentence-certainty-scale-game-relation-v2";
+const DATA_PATH = "data/sample_sentences.json?v=20260826-game-relation-v2";
 const CONFIG = window.PRUS_VALIDATION_CONFIG || { backendUrl: "" };
 const ALLOWED_DOMAINS = ["content", "performance", "requirements_access"];
 
@@ -31,10 +31,12 @@ const els = {
   certaintyForm: document.querySelector("#certainty-form"),
   certaintyOptions: document.querySelectorAll('input[name="certainty_rating"]'),
   confirmCertainty: document.querySelector("#confirm-certainty"),
+  gameRelationDecision: document.querySelector("#game-relation-decision"),
   propositionDecision: document.querySelector("#proposition-decision"),
   domainDecision: document.querySelector("#domain-decision"),
   noQualifyingDomain: document.querySelector("#no-qualifying-domain"),
   confirmDomains: document.querySelector("#confirm-domains"),
+  backToGameRelation: document.querySelector("#back-to-game-relation"),
   backToProposition: document.querySelector("#back-to-proposition"),
   restartComponentCoding: document.querySelectorAll(".restart-component-coding"),
   previous: document.querySelector("#previous"),
@@ -110,6 +112,7 @@ function emptyResponses() {
     sentence_id: sentence.id,
     cue_response_kind: null,
     uncertainty_cue_present: null,
+    game_related_uncertainty_present: null,
     uncertain_proposition_present: null,
     human_domains: [],
     no_qualifying_domain: null,
@@ -135,6 +138,8 @@ function createSession(person) {
 function responseComplete(response) {
   if (response.uncertainty_cue_present === false) return true;
   if (response.uncertainty_cue_present !== true) return false;
+  if (response.game_related_uncertainty_present === false) return true;
+  if (response.game_related_uncertainty_present !== true) return false;
   if (response.uncertain_proposition_present === false) return true;
   if (response.uncertain_proposition_present !== true) return false;
   const hasDomain = Array.isArray(response.human_domains) && response.human_domains.length > 0;
@@ -145,6 +150,7 @@ function responseComplete(response) {
 function derivePrus(response) {
   if (!responseComplete(response)) return null;
   return response.uncertainty_cue_present === true
+    && response.game_related_uncertainty_present === true
     && response.uncertain_proposition_present === true
     && response.no_qualifying_domain !== true
     && response.human_domains.length > 0;
@@ -170,7 +176,7 @@ async function postRemoteProgress(saveReason) {
         ...dataset.metadata,
         sample_version: SAMPLE_VERSION,
         unit_of_validation: "sentence",
-        annotation_scheme: "sentence_certainty_scale_information_request_v1"
+        annotation_scheme: "sentence_certainty_scale_game_relation_proposition_v2"
       };
       response = await fetch(CONFIG.backendUrl, {
         method: "POST",
@@ -272,6 +278,7 @@ function startParticipant(person, existingSession = null) {
 
 function responseStage(response) {
   if (response.uncertainty_cue_present !== true) return "cue";
+  if (response.game_related_uncertainty_present !== true) return "game_relation";
   if (response.uncertain_proposition_present !== true) return "proposition";
   return "domain";
 }
@@ -290,6 +297,7 @@ function syncDomainButtons(response) {
 function showResponseStage(response) {
   const stage = responseStage(response);
   els.cueDecision.hidden = stage !== "cue";
+  els.gameRelationDecision.hidden = stage !== "game_relation";
   els.propositionDecision.hidden = stage !== "proposition";
   els.domainDecision.hidden = stage !== "domain";
   if (stage === "cue") {
@@ -332,6 +340,7 @@ function answerCue(kind) {
     ...session.responses[currentIndex],
     cue_response_kind: kind,
     uncertainty_cue_present: qualifyingCue,
+    game_related_uncertainty_present: null,
     uncertain_proposition_present: null,
     human_domains: [],
     no_qualifying_domain: null,
@@ -346,11 +355,32 @@ function answerCue(kind) {
   }
 }
 
+function answerGameRelation(present) {
+  session.responses[currentIndex] = {
+    ...session.responses[currentIndex],
+    cue_response_kind: "yes",
+    uncertainty_cue_present: true,
+    game_related_uncertainty_present: present,
+    uncertain_proposition_present: null,
+    human_domains: [],
+    no_qualifying_domain: null,
+    derived_PRUS: present ? null : false,
+    answered_at: present ? null : new Date().toISOString()
+  };
+  if (present) {
+    persistLocalSession();
+    showCurrentSentence();
+  } else {
+    advance();
+  }
+}
+
 function answerProposition(present) {
   session.responses[currentIndex] = {
     ...session.responses[currentIndex],
     cue_response_kind: "yes",
     uncertainty_cue_present: true,
+    game_related_uncertainty_present: true,
     uncertain_proposition_present: present,
     human_domains: [],
     no_qualifying_domain: null,
@@ -373,6 +403,7 @@ function toggleDomain(domain) {
   else selected.add(domain);
   response.cue_response_kind = "yes";
   response.uncertainty_cue_present = true;
+  response.game_related_uncertainty_present = true;
   response.uncertain_proposition_present = true;
   response.human_domains = ALLOWED_DOMAINS.filter((value) => selected.has(value));
   response.no_qualifying_domain = false;
@@ -387,6 +418,7 @@ function toggleNoQualifyingDomain() {
   const active = response.no_qualifying_domain === true;
   response.cue_response_kind = "yes";
   response.uncertainty_cue_present = true;
+  response.game_related_uncertainty_present = true;
   response.uncertain_proposition_present = true;
   response.human_domains = [];
   response.no_qualifying_domain = !active;
@@ -403,6 +435,7 @@ function confirmDomains() {
   if (hasDomain === hasNoDomain) return;
   response.cue_response_kind = "yes";
   response.uncertainty_cue_present = true;
+  response.game_related_uncertainty_present = true;
   response.uncertain_proposition_present = true;
   response.derived_PRUS = hasDomain;
   response.answered_at = new Date().toISOString();
@@ -414,6 +447,7 @@ function resetCurrentResponse() {
     ...session.responses[currentIndex],
     cue_response_kind: null,
     uncertainty_cue_present: null,
+    game_related_uncertainty_present: null,
     uncertain_proposition_present: null,
     human_domains: [],
     no_qualifying_domain: null,
@@ -428,11 +462,28 @@ function restartComponentCoding() {
   showCurrentSentence();
 }
 
+function backToGameRelation() {
+  session.responses[currentIndex] = {
+    ...session.responses[currentIndex],
+    cue_response_kind: "yes",
+    uncertainty_cue_present: true,
+    game_related_uncertainty_present: null,
+    uncertain_proposition_present: null,
+    human_domains: [],
+    no_qualifying_domain: null,
+    derived_PRUS: null,
+    answered_at: null
+  };
+  persistLocalSession();
+  showCurrentSentence();
+}
+
 function backToProposition() {
   session.responses[currentIndex] = {
     ...session.responses[currentIndex],
     cue_response_kind: "yes",
     uncertainty_cue_present: true,
+    game_related_uncertainty_present: true,
     uncertain_proposition_present: null,
     human_domains: [],
     no_qualifying_domain: null,
@@ -514,6 +565,7 @@ function mergedRows() {
       sentence: item.sentence,
       cue_response_kind: response.cue_response_kind,
       uncertainty_cue_present: response.uncertainty_cue_present,
+      game_related_uncertainty_present: response.game_related_uncertainty_present,
       uncertain_proposition_present: response.uncertain_proposition_present,
       human_domains: (response.human_domains || []).join("|"),
       no_qualifying_domain: response.no_qualifying_domain,
@@ -551,7 +603,7 @@ function downloadCsv() {
     headers.join(","),
     ...rows.map((row) => headers.map((header) => csvEscape(row[header])).join(","))
   ].join("\n");
-  download(`sentence_certainty_scale_validation_${normalizeEmail(participant.email)}.csv`, csv, "text/csv;charset=utf-8");
+  download(`sentence_certainty_game_relation_validation_${normalizeEmail(participant.email)}.csv`, csv, "text/csv;charset=utf-8");
 }
 
 function downloadJson() {
@@ -562,7 +614,7 @@ function downloadJson() {
     rows: mergedRows()
   };
   download(
-    `sentence_certainty_scale_validation_${normalizeEmail(participant.email)}.json`,
+    `sentence_certainty_game_relation_validation_${normalizeEmail(participant.email)}.json`,
     JSON.stringify(payload, null, 2),
     "application/json;charset=utf-8"
   );
@@ -649,12 +701,17 @@ document.querySelectorAll("[data-proposition-answer]").forEach((button) => {
   button.addEventListener("click", () => answerProposition(button.dataset.propositionAnswer === "yes"));
 });
 
+document.querySelectorAll("[data-game-relation-answer]").forEach((button) => {
+  button.addEventListener("click", () => answerGameRelation(button.dataset.gameRelationAnswer === "yes"));
+});
+
 document.querySelectorAll("[data-domain]").forEach((button) => {
   button.addEventListener("click", () => toggleDomain(button.dataset.domain));
 });
 
 els.noQualifyingDomain.addEventListener("click", toggleNoQualifyingDomain);
 els.confirmDomains.addEventListener("click", confirmDomains);
+els.backToGameRelation.addEventListener("click", backToGameRelation);
 els.backToProposition.addEventListener("click", backToProposition);
 els.restartComponentCoding.forEach((button) => button.addEventListener("click", restartComponentCoding));
 els.previous.addEventListener("click", goPrevious);

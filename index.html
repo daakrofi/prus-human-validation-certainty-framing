@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>Product Speculation Sentence Coding</title>
     <link rel="icon" href="data:," />
-    <link rel="stylesheet" href="styles.css?v=20260826-scale-v1" />
+    <link rel="stylesheet" href="styles.css?v=20260826-game-relation-v2" />
   </head>
   <body>
     <main class="app-shell">
@@ -64,7 +64,7 @@
         <button class="text-button" id="back-home" type="button">← Back</button>
         <div class="reading-column">
           <p class="eyebrow">Before you begin</p>
-          <h2>Identify three components</h2>
+          <h2>Identify four components</h2>
           <p class="intro">
             We are studying Pre-Release User Speculation (PRUS): when online users post possible
             ideas about an unreleased product without presenting those ideas as settled knowledge.
@@ -90,18 +90,25 @@
             <li>
               <span class="step-index">2</span>
               <div>
-                <h3>Uncertain proposition</h3>
-                <p>
-                  Decide if the uncertainty applies to a possible claim, explanation,
-                  prediction, interpretation, theory, or future state of the video game being discussed.
-                </p>
+                <h3>Game relation</h3>
+                <p>Decide whether the user's uncertainty is related to the game.</p>
               </div>
             </li>
             <li>
               <span class="step-index">3</span>
               <div>
+                <h3>Proposition</h3>
+                <p>
+                  Decide whether the post includes a claim, explanation, prediction,
+                  interpretation, theory, or mention of the future state of the game.
+                </p>
+              </div>
+            </li>
+            <li>
+              <span class="step-index">4</span>
+              <div>
                 <h3>Product topic domain</h3>
-                <p>Select every domain that the possible idea concerns.</p>
+                <p>Select every domain that the user's proposition is about.</p>
                 <dl class="domain-list">
                   <div>
                     <dt>Content</dt>
@@ -148,7 +155,7 @@
         </article>
 
         <section class="decision-panel" id="cue-decision">
-          <p class="step-kicker">Step 1 of 3</p>
+          <p class="step-kicker">Step 1 of 4</p>
           <h2 id="certainty-question">How certain does this user seem?</h2>
           <p class="step-help">Choose one point on the scale, or select the information-request option.</p>
           <form class="certainty-form" id="certainty-form">
@@ -196,26 +203,30 @@
           </form>
         </section>
 
-        <section class="decision-panel" id="proposition-decision" hidden>
-          <p class="step-kicker">Step 2 of 3</p>
-          <h2>Does the uncertainty apply to a possible idea about the game?</h2>
-          <p class="step-help">For example, a possible claim, explanation, prediction, interpretation, theory, or future state.</p>
+        <section class="decision-panel" id="game-relation-decision" hidden>
+          <p class="step-kicker">Step 2 of 4</p>
+          <h2>Is the user's uncertainty related to the game?</h2>
+          <p class="step-help">For example, game features, performance, experiences, price, reviews, etc.</p>
           <div class="decision-grid two-options">
-            <button class="choice primary-choice" type="button" data-proposition-answer="yes">
-              <strong>Yes</strong>
-              <span>A possible idea is put forward.</span>
-            </button>
-            <button class="choice" type="button" data-proposition-answer="no">
-              <strong>No</strong>
-              <span>The uncertainty does not apply to a possible idea.</span>
-            </button>
+            <button class="choice primary-choice simple-choice" type="button" data-game-relation-answer="yes"><strong>Yes</strong></button>
+            <button class="choice simple-choice" type="button" data-game-relation-answer="no"><strong>No</strong></button>
           </div>
           <button class="text-button restart-component-coding" type="button">← Change Step 1</button>
         </section>
 
+        <section class="decision-panel" id="proposition-decision" hidden>
+          <p class="step-kicker">Step 3 of 4</p>
+          <h2>Does the user's post include a “proposition” i.e. a claim, explanation, prediction, interpretation, theory, or mention of the future state of the game?</h2>
+          <div class="decision-grid two-options">
+            <button class="choice primary-choice simple-choice" type="button" data-proposition-answer="yes"><strong>Yes</strong></button>
+            <button class="choice simple-choice" type="button" data-proposition-answer="no"><strong>No</strong></button>
+          </div>
+          <button class="text-button" id="back-to-game-relation" type="button">← Change Step 2</button>
+        </section>
+
         <section class="decision-panel" id="domain-decision" hidden>
-          <p class="step-kicker">Step 3 of 3</p>
-          <h2>What product topic does the possible idea concern?</h2>
+          <p class="step-kicker">Step 4 of 4</p>
+          <h2>What product topic does the user's proposition about?</h2>
           <p class="step-help">Select every domain that applies, or select no qualifying domain.</p>
           <div class="domain-options">
             <button class="domain-choice" type="button" data-domain="content" aria-pressed="false">
@@ -236,7 +247,7 @@
             </button>
           </div>
           <div class="domain-actions">
-            <button class="text-button" id="back-to-proposition" type="button">← Change Step 2</button>
+            <button class="text-button" id="back-to-proposition" type="button">← Change Step 3</button>
             <button class="primary" id="confirm-domains" type="button" disabled>Continue</button>
           </div>
         </section>
@@ -261,7 +272,7 @@
       </section>
     </main>
 
-    <script src="config.js?v=20260826-scale-v1"></script>
-    <script src="app.js?v=20260826-scale-v1"></script>
+    <script src="config.js?v=20260826-game-relation-v2"></script>
+    <script src="app.js?v=20260826-game-relation-v2"></script>
   </body>
 </html>

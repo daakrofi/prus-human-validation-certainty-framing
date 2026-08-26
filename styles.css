@@ -545,6 +545,12 @@ blockquote {
   background: #e0ece6;
 }
 
+.simple-choice {
+  min-height: 72px;
+  justify-items: center;
+  text-align: center;
+}
+
 .certainty-form {
   gap: 18px;
 }
