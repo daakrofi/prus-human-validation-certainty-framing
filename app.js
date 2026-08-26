@@ -1,6 +1,6 @@
-const STORAGE_PREFIX = "prus-sentence-validation-certainty-framing-v1";
-const SAMPLE_VERSION = "2026-08-26-sentence-certainty-framing-v1";
-const DATA_PATH = "data/sample_sentences.json?v=20260826-certainty-v1";
+const STORAGE_PREFIX = "prus-sentence-validation-certainty-scale-v1";
+const SAMPLE_VERSION = "2026-08-26-sentence-certainty-scale-v1";
+const DATA_PATH = "data/sample_sentences.json?v=20260826-scale-v1";
 const CONFIG = window.PRUS_VALIDATION_CONFIG || { backendUrl: "" };
 const ALLOWED_DOMAINS = ["content", "performance", "requirements_access"];
 
@@ -28,6 +28,9 @@ const els = {
   releaseTimingLabel: document.querySelector("#release-timing-label"),
   sentenceText: document.querySelector("#sentence-text"),
   cueDecision: document.querySelector("#cue-decision"),
+  certaintyForm: document.querySelector("#certainty-form"),
+  certaintyOptions: document.querySelectorAll('input[name="certainty_rating"]'),
+  confirmCertainty: document.querySelector("#confirm-certainty"),
   propositionDecision: document.querySelector("#proposition-decision"),
   domainDecision: document.querySelector("#domain-decision"),
   noQualifyingDomain: document.querySelector("#no-qualifying-domain"),
@@ -167,7 +170,7 @@ async function postRemoteProgress(saveReason) {
         ...dataset.metadata,
         sample_version: SAMPLE_VERSION,
         unit_of_validation: "sentence",
-        annotation_scheme: "sentence_certainty_framing_information_request_v1"
+        annotation_scheme: "sentence_certainty_scale_information_request_v1"
       };
       response = await fetch(CONFIG.backendUrl, {
         method: "POST",
@@ -289,6 +292,12 @@ function showResponseStage(response) {
   els.cueDecision.hidden = stage !== "cue";
   els.propositionDecision.hidden = stage !== "proposition";
   els.domainDecision.hidden = stage !== "domain";
+  if (stage === "cue") {
+    els.certaintyOptions.forEach((option) => {
+      option.checked = false;
+    });
+    els.confirmCertainty.disabled = true;
+  }
 }
 
 function showCurrentSentence() {
@@ -542,7 +551,7 @@ function downloadCsv() {
     headers.join(","),
     ...rows.map((row) => headers.map((header) => csvEscape(row[header])).join(","))
   ].join("\n");
-  download(`sentence_certainty_framing_validation_${normalizeEmail(participant.email)}.csv`, csv, "text/csv;charset=utf-8");
+  download(`sentence_certainty_scale_validation_${normalizeEmail(participant.email)}.csv`, csv, "text/csv;charset=utf-8");
 }
 
 function downloadJson() {
@@ -553,7 +562,7 @@ function downloadJson() {
     rows: mergedRows()
   };
   download(
-    `sentence_certainty_framing_validation_${normalizeEmail(participant.email)}.json`,
+    `sentence_certainty_scale_validation_${normalizeEmail(participant.email)}.json`,
     JSON.stringify(payload, null, 2),
     "application/json;charset=utf-8"
   );
@@ -617,8 +626,23 @@ els.resumeForm.addEventListener("submit", (event) => {
   startParticipant(savedParticipant, savedSession);
 });
 
-document.querySelectorAll("[data-cue-answer]").forEach((button) => {
-  button.addEventListener("click", () => answerCue(button.dataset.cueAnswer));
+els.certaintyOptions.forEach((option) => {
+  option.addEventListener("change", () => {
+    els.confirmCertainty.disabled = false;
+  });
+});
+
+els.certaintyForm.addEventListener("submit", (event) => {
+  event.preventDefault();
+  const selected = els.certaintyForm.querySelector('input[name="certainty_rating"]:checked');
+  if (!selected) return;
+  if (selected.value === "information_request") {
+    answerCue("information_request");
+    return;
+  }
+  const rating = Number(selected.value);
+  if (!Number.isInteger(rating) || rating < 1 || rating > 5) return;
+  answerCue(rating === 5 ? "no" : "yes");
 });
 
 document.querySelectorAll("[data-proposition-answer]").forEach((button) => {

@@ -1,9 +1,9 @@
 {
   "metadata": {
-    "sample_name": "Product-speculation sentence certainty-framing validation sample",
-    "sample_version": "2026-08-26-sentence-certainty-framing-v1",
+    "sample_name": "Product-speculation sentence certainty-scale validation sample",
+    "sample_version": "2026-08-26-sentence-certainty-scale-v1",
     "unit_of_validation": "sentence",
-    "annotation_scheme": "sentence_certainty_framing_information_request_v1",
+    "annotation_scheme": "sentence_certainty_scale_information_request_v1",
     "target_total": 500,
     "pre_release_window": {
       "minimum_day": -60,

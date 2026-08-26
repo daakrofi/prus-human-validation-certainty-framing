@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>Product Speculation Sentence Coding</title>
     <link rel="icon" href="data:," />
-    <link rel="stylesheet" href="styles.css?v=20260826-certainty-v2" />
+    <link rel="stylesheet" href="styles.css?v=20260826-scale-v1" />
   </head>
   <body>
     <main class="app-shell">
@@ -77,16 +77,13 @@
             <li>
               <span class="step-index">1</span>
               <div>
-                <h3>Certainty check</h3>
+                <h3>Certainty scale</h3>
                 <p>
-                  Ask whether the user presents the sentence as knowledge they are certain about.
-                  If the user fully commits to it as a known or settled fact, it does not qualify
-                  as uncertain. If the sentence leaves any room for doubt about that commitment,
-                  treat it as uncertainty.
+                  Rate how certain the user seems, from 1 (very uncertain) to 5 (very certain).
                 </p>
                 <p class="note">
                   If the sentence only asks for information and does not suggest a possible
-                  answer, use <strong>“It is just a request for information.”</strong>
+                  answer, use <strong>“This is purely a request for information.”</strong>
                 </p>
               </div>
             </li>
@@ -152,22 +149,51 @@
 
         <section class="decision-panel" id="cue-decision">
           <p class="step-kicker">Step 1 of 3</p>
-          <h2>Is the user presenting this as certain knowledge?</h2>
-          <p class="step-help">If the sentence leaves any room for doubt, treat it as uncertainty.</p>
-          <div class="decision-grid three-options">
-            <button class="choice uncertain-choice" type="button" data-cue-answer="yes">
-              <strong>No, there is room for doubt</strong>
-              <span>The user does not fully present the idea as settled knowledge.</span>
-            </button>
-            <button class="choice request-choice" type="button" data-cue-answer="information_request">
-              <strong>It is just a request for information</strong>
-              <span>The sentence asks for an answer without suggesting one.</span>
-            </button>
-            <button class="choice primary-choice" type="button" data-cue-answer="no">
-              <strong>Yes, it is stated as certain knowledge</strong>
-              <span>The user presents it as known or settled fact.</span>
-            </button>
-          </div>
+          <h2 id="certainty-question">How certain does this user seem?</h2>
+          <p class="step-help">Choose one point on the scale, or select the information-request option.</p>
+          <form class="certainty-form" id="certainty-form">
+            <fieldset class="certainty-fieldset" aria-labelledby="certainty-question">
+              <div class="certainty-scale">
+                <label class="certainty-option certainty-low">
+                  <input type="radio" name="certainty_rating" value="1" aria-describedby="certainty-one-description" />
+                  <span class="certainty-number">1</span>
+                </label>
+                <label class="certainty-option">
+                  <input type="radio" name="certainty_rating" value="2" />
+                  <span class="certainty-number">2</span>
+                </label>
+                <label class="certainty-option">
+                  <input type="radio" name="certainty_rating" value="3" />
+                  <span class="certainty-number">3</span>
+                </label>
+                <label class="certainty-option">
+                  <input type="radio" name="certainty_rating" value="4" />
+                  <span class="certainty-number">4</span>
+                </label>
+                <label class="certainty-option certainty-high">
+                  <input type="radio" name="certainty_rating" value="5" aria-describedby="certainty-five-description" />
+                  <span class="certainty-number">5</span>
+                </label>
+              </div>
+              <div class="certainty-endpoints">
+                <div id="certainty-one-description">
+                  <strong>1 · Very uncertain</strong>
+                  <span>There is no confidence in the idea being presented.</span>
+                </div>
+                <div id="certainty-five-description">
+                  <strong>5 · Very certain</strong>
+                  <span>The user states this as certain knowledge, settled fact, or confident opinion.</span>
+                </div>
+              </div>
+              <label class="certainty-request-option">
+                <input type="radio" name="certainty_rating" value="information_request" />
+                <span>This is purely a request for information</span>
+              </label>
+            </fieldset>
+            <div class="certainty-actions">
+              <button class="primary" id="confirm-certainty" type="submit" disabled>Continue</button>
+            </div>
+          </form>
         </section>
 
         <section class="decision-panel" id="proposition-decision" hidden>
@@ -235,7 +261,7 @@
       </section>
     </main>
 
-    <script src="config.js?v=20260826-certainty-v1"></script>
-    <script src="app.js?v=20260826-certainty-v1"></script>
+    <script src="config.js?v=20260826-scale-v1"></script>
+    <script src="app.js?v=20260826-scale-v1"></script>
   </body>
 </html>
