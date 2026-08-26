@@ -1,6 +1,6 @@
-const STORAGE_PREFIX = "prus-sentence-validation-component-first-v1";
-const SAMPLE_VERSION = "2026-07-24-sentence-component-first-v1";
-const DATA_PATH = "data/sample_sentences.json?v=20260724-v1";
+const STORAGE_PREFIX = "prus-sentence-validation-certainty-framing-v1";
+const SAMPLE_VERSION = "2026-08-26-sentence-certainty-framing-v1";
+const DATA_PATH = "data/sample_sentences.json?v=20260826-certainty-v1";
 const CONFIG = window.PRUS_VALIDATION_CONFIG || { backendUrl: "" };
 const ALLOWED_DOMAINS = ["content", "performance", "requirements_access"];
 
@@ -167,7 +167,7 @@ async function postRemoteProgress(saveReason) {
         ...dataset.metadata,
         sample_version: SAMPLE_VERSION,
         unit_of_validation: "sentence",
-        annotation_scheme: "sentence_component_first_information_request_v1"
+        annotation_scheme: "sentence_certainty_framing_information_request_v1"
       };
       response = await fetch(CONFIG.backendUrl, {
         method: "POST",
@@ -542,7 +542,7 @@ function downloadCsv() {
     headers.join(","),
     ...rows.map((row) => headers.map((header) => csvEscape(row[header])).join(","))
   ].join("\n");
-  download(`sentence_component_validation_${normalizeEmail(participant.email)}.csv`, csv, "text/csv;charset=utf-8");
+  download(`sentence_certainty_framing_validation_${normalizeEmail(participant.email)}.csv`, csv, "text/csv;charset=utf-8");
 }
 
 function downloadJson() {
@@ -553,7 +553,7 @@ function downloadJson() {
     rows: mergedRows()
   };
   download(
-    `sentence_component_validation_${normalizeEmail(participant.email)}.json`,
+    `sentence_certainty_framing_validation_${normalizeEmail(participant.email)}.json`,
     JSON.stringify(payload, null, 2),
     "application/json;charset=utf-8"
   );

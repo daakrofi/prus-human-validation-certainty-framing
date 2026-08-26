@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>Product Speculation Sentence Coding</title>
     <link rel="icon" href="data:," />
-    <link rel="stylesheet" href="styles.css?v=20260724-v1" />
+    <link rel="stylesheet" href="styles.css?v=20260826-certainty-v1" />
   </head>
   <body>
     <main class="app-shell">
@@ -66,25 +66,26 @@
           <p class="eyebrow">Before you begin</p>
           <h2>Identify three components</h2>
           <p class="intro">
-            We are studying when users speculate about unreleased products, specifically video
-            games. You will see one sentence at a time. Work through the following steps using
-            only the sentence shown.
+            We are studying Pre-Release User Speculation (PRUS): when users put forward possible
+            ideas about an unreleased product without presenting those ideas as settled knowledge.
+            This can help people make sense of incomplete product information. You will see one
+            sentence at a time. Work through the following steps using only the sentence shown.
           </p>
 
           <ol class="component-list">
             <li>
               <span class="step-index">1</span>
               <div>
-                <h3>Uncertainty cue or framing</h3>
+                <h3>Certainty check</h3>
                 <p>
-                  Decide if the sentence signals uncertainty through words such as
-                  <em>maybe</em>, <em>might</em>, <em>I think</em>, or through a question,
-                  prediction, hypothetical, or other uncertain framing.
+                  Ask whether the user presents the sentence as knowledge they are certain about.
+                  If the user fully commits to it as a known or settled fact, it does not qualify
+                  as uncertain. If the sentence leaves any room for doubt about that commitment,
+                  treat it as uncertainty.
                 </p>
                 <p class="note">
-                  A question is also an expression of uncertainty. If it only asks for
-                  information and does not suggest a possible answer, use
-                  <strong>“Yes, but it is just a request for info.”</strong>
+                  If the sentence only asks for information and does not suggest a possible
+                  answer, use <strong>“It is just a request for information.”</strong>
                 </p>
               </div>
             </li>
@@ -150,20 +151,20 @@
 
         <section class="decision-panel" id="cue-decision">
           <p class="step-kicker">Step 1 of 3</p>
-          <h2>Does this sentence use an uncertainty cue or uncertain framing?</h2>
-          <p class="step-help">Questions count as uncertainty, including questions that only request information.</p>
+          <h2>Is the user presenting this as certain knowledge?</h2>
+          <p class="step-help">If the sentence leaves any room for doubt, treat it as uncertainty.</p>
           <div class="decision-grid three-options">
             <button class="choice primary-choice" type="button" data-cue-answer="yes">
-              <strong>Yes</strong>
-              <span>There is qualifying uncertainty.</span>
+              <strong>No — there is room for doubt</strong>
+              <span>The user does not fully present the idea as settled knowledge.</span>
             </button>
             <button class="choice request-choice" type="button" data-cue-answer="information_request">
-              <strong>Yes, but it is just a request for info</strong>
+              <strong>It is just a request for information</strong>
               <span>The sentence asks for an answer without suggesting one.</span>
             </button>
             <button class="choice" type="button" data-cue-answer="no">
-              <strong>No</strong>
-              <span>No uncertainty is expressed.</span>
+              <strong>Yes — it is stated as certain knowledge</strong>
+              <span>The user presents it as known or settled fact.</span>
             </button>
           </div>
         </section>
@@ -233,7 +234,7 @@
       </section>
     </main>
 
-    <script src="config.js?v=20260724-v1"></script>
-    <script src="app.js?v=20260724-v1"></script>
+    <script src="config.js?v=20260826-certainty-v1"></script>
+    <script src="app.js?v=20260826-certainty-v1"></script>
   </body>
 </html>
