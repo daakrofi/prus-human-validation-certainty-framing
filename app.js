@@ -30,6 +30,7 @@ const els = {
   cueDecision: document.querySelector("#cue-decision"),
   certaintyForm: document.querySelector("#certainty-form"),
   certaintyOptions: document.querySelectorAll('input[name="certainty_rating"]'),
+  certaintyHelpToggles: document.querySelectorAll(".certainty-help-toggle"),
   confirmCertainty: document.querySelector("#confirm-certainty"),
   gameRelationDecision: document.querySelector("#game-relation-decision"),
   propositionDecision: document.querySelector("#proposition-decision"),
@@ -681,6 +682,16 @@ els.resumeForm.addEventListener("submit", (event) => {
 els.certaintyOptions.forEach((option) => {
   option.addEventListener("change", () => {
     els.confirmCertainty.disabled = false;
+  });
+});
+
+els.certaintyHelpToggles.forEach((button) => {
+  button.addEventListener("click", () => {
+    const helpBox = document.getElementById(button.getAttribute("aria-controls"));
+    if (!helpBox) return;
+    const expanded = button.getAttribute("aria-expanded") === "true";
+    button.setAttribute("aria-expanded", String(!expanded));
+    helpBox.hidden = expanded;
   });
 });
 

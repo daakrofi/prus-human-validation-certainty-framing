@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>Product Speculation Sentence Coding</title>
     <link rel="icon" href="data:," />
-    <link rel="stylesheet" href="styles.css?v=20260826-experience-boundary-v3" />
+    <link rel="stylesheet" href="styles.css?v=20260829-clarity-controls-v3" />
   </head>
   <body>
     <main class="app-shell">
@@ -69,8 +69,9 @@
             We are studying Pre-Release User Speculation (PRUS): when online users post possible
             ideas about an unreleased product without presenting those ideas as settled knowledge.
             This can help online communities make sense of incomplete product information. For this
-            exercise, the posts are about video games. You will see one sentence at a time. Work
-            through the following steps using only the sentence shown.
+            exercise, the posts are about video games. Each item is an individual sentence taken
+            from an online user's post and shown without the surrounding post context. Work through
+            the following steps using only the sentence shown.
           </p>
 
           <ol class="component-list">
@@ -162,7 +163,7 @@
             <fieldset class="certainty-fieldset" aria-labelledby="certainty-question">
               <div class="certainty-scale">
                 <label class="certainty-option certainty-low">
-                  <input type="radio" name="certainty_rating" value="1" aria-describedby="certainty-one-description" />
+                  <input type="radio" name="certainty_rating" value="1" aria-label="1, Very Uncertain" />
                   <span class="certainty-number">1</span>
                 </label>
                 <label class="certainty-option">
@@ -178,18 +179,37 @@
                   <span class="certainty-number">4</span>
                 </label>
                 <label class="certainty-option certainty-high">
-                  <input type="radio" name="certainty_rating" value="5" aria-describedby="certainty-five-description" />
+                  <input type="radio" name="certainty_rating" value="5" aria-label="5, Very Certain" />
                   <span class="certainty-number">5</span>
                 </label>
               </div>
               <div class="certainty-endpoints">
-                <div id="certainty-one-description">
-                  <strong>1 · Very uncertain</strong>
-                  <span>The user expresses little or no confidence about the idea, situation, or product experience being discussed.</span>
+                <div class="certainty-endpoint certainty-endpoint-low">
+                  <strong>1 · Very Uncertain</strong>
+                  <button
+                    class="certainty-help-toggle"
+                    type="button"
+                    aria-expanded="false"
+                    aria-controls="certainty-one-description"
+                    aria-label="Show or hide the Very Uncertain explanation"
+                  >?</button>
+                  <div class="certainty-help-box" id="certainty-one-description" hidden>
+                    No confidence in the idea, opinion, situation, or product experience.
+                  </div>
                 </div>
-                <div id="certainty-five-description">
-                  <strong>5 · Very certain</strong>
-                  <span>The user describes the idea, situation, or product experience with full confidence, as known or settled.</span>
+                <div class="certainty-endpoint certainty-endpoint-high">
+                  <strong>5 · Very Certain</strong>
+                  <button
+                    class="certainty-help-toggle"
+                    type="button"
+                    aria-expanded="false"
+                    aria-controls="certainty-five-description"
+                    aria-label="Show or hide the Very Certain explanation"
+                  >?</button>
+                  <div class="certainty-help-box" id="certainty-five-description" hidden>
+                    Full confidence in the idea, opinion, situation, or product experience, with
+                    <strong>no room for doubt.</strong>
+                  </div>
                 </div>
               </div>
               <label class="certainty-request-option">
@@ -209,7 +229,7 @@
           <p class="step-help">For example, game features, performance, experiences, price, reviews, etc.</p>
           <div class="decision-grid two-options">
             <button class="choice primary-choice simple-choice" type="button" data-game-relation-answer="yes"><strong>Yes</strong></button>
-            <button class="choice simple-choice" type="button" data-game-relation-answer="no"><strong>No</strong></button>
+            <button class="choice simple-choice" type="button" data-game-relation-answer="no"><strong>No (Or unclear)</strong></button>
           </div>
           <button class="text-button restart-component-coding" type="button">← Change Step 1</button>
         </section>
@@ -272,7 +292,7 @@
       </section>
     </main>
 
-    <script src="config.js?v=20260826-experience-boundary-v3"></script>
-    <script src="app.js?v=20260826-experience-boundary-v3"></script>
+    <script src="config.js?v=20260829-clarity-controls-v3"></script>
+    <script src="app.js?v=20260829-clarity-controls-v3"></script>
   </body>
 </html>

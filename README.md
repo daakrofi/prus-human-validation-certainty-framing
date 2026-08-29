@@ -27,11 +27,20 @@ question that only requests information has its own response option and is
 retained distinctly in the saved record. The proposition and product-topic
 decisions are unchanged from the preceding sentence-component exercise.
 
+The two certainty-scale endpoint explanations are available from toggleable
+question-mark controls so coders can consult them without keeping the full text
+on screen. Step 2 uses “No (Or unclear)” for uncertainty that cannot clearly be
+related to the game. Items are described explicitly as individual sentences
+shown without the surrounding user-post context. These clarifications do not
+change the response categories, derivation rule, sample version, storage prefix,
+or private response namespace; previously completed v3 submissions remain valid.
+
 ## Data and storage
 
 - `data/sample_sentences.json` contains the public 500-sentence exercise sample.
 - Browser progress is retained locally for resume support.
-- Secure checkpoints are sent to the shared Cloudflare Worker.
+- Secure checkpoints are sent to the shared Cloudflare Worker after every 25
+  completed sentences, on Save & Exit, and at completion.
 - Saved responses use the private
   `responses/sentence-validation-certainty-scale-experience-boundary-v3/` namespace.
 
